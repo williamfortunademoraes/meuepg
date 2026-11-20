@@ -1,17 +1,31 @@
 #!/usr/bin/env python3
-"""Build Meu EPG from the current XMLTV source and reviewed Tvvio mappings."""
+"""Merge available BrazilTVEPG XMLTV sources into Meu EPG."""
 
 import csv
 import io
+import json
 import os
 import urllib.request
 import unicodedata
 import xml.etree.ElementTree as ET
+from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/claro.xml"
-CATALOG = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
+BASE = "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/"
+# Specific channel feeds come first; claro.xml fills the remaining matches.
+SOURCES = ["globo.xml", "maissbt.xml", "vivoplay.xml", "xsports.xml", "epg.xml", "claro.xml"]
+CATALOG_URL = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
+ALIASES = {
+    "ec:globorj": "GLOBO RJ", "ec:globosp": "GLOBO SP",
+    "ec:globoes": "GLOBO ES", "ec:globomg": "GLOBO MG",
+    "ec:globors": "GLOBO RS", "ec:recordrj": "RECORD TV RJ",
+    "ec:recordsp": "RECORD TV SP", "ec:recordes": "RECORD TV ES",
+    "ec:recordmg": "RECORD TV MG", "ec:sbtsp": "SBT SP",
+    "ec:sbtrj": "SBT RJ", "ec:canaloff": "OFF HD", "ec:novotempo": "TV NOVO TEMPO",
+    "ec:nickelodeon": "NICK", "ec:nsports": "N SPORTS", "ec:xsports": "XSPORTS",
+    "ec:paramountnetwork": "PARAMOUNT CHANNEL", "ec:discoveryid": "INVESTIGATION DISCOVERY",
+}
 
 
 def normalize(value):
@@ -21,99 +35,97 @@ def normalize(value):
     return "".join(char for char in value if char.isalnum())
 
 
-def fetch_source():
-    local = os.environ.get("MEU_EPG_SOURCE_FILE")
-    if local:
-        return Path(local).read_bytes()
-    request = urllib.request.Request(SOURCE, headers={"User-Agent": "MeuEPG-Builder/1.0"})
-    with urllib.request.urlopen(request, timeout=90) as response:
+def fetch(url):
+    request = urllib.request.Request(url, headers={"User-Agent": "MeuEPG-Builder/1.0"})
+    with urllib.request.urlopen(request, timeout=120) as response:
         return response.read()
+
+
+def get_bytes(filename):
+    local = os.environ.get("MEU_EPG_SOURCE_FILE")
+    if local and filename == "claro.xml":
+        return Path(local).read_bytes()
+    return fetch(BASE + filename)
 
 
 def main():
     mapping_path = ROOT / "pareamentos.csv"
     with mapping_path.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
-
-    raw = fetch_source()
-    catalog_path = os.environ.get("MEU_EPG_CATALOG_FILE")
-    if catalog_path:
-        catalog = Path(catalog_path).read_bytes()
-    else:
-        request = urllib.request.Request(CATALOG, headers={"User-Agent": "MeuEPG-Builder/1.0"})
-        with urllib.request.urlopen(request, timeout=45) as response:
-            catalog = response.read()
-    catalog_logos = {
-        item["id"]: item.get("logo") or item.get("poster")
-        for item in __import__("json").loads(catalog).get("metas", [])
-    }
-    source_channels = {}
-    for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
-        if element.tag == "channel":
-            names = [normalize((child.text or "").removeprefix("BR - ")) for child in element.findall("display-name")]
-            source_channels[element.get("id", "")] = set(names)
-            element.clear()
-
-    aliases = {
-        "ec:globorj": "GLOBO RIO", "ec:globosp": "GLOBO SAO PAULO",
-        "ec:globoes": "GLOBO ESPIRITO SANTO", "ec:globomg": "GLOBO MINAS",
-        "ec:globors": "GLOBO PORTO ALEGRE", "ec:recordrj": "RECORD RIO",
-        "ec:recordsp": "RECORD SAO PAULO", "ec:recordes": "RECORD ESPIRITO SANTO",
-        "ec:recordmg": "RECORD MINAS", "ec:sbtsp": "SBT SAO PAULO",
-        "ec:sbtrj": "SBT RIO", "ec:canaloff": "OFF", "ec:novotempo": "NOVO TEMPO",
-        "ec:nickelodeon": "NICK", "ec:nsports": "NSPORTS",
-        "ec:xsports": "XSPORTS", "ec:paramountnetwork": "PARAMOUNT CHANNEL",
-    }
-    source_to_tvvio = {}
+    catalog_raw = Path(os.environ["MEU_EPG_CATALOG_FILE"]).read_bytes() if os.environ.get("MEU_EPG_CATALOG_FILE") else fetch(CATALOG_URL)
+    catalog_items = json.loads(catalog_raw).get("metas", [])
+    names = {item["id"]: item.get("name", item["id"]) for item in catalog_items}
+    logos = {item["id"]: item.get("logo") or item.get("poster", "") for item in catalog_items}
+    rows_by_id = {row["TvvioId"]: row for row in rows}
+    # Build a normalized channel-name lookup; ambiguous matches are deliberately skipped.
+    target_names = defaultdict(list)
     for row in rows:
-        key = normalize(aliases.get(row["TvvioId"], row["Tvvio"]))
-        hits = [source_id for source_id, names in source_channels.items() if key in names]
-        if len(hits) == 1:
-            source_to_tvvio[hits[0]] = row["TvvioId"]
-            row["XmltvId"] = hits[0]
-            row["XmltvName"] = hits[0]
-            row["Status"] = "Correspondência"
-        else:
-            row["XmltvId"] = ""
-            row["XmltvName"] = ""
-            if row["Status"] != "Sem grade fixa":
-                row["Status"] = "Sem correspondência"
+        key = normalize(ALIASES.get(row["TvvioId"], names.get(row["TvvioId"], row["Tvvio"])))
+        target_names[key].append(row["TvvioId"])
 
-    tmp_path = ROOT / "epg.xml.tmp"
-    channels = set()
-    programme_count = 0
-    with tmp_path.open("wb") as output:
-        output.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="Meu EPG">\n')
+    chosen = {}
+    programmes = {}
+    counts = defaultdict(int)
+    source_for = {}
+    for filename in SOURCES:
+        raw = get_bytes(filename)
+        source_map = {}
         for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
             if element.tag == "channel":
-                source_id = element.get("id", "")
-                tvvio_id = source_to_tvvio.get(source_id)
-                if tvvio_id:
-                    channels.add(source_id)
-                    safe_id = tvvio_id.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-                    channel_name = next((row["Tvvio"] for row in rows if row["TvvioId"] == tvvio_id), tvvio_id)
-                    safe_name = (channel_name.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
-                    logo = catalog_logos.get(tvvio_id, "")
-                    safe_logo = logo.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-                    icon = f'<icon src="{safe_logo}" />' if safe_logo else ""
-                    output.write(f'  <channel id="{safe_id}"><display-name>{safe_name}</display-name>{icon}</channel>\n'.encode())
+                display_names = [normalize((child.text or "").removeprefix("BR - ")) for child in element.findall("display-name")]
+                matched = {channel_id for display in display_names for channel_id in target_names.get(display, [])}
+                if len(matched) == 1:
+                    source_map[element.get("id", "")] = matched.pop()
                 element.clear()
-            elif element.tag == "programme":
-                tvvio_id = source_to_tvvio.get(element.get("channel", ""))
-                if tvvio_id:
-                    element.set("channel", tvvio_id)
-                    output.write(b"  " + ET.tostring(element, encoding="utf-8") + b"\n")
-                    programme_count += 1
+        for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
+            if element.tag == "programme":
+                channel_id = source_map.get(element.get("channel", ""))
+                if channel_id:
+                    element.set("channel", channel_id)
+                    title = element.findtext("title", "")
+                    key = (channel_id, element.get("start", ""), title)
+                    if key not in programmes:
+                        programmes[key] = ET.tostring(element, encoding="unicode")
+                        counts[channel_id] += 1
+                        source_for.setdefault(channel_id, filename)
                 element.clear()
-        output.write(b"</tv>\n")
-    (ROOT / "epg.xml").write_bytes(tmp_path.read_bytes())
-    tmp_path.unlink()
+        del raw
 
+    event_ids = {row["TvvioId"] for row in rows if row["Status"] == "Sem grade fixa"}
+    for row in rows:
+        channel_id = row["TvvioId"]
+        row["Tvvio"] = names.get(channel_id, row["Tvvio"])
+        row["XmltvId"] = source_for.get(channel_id, "")
+        row["XmltvName"] = source_for.get(channel_id, "")
+        row["Status"] = "Correspondência" if counts[channel_id] else ("Sem grade fixa" if channel_id in event_ids else "Sem correspondência")
+
+    xml_path = ROOT / "epg.xml"
+    with xml_path.open("w", encoding="utf-8", newline="\n") as out:
+        out.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="Meu EPG">\n')
+        active = [row for row in rows if counts[row["TvvioId"]]]
+        for row in active:
+            channel_id = row["TvvioId"]
+            channel = ET.Element("channel", {"id": channel_id})
+            ET.SubElement(channel, "display-name").text = row["Tvvio"]
+            if logos.get(channel_id):
+                ET.SubElement(channel, "icon", {"src": logos[channel_id]})
+            out.write("  " + ET.tostring(channel, encoding="unicode") + "\n")
+        for (_, _, _), program in sorted(programmes.items(), key=lambda item: item[0][1]):
+            out.write("  " + program + "\n")
+        out.write("</tv>\n")
+
+    fields = ["TvvioId", "Tvvio", "XmltvId", "XmltvName", "Status"]
     with mapping_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["TvvioId", "Tvvio", "XmltvId", "XmltvName", "Status"])
+        writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
-    print(f"Generated epg.xml: {len(channels)} channels, {programme_count} programmes")
+    with (ROOT / "cobertura.csv").open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["TvvioId", "Canal", "Status", "Programas", "Fonte prioritária"])
+        for row in rows:
+            channel_id = row["TvvioId"]
+            writer.writerow([channel_id, row["Tvvio"], row["Status"], counts[channel_id], source_for.get(channel_id, "")])
+    print(f"Generated Meu EPG: {sum(bool(counts[r['TvvioId']]) for r in rows)} channels, {len(programmes)} programmes")
 
 
 if __name__ == "__main__":
