@@ -97,7 +97,7 @@ ec:max05,Max 05,,,Sem grade fixa
 ec:max06,Max 06,,,Sem grade fixa
 ec:nsports,N Sports,vivoplay.xml,vivoplay.xml,Correspondência
 ec:nossofutebol,Nosso Futebol,,,Sem correspondência
-ec:paramountplus,Paramount +,EPG-Scrapper-BR,EPG-Scrapper-BR,Correspondência
+ec:paramountplus,Paramount +,rootcoder/epgtv Rio map,rootcoder/epgtv Rio map,Correspondência
 ec:paramountplus02,Paramount + 02,,,Sem grade fixa
 ec:paramountplus03,Paramount+ 03,,,Sem correspondência
 ec:paramountplus04,Paramount+ 04,,,Sem correspondência
@@ -126,15 +126,15 @@ ec:globodf,Globo DF,,,Sem correspondência
 ec:globoes,Globo Espírito Santo,,,Sem correspondência
 ec:globomg,Globo Minas,,,Sem correspondência
 ec:globors,Globo Porto Alegre,,,Sem correspondência
-ec:globorj,Globo Rio,EPG-Scrapper-BR,EPG-Scrapper-BR,Correspondência
+ec:globorj,Globo Rio,rootcoder/epgtv Rio map,rootcoder/epgtv Rio map,Correspondência
 ec:globosp,Globo São Paulo,claro.xml,claro.xml,Correspondência
 ec:recorddf,Record DF,,,Sem correspondência
 ec:recordes,Record Espírito Santo,,,Sem correspondência
 ec:recordmg,Record Minas,,,Sem correspondência
-ec:recordrj,Record Rio,,,Sem correspondência
+ec:recordrj,Record Rio,rootcoder/epgtv Rio map,rootcoder/epgtv Rio map,Correspondência
 ec:recordsp,Record São Paulo,claro.xml,claro.xml,Correspondência
 ec:redetv,RedeTV!,vivoplay.xml,vivoplay.xml,Correspondência
-ec:sbtrj,SBT Rio,,,Sem correspondência
+ec:sbtrj,SBT Rio,rootcoder/epgtv Rio map,rootcoder/epgtv Rio map,Correspondência
 ec:sbtsp,SBT São Paulo,claro.xml,claro.xml,Correspondência
 ec:tvcultura,TV Cultura,claro.xml,claro.xml,Correspondência
 ec:cartoonnetwork,Cartoon Network,vivoplay.xml,vivoplay.xml,Correspondência
