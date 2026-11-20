@@ -18,6 +18,9 @@ BASE = "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/"
 SOURCES = ["globo.xml", "maissbt.xml", "vivoplay.xml", "xsports.xml", "epg.xml", "claro.xml"]
 EXTRA_SOURCES = [
     ("rootcoder/epgtv Rio map", "https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"),
+    ("Open-EPG Brazil 1", "https://www.open-epg.com/files/brazil1.xml.gz"),
+    ("Open-EPG Brazil 2", "https://www.open-epg.com/files/brazil2.xml.gz"),
+    ("Open-EPG Brazil 3", "https://www.open-epg.com/files/brazil3.xml.gz"),
     ("EPG-Scrapper-BR", "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml"),
     ("epg.pw", "https://epg.pw/xmltv/epg_BR.xml"),
 ]
