@@ -43,7 +43,7 @@ ec:gnt,GNT,Correspondência,654,globo.xml
 ec:hgtv,HGTV,Correspondência,655,vivoplay.xml
 ec:history,History,Correspondência,452,vivoplay.xml
 ec:history2,History 2,Correspondência,467,vivoplay.xml
-ec:discoveryid,Investigation Discovery,Sem correspondência,0,
+ec:discoveryid,Investigation Discovery,Correspondência,530,vivoplay.xml
 ec:mtv,MTV,Sem correspondência,0,
 ec:multishow,Multishow,Correspondência,1027,globo.xml
 ec:bandnews,BandNews,Correspondência,401,vivoplay.xml
