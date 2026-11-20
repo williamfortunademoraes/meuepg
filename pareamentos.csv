@@ -76,7 +76,7 @@ ec:dazn,DAZN,,,Sem grade fixa
 ec:disneyplus07,Disney + 07,,,Sem grade fixa
 ec:disneyplus08,Disney + 08,,,Sem grade fixa
 ec:disneyplus09,Disney + 09,,,Sem grade fixa
-ec:disneyplus,Disney+,EPG-Scrapper-BR,EPG-Scrapper-BR,Correspondência
+ec:disneyplus,Disney+,Open-EPG Brazil 1,Open-EPG Brazil 1,Correspondência
 ec:disneyplus02,Disney+ 02,,,Sem correspondência
 ec:disneyplus03,Disney+ 03,,,Sem correspondência
 ec:disneyplus04,Disney+ 04,,,Sem correspondência
@@ -96,7 +96,7 @@ ec:max04,Max 04,,,Sem grade fixa
 ec:max05,Max 05,,,Sem grade fixa
 ec:max06,Max 06,,,Sem grade fixa
 ec:nsports,N Sports,vivoplay.xml,vivoplay.xml,Correspondência
-ec:nossofutebol,Nosso Futebol,,,Sem correspondência
+ec:nossofutebol,Nosso Futebol,Open-EPG Brazil 3,Open-EPG Brazil 3,Correspondência
 ec:paramountplus,Paramount +,rootcoder/epgtv Rio map,rootcoder/epgtv Rio map,Correspondência
 ec:paramountplus02,Paramount + 02,,,Sem grade fixa
 ec:paramountplus03,Paramount+ 03,,,Sem correspondência
@@ -143,7 +143,7 @@ ec:discoverykids,Discovery Kids,vivoplay.xml,vivoplay.xml,Correspondência
 ec:dreamworks,DreamWorks,vivoplay.xml,vivoplay.xml,Correspondência
 ec:gloob,Gloob,globo.xml,globo.xml,Correspondência
 ec:gloobinho,Gloobinho,globo.xml,globo.xml,Correspondência
-ec:nickjr,Nick Jr.,EPG-Scrapper-BR,EPG-Scrapper-BR,Correspondência
+ec:nickjr,Nick Jr.,Open-EPG Brazil 1,Open-EPG Brazil 1,Correspondência
 ec:nickelodeon,Nickelodeon,,,Sem correspondência
 ec:tooncast,Tooncast,vivoplay.xml,vivoplay.xml,Correspondência
 ec:tvratimbum,TV Ra Tim Bum,vivoplay.xml,vivoplay.xml,Correspondência
