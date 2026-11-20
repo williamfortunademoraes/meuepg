@@ -88,26 +88,35 @@ def main():
             except OSError as error:
                 print(f"Skipping invalid compressed source {filename}: {error}")
                 continue
+        if raw.startswith(b"\xff\xfe"):
+            raw = raw.decode("utf-16").encode("utf-8")
+        elif raw.startswith(b"\xfe\xff"):
+            raw = raw.decode("utf-16").encode("utf-8")
+        elif len(raw) > 1 and raw[1] == 0:
+            raw = raw.decode("utf-16-le").encode("utf-8")
         source_map = {}
-        for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
-            if element.tag == "channel":
-                display_names = [normalize((child.text or "").removeprefix("BR - ")) for child in element.findall("display-name")]
-                matched = {channel_id for display in display_names for channel_id in target_names.get(display, [])}
-                if len(matched) == 1:
-                    source_map[element.get("id", "")] = matched.pop()
-                element.clear()
-        for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
-            if element.tag == "programme":
-                channel_id = source_map.get(element.get("channel", ""))
-                if channel_id:
-                    element.set("channel", channel_id)
-                    title = element.findtext("title", "")
-                    key = (channel_id, element.get("start", ""), title)
-                    if key not in programmes:
-                        programmes[key] = ET.tostring(element, encoding="unicode")
-                        counts[channel_id] += 1
-                        source_for.setdefault(channel_id, filename)
-                element.clear()
+        try:
+            for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
+                if element.tag == "channel":
+                    display_names = [normalize((child.text or "").removeprefix("BR - ")) for child in element.findall("display-name")]
+                    matched = {channel_id for display in display_names for channel_id in target_names.get(display, [])}
+                    if len(matched) == 1:
+                        source_map[element.get("id", "")] = matched.pop()
+                    element.clear()
+            for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
+                if element.tag == "programme":
+                    channel_id = source_map.get(element.get("channel", ""))
+                    if channel_id:
+                        element.set("channel", channel_id)
+                        title = element.findtext("title", "")
+                        key = (channel_id, element.get("start", ""), title)
+                        if key not in programmes:
+                            programmes[key] = ET.tostring(element, encoding="unicode")
+                            counts[channel_id] += 1
+                            source_for.setdefault(channel_id, filename)
+                    element.clear()
+        except ET.ParseError as error:
+            print(f"Skipping non-XMLTV source {filename}: {error}")
         del raw
 
     event_ids = {row["TvvioId"] for row in rows if row["Status"] == "Sem grade fixa"}
