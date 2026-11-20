@@ -1,56 +1,56 @@
 TvvioId,Canal,Status,Programas,Programas com capa,Programas com descrição,Programas com categoria,Programas com classificação,Fonte prioritária
-ec:aee,A&E,Correspondência,96,14,96,14,96,vivoplay.xml
-ec:amc,AMC,Correspondência,42,38,42,38,42,vivoplay.xml
-ec:amcseries,AMC Séries,Correspondência,67,64,64,64,64,AMC Series Brasil official
-ec:axn,AXN,Correspondência,63,0,63,0,63,vivoplay.xml
-ec:cinemax,Cinemax,Correspondência,41,40,41,40,41,vivoplay.xml
-ec:globoplaynovelas,Globoplay Novelas,Correspondência,65,55,65,55,65,globo.xml
-ec:hbo,HBO,Correspondência,29,25,28,25,29,vivoplay.xml
-ec:hbo2,HBO 2,Correspondência,36,28,36,28,36,vivoplay.xml
-ec:hbofamily,HBO Family,Correspondência,32,31,32,31,32,vivoplay.xml
-ec:hbomundi,HBO Mundi,Correspondência,27,24,27,24,27,vivoplay.xml
-ec:hboplus,HBO Plus,Correspondência,28,26,28,26,28,vivoplay.xml
-ec:hbopop,HBO Pop,Correspondência,33,31,33,31,33,vivoplay.xml
-ec:hbosignature,HBO Signature,Correspondência,40,19,40,20,40,vivoplay.xml
-ec:hboxtreme,HBO Xtreme,Correspondência,29,24,29,24,29,vivoplay.xml
+ec:aee,A&E,Correspondência,95,14,95,14,95,vivoplay.xml
+ec:amc,AMC,Correspondência,42,40,42,40,42,vivoplay.xml
+ec:amcseries,AMC Séries,Correspondência,63,61,61,61,61,AMC Series Brasil official
+ec:axn,AXN,Correspondência,62,0,62,0,62,vivoplay.xml
+ec:cinemax,Cinemax,Correspondência,42,42,42,42,42,vivoplay.xml
+ec:globoplaynovelas,Globoplay Novelas,Correspondência,65,57,65,57,65,globo.xml
+ec:hbo,HBO,Correspondência,29,26,29,26,29,vivoplay.xml
+ec:hbo2,HBO 2,Correspondência,36,29,36,29,36,vivoplay.xml
+ec:hbofamily,HBO Family,Correspondência,32,32,32,32,32,vivoplay.xml
+ec:hbomundi,HBO Mundi,Correspondência,28,26,28,26,28,vivoplay.xml
+ec:hboplus,HBO Plus,Correspondência,28,27,28,27,28,vivoplay.xml
+ec:hbopop,HBO Pop,Correspondência,32,31,32,31,32,vivoplay.xml
+ec:hbosignature,HBO Signature,Correspondência,40,21,40,22,40,vivoplay.xml
+ec:hboxtreme,HBO Xtreme,Correspondência,29,25,29,25,29,vivoplay.xml
 ec:megapix,Megapix,Correspondência,28,16,28,16,28,globo.xml
 ec:paramountnetwork,Paramount Network,Sem correspondência,0,0,0,0,0,
-ec:sonychannel,Sony Channel,Correspondência,54,28,54,28,54,claro.xml
-ec:space,Space,Correspondência,65,15,65,15,65,vivoplay.xml
-ec:studiouniversal,Studio Universal,Correspondência,44,12,44,12,44,globo.xml
-ec:tcaction,Telecine Action,Correspondência,31,20,30,20,30,globo.xml
-ec:tccult,Telecine Cult,Correspondência,30,26,29,26,29,globo.xml
-ec:tcfun,Telecine Fun,Correspondência,33,29,33,29,33,globo.xml
-ec:tcpipoca,Telecine Pipoca,Correspondência,31,23,29,23,29,globo.xml
-ec:tcpremium,Telecine Premium,Correspondência,29,20,27,20,28,globo.xml
-ec:tctouch,Telecine Touch,Correspondência,30,24,29,24,29,globo.xml
-ec:tntnovelas,TNT Novelas,Correspondência,69,67,69,67,69,vivoplay.xml
-ec:tntseries,TNT Series,Correspondência,74,0,74,0,74,vivoplay.xml
-ec:universaltv,Universal TV,Correspondência,65,0,65,0,65,vivoplay.xml
-ec:usa,USA,Correspondência,59,44,59,44,59,globo.xml
-ec:warner,Warner Channel,Correspondência,81,79,81,79,81,claro.xml
-ec:adultswim,Adult Swim,Correspondência,143,22,143,22,143,vivoplay.xml
-ec:animalplanet,Animal Planet,Correspondência,71,4,71,4,71,vivoplay.xml
-ec:comedycentral,Comedy Central,Correspondência,75,75,75,75,75,vinnyoliveira/epg-br fallback
+ec:sonychannel,Sony Channel,Correspondência,50,28,50,28,50,claro.xml
+ec:space,Space,Correspondência,64,17,64,17,64,vivoplay.xml
+ec:studiouniversal,Studio Universal,Correspondência,43,12,43,12,43,globo.xml
+ec:tcaction,Telecine Action,Correspondência,31,19,30,19,30,globo.xml
+ec:tccult,Telecine Cult,Correspondência,30,27,29,27,29,globo.xml
+ec:tcfun,Telecine Fun,Correspondência,34,30,33,30,33,globo.xml
+ec:tcpipoca,Telecine Pipoca,Correspondência,31,22,29,22,29,globo.xml
+ec:tcpremium,Telecine Premium,Correspondência,30,22,28,22,29,globo.xml
+ec:tctouch,Telecine Touch,Correspondência,30,23,29,23,29,globo.xml
+ec:tntnovelas,TNT Novelas,Correspondência,71,65,71,65,71,vivoplay.xml
+ec:tntseries,TNT Series,Correspondência,73,0,73,0,73,vivoplay.xml
+ec:universaltv,Universal TV,Correspondência,63,2,63,2,63,vivoplay.xml
+ec:usa,USA,Correspondência,59,47,59,47,59,globo.xml
+ec:warner,Warner Channel,Correspondência,77,77,77,77,77,claro.xml
+ec:adultswim,Adult Swim,Correspondência,140,25,140,25,140,vivoplay.xml
+ec:animalplanet,Animal Planet,Correspondência,74,4,74,4,74,vivoplay.xml
+ec:comedycentral,Comedy Central,Correspondência,73,73,73,73,73,vinnyoliveira/epg-br fallback
 ec:discoverychannel,Discovery Channel,Correspondência,71,0,71,0,71,vivoplay.xml
 ec:discoveryhh,Discovery Home & Health,Correspondência,57,9,57,9,57,vivoplay.xml
-ec:discoveryscience,Discovery Science,Correspondência,68,1,68,1,68,vivoplay.xml
-ec:discoverytheater,Discovery Theater,Correspondência,70,9,70,9,70,vivoplay.xml
+ec:discoveryscience,Discovery Science,Correspondência,69,1,69,1,69,vivoplay.xml
+ec:discoverytheater,Discovery Theater,Correspondência,69,9,69,9,69,vivoplay.xml
 ec:discoveryturbo,Discovery Turbo,Correspondência,76,0,76,0,76,vivoplay.xml
-ec:discoveryworld,Discovery World,Correspondência,117,7,117,7,117,vivoplay.xml
-ec:foodnetwork,Food Network,Correspondência,96,9,96,9,96,vivoplay.xml
-ec:gnt,GNT,Correspondência,70,61,70,61,70,globo.xml
-ec:hgtv,HGTV,Correspondência,101,0,101,0,101,vivoplay.xml
-ec:history,History,Correspondência,69,1,69,1,69,vivoplay.xml
-ec:history2,History 2,Correspondência,77,2,77,2,77,vivoplay.xml
-ec:discoveryid,Investigation Discovery,Correspondência,78,2,78,2,78,vivoplay.xml
-ec:mtv,MTV,Correspondência,99,96,99,99,0,vinnyoliveira/epg-br fallback
-ec:multishow,Multishow,Correspondência,116,70,116,70,116,globo.xml
-ec:bandnews,BandNews,Correspondência,67,66,67,67,29,vivoplay.xml
-ec:cnnbrasil,CNN Brasil,Correspondência,25,7,25,16,5,claro.xml
-ec:globonews,GloboNews,Correspondência,41,19,41,41,5,globo.xml
-ec:jovempannews,Jovem Pan News,Correspondência,31,26,31,31,14,vivoplay.xml
-ec:recordnews,Record News,Correspondência,62,39,62,62,17,vivoplay.xml
+ec:discoveryworld,Discovery World,Correspondência,118,7,118,7,118,vivoplay.xml
+ec:foodnetwork,Food Network,Correspondência,97,10,97,10,97,vivoplay.xml
+ec:gnt,GNT,Correspondência,71,63,71,63,71,globo.xml
+ec:hgtv,HGTV,Correspondência,99,0,99,0,99,vivoplay.xml
+ec:history,History,Correspondência,67,0,67,0,67,vivoplay.xml
+ec:history2,History 2,Correspondência,76,2,76,2,76,vivoplay.xml
+ec:discoveryid,Investigation Discovery,Correspondência,77,2,77,2,77,vivoplay.xml
+ec:mtv,MTV,Correspondência,101,97,101,101,0,vinnyoliveira/epg-br fallback
+ec:multishow,Multishow,Correspondência,117,71,117,71,117,globo.xml
+ec:bandnews,BandNews,Correspondência,66,66,66,66,31,vivoplay.xml
+ec:cnnbrasil,CNN Brasil,Correspondência,23,7,23,13,4,claro.xml
+ec:globonews,GloboNews,Correspondência,44,20,44,44,5,globo.xml
+ec:jovempannews,Jovem Pan News,Correspondência,31,27,31,31,12,vivoplay.xml
+ec:recordnews,Record News,Correspondência,63,41,63,63,19,vivoplay.xml
 ec:amazonprimevideo,Amazon Prime,Sem grade fixa,0,0,0,0,0,
 ec:amazonprimevideo02,Amazon Prime 02,Sem grade fixa,0,0,0,0,0,
 ec:amazonprimevideo03,Amazon Prime 03,Sem grade fixa,0,0,0,0,0,
@@ -62,41 +62,41 @@ ec:appletv03,Apple TV 03,Sem grade fixa,0,0,0,0,0,
 ec:appletv04,Apple TV 04,Sem grade fixa,0,0,0,0,0,
 ec:appletv05,Apple TV 05,Sem grade fixa,0,0,0,0,0,
 ec:appletv06,Apple TV 06,Sem grade fixa,0,0,0,0,0,
-ec:bandsports,Band Sports,Correspondência,49,27,49,27,20,vivoplay.xml
+ec:bandsports,Band Sports,Correspondência,49,26,49,26,19,vivoplay.xml
 ec:canalgoat,Canal GOAT,Sem correspondência,0,0,0,0,0,
-ec:canaloff,Canal Off,Correspondência,109,6,109,6,109,vivoplay.xml
+ec:canaloff,Canal Off,Correspondência,110,7,110,7,110,vivoplay.xml
 ec:cazetv,CazéTV,Sem grade fixa,0,0,0,0,0,
 ec:cazetv2,CazéTV 2,Sem grade fixa,0,0,0,0,0,
 ec:cazetv3,CazéTV 3,Sem grade fixa,0,0,0,0,0,
 ec:cazetv4,CazéTV 4,Sem grade fixa,0,0,0,0,0,
 ec:cazetv5,CazéTV 5,Sem grade fixa,0,0,0,0,0,
 ec:cazetv6,CazéTV 6,Sem grade fixa,0,0,0,0,0,
-ec:combate,Combate,Correspondência,28,5,28,28,3,globo.xml
+ec:combate,Combate,Correspondência,26,5,26,26,3,globo.xml
 ec:dazn,DAZN,Sem grade fixa,0,0,0,0,0,
 ec:disneyplus07,Disney + 07,Sem grade fixa,0,0,0,0,0,
 ec:disneyplus08,Disney + 08,Sem grade fixa,0,0,0,0,0,
 ec:disneyplus09,Disney + 09,Sem grade fixa,0,0,0,0,0,
-ec:disneyplus,Disney+,Correspondência,63,0,63,26,0,Open-EPG Brazil 1
+ec:disneyplus,Disney+,Correspondência,57,0,57,33,0,Open-EPG Brazil 1
 ec:disneyplus02,Disney+ 02,Sem correspondência,0,0,0,0,0,
 ec:disneyplus03,Disney+ 03,Sem correspondência,0,0,0,0,0,
 ec:disneyplus04,Disney+ 04,Sem correspondência,0,0,0,0,0,
 ec:disneyplus05,Disney+ 05,Sem correspondência,0,0,0,0,0,
 ec:disneyplus06,Disney+ 06,Sem correspondência,0,0,0,0,0,
-ec:espn,ESPN,Correspondência,39,26,39,26,11,vivoplay.xml
+ec:espn,ESPN,Correspondência,40,27,40,27,12,vivoplay.xml
 ec:espn2,ESPN 2,Correspondência,46,27,46,27,9,vivoplay.xml
-ec:espn3,ESPN 3,Correspondência,38,18,35,18,7,vivoplay.xml
-ec:espn4,ESPN 4,Correspondência,47,21,47,21,16,vivoplay.xml
-ec:espn5,ESPN 5,Correspondência,34,13,34,13,5,vivoplay.xml
-ec:espn6,ESPN 6,Correspondência,34,6,34,6,5,vivoplay.xml
-ec:getv,GE TV,Correspondência,32,0,32,32,0,globo.xml
+ec:espn3,ESPN 3,Correspondência,39,20,36,20,9,vivoplay.xml
+ec:espn4,ESPN 4,Correspondência,45,21,45,21,16,vivoplay.xml
+ec:espn5,ESPN 5,Correspondência,35,13,35,13,5,vivoplay.xml
+ec:espn6,ESPN 6,Correspondência,37,9,37,9,7,vivoplay.xml
+ec:getv,GE TV,Correspondência,33,0,33,33,0,globo.xml
 ec:max,Max,Sem grade fixa,0,0,0,0,0,
 ec:max02,Max 02,Sem grade fixa,0,0,0,0,0,
 ec:max03,Max 03,Sem grade fixa,0,0,0,0,0,
 ec:max04,Max 04,Sem grade fixa,0,0,0,0,0,
 ec:max05,Max 05,Sem grade fixa,0,0,0,0,0,
 ec:max06,Max 06,Sem grade fixa,0,0,0,0,0,
-ec:nsports,N Sports,Correspondência,33,31,33,31,2,vivoplay.xml
-ec:nossofutebol,Nosso Futebol,Correspondência,8,0,8,0,0,Open-EPG Brazil 3
+ec:nsports,N Sports,Correspondência,34,33,34,33,1,vivoplay.xml
+ec:nossofutebol,Nosso Futebol,Correspondência,6,0,6,0,0,Open-EPG Brazil 3
 ec:paramountplus,Paramount +,Correspondência,18,0,18,0,0,rootcoder/epgtv Rio map
 ec:paramountplus02,Paramount + 02,Sem grade fixa,0,0,0,0,0,
 ec:paramountplus03,Paramount+ 03,Sem correspondência,0,0,0,0,0,
@@ -104,53 +104,53 @@ ec:paramountplus04,Paramount+ 04,Sem correspondência,0,0,0,0,0,
 ec:paramountplus05,Paramount+ 05,Sem correspondência,0,0,0,0,0,
 ec:paramountplus06,Paramount+ 06,Sem correspondência,0,0,0,0,0,
 ec:paramountplus07,Paramount+ 07,Sem correspondência,0,0,0,0,0,
-ec:premiere2,Premiere 2,Correspondência,27,0,27,27,0,vivoplay.xml
+ec:premiere2,Premiere 2,Correspondência,25,0,25,25,0,vivoplay.xml
 ec:premiere3,Premiere 3,Correspondência,28,0,28,28,0,epg.xml
 ec:premiere4,Premiere 4,Correspondência,28,0,28,28,0,epg.xml
 ec:premiere5,Premiere 5,Correspondência,28,0,28,28,0,epg.xml
 ec:premiere6,Premiere 6,Correspondência,26,0,26,26,0,vivoplay.xml
 ec:premiere7,Premiere 7,Correspondência,28,0,28,28,0,epg.xml
 ec:premiere8,Premiere 8,Sem correspondência,0,0,0,0,0,
-ec:premiereclubes,Premiere Clubes,Correspondência,82,0,82,82,0,epg.xml
-ec:sportv,SporTV,Correspondência,63,0,63,63,0,globo.xml
+ec:premiereclubes,Premiere Clubes,Correspondência,78,0,78,78,0,epg.xml
+ec:sportv,SporTV,Correspondência,65,0,65,65,0,globo.xml
 ec:sportv2,SporTV 2,Correspondência,35,0,33,33,7,globo.xml
-ec:sportv3,SporTV 3,Correspondência,49,37,49,49,17,globo.xml
-ec:sportynet,SportyNet,Correspondência,37,11,37,11,2,vivoplay.xml
+ec:sportv3,SporTV 3,Correspondência,47,36,47,47,16,globo.xml
+ec:sportynet,SportyNet,Correspondência,36,10,36,10,1,vivoplay.xml
 ec:sportynet1,SportyNet +1,Correspondência,19,0,19,0,0,claro.xml
-ec:sportynet2,SportyNet +2,Correspondência,20,0,20,19,0,claro.xml
-ec:sportynet3,SportyNet +3,Correspondência,20,0,20,19,0,claro.xml
-ec:tnt,TNT,Correspondência,69,11,69,11,69,vivoplay.xml
-ec:xsports,Xsports,Correspondência,33,0,32,0,3,vivoplay.xml
+ec:sportynet2,SportyNet +2,Correspondência,20,0,20,20,0,claro.xml
+ec:sportynet3,SportyNet +3,Correspondência,20,0,20,20,0,claro.xml
+ec:tnt,TNT,Correspondência,63,11,63,11,63,vivoplay.xml
+ec:xsports,Xsports,Correspondência,34,0,33,0,5,vivoplay.xml
 ec:bandsp,Band SP,Sem correspondência,0,0,0,0,0,
 ec:globodf,Globo DF,Sem correspondência,0,0,0,0,0,
 ec:globoes,Globo Espírito Santo,Sem correspondência,0,0,0,0,0,
 ec:globomg,Globo Minas,Sem correspondência,0,0,0,0,0,
 ec:globors,Globo Porto Alegre,Sem correspondência,0,0,0,0,0,
-ec:globorj,Globo Rio,Correspondência,53,10,53,10,8,rootcoder/epgtv Rio map
-ec:globosp,Globo São Paulo,Correspondência,57,19,57,19,44,claro.xml
+ec:globorj,Globo Rio,Correspondência,51,8,51,8,7,rootcoder/epgtv Rio map
+ec:globosp,Globo São Paulo,Correspondência,55,18,55,18,43,claro.xml
 ec:recorddf,Record DF,Sem correspondência,0,0,0,0,0,
 ec:recordes,Record Espírito Santo,Sem correspondência,0,0,0,0,0,
 ec:recordmg,Record Minas,Sem correspondência,0,0,0,0,0,
-ec:recordrj,Record Rio,Correspondência,39,0,39,0,0,rootcoder/epgtv Rio map
-ec:recordsp,Record São Paulo,Correspondência,50,0,50,0,33,claro.xml
-ec:redetv,RedeTV!,Correspondência,51,47,51,47,48,vivoplay.xml
-ec:sbtrj,SBT Rio,Correspondência,39,33,39,33,20,rootcoder/epgtv Rio map
-ec:sbtsp,SBT São Paulo,Correspondência,38,0,38,2,23,claro.xml
-ec:tvcultura,TV Cultura,Correspondência,119,117,119,117,115,claro.xml
-ec:cartoonnetwork,Cartoon Network,Correspondência,248,0,248,0,247,vivoplay.xml
-ec:cartoonito,Cartoonito,Correspondência,377,16,377,16,377,vivoplay.xml
-ec:discoverykids,Discovery Kids,Correspondência,255,13,255,13,255,vivoplay.xml
-ec:dreamworks,DreamWorks,Correspondência,117,6,117,6,117,vivoplay.xml
-ec:gloob,Gloob,Correspondência,152,96,152,96,152,globo.xml
-ec:gloobinho,Gloobinho,Correspondência,426,346,426,346,426,globo.xml
-ec:nickjr,Nick Jr.,Correspondência,9,0,9,4,0,Open-EPG Brazil 1
+ec:recordrj,Record Rio,Correspondência,41,0,41,0,0,rootcoder/epgtv Rio map
+ec:recordsp,Record São Paulo,Correspondência,51,0,51,1,34,claro.xml
+ec:redetv,RedeTV!,Correspondência,52,49,52,49,49,vivoplay.xml
+ec:sbtrj,SBT Rio,Correspondência,38,32,38,32,20,rootcoder/epgtv Rio map
+ec:sbtsp,SBT São Paulo,Correspondência,37,0,37,2,23,claro.xml
+ec:tvcultura,TV Cultura,Correspondência,109,109,109,109,105,claro.xml
+ec:cartoonnetwork,Cartoon Network,Correspondência,240,0,240,0,239,vivoplay.xml
+ec:cartoonito,Cartoonito,Correspondência,378,17,378,17,378,vivoplay.xml
+ec:discoverykids,Discovery Kids,Correspondência,259,13,259,13,259,vivoplay.xml
+ec:dreamworks,DreamWorks,Correspondência,114,6,114,6,114,vivoplay.xml
+ec:gloob,Gloob,Correspondência,150,103,150,103,150,globo.xml
+ec:gloobinho,Gloobinho,Correspondência,425,370,425,370,425,globo.xml
+ec:nickjr,Nick Jr.,Correspondência,9,0,9,5,0,Open-EPG Brazil 1
 ec:nickelodeon,Nickelodeon,Sem correspondência,0,0,0,0,0,
-ec:tooncast,Tooncast,Correspondência,259,80,259,80,259,vivoplay.xml
-ec:tvratimbum,TV Ra Tim Bum,Correspondência,219,21,219,21,219,vivoplay.xml
-ec:cancaonova,Canção Nova,Correspondência,87,39,87,39,81,vivoplay.xml
-ec:novotempo,Novo Tempo,Correspondência,99,90,99,90,99,vivoplay.xml
-ec:paieterno,Pai Eterno,Correspondência,89,5,89,88,87,claro.xml
-ec:redegospel,Rede Gospel,Correspondência,56,0,56,53,56,epg.xml
-ec:redevida,Rede Vida,Correspondência,80,73,79,73,80,vivoplay.xml
-ec:tvaparecida,TV Aparecida,Correspondência,62,48,62,48,60,vivoplay.xml
-ec:tvevangelizar,TV Evangelizar,Correspondência,68,59,66,59,63,vivoplay.xml
+ec:tooncast,Tooncast,Correspondência,263,76,263,76,263,vivoplay.xml
+ec:tvratimbum,TV Ra Tim Bum,Correspondência,217,22,217,22,217,vivoplay.xml
+ec:cancaonova,Canção Nova,Correspondência,84,37,84,37,78,vivoplay.xml
+ec:novotempo,Novo Tempo,Correspondência,100,91,100,91,100,vivoplay.xml
+ec:paieterno,Pai Eterno,Correspondência,87,5,87,87,85,claro.xml
+ec:redegospel,Rede Gospel,Correspondência,56,0,56,55,56,epg.xml
+ec:redevida,Rede Vida,Correspondência,80,74,79,74,80,vivoplay.xml
+ec:tvaparecida,TV Aparecida,Correspondência,60,49,60,49,59,vivoplay.xml
+ec:tvevangelizar,TV Evangelizar,Correspondência,66,59,64,59,62,vivoplay.xml
