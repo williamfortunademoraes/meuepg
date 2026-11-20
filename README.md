@@ -1,11 +1,11 @@
 # Meu EPG
 
-XMLTV para os canais Tvvio, gerado a partir do XMLTV brasileiro.
+XMLTV para os canais Tvvio, gerado periodicamente a partir da fonte XMLTV Brasil.
 
 - URL para o Nuvio + IPTV: https://raw.githubusercontent.com/williamfortunademoraes/meuepg/main/epg.xml
-- Fonte XMLTV: https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/br.xml.gz
-- `pareamentos.csv` registra o mapeamento revisado dos IDs Tvvio para os canais da fonte.
-- `build_epg.py` reconstrói o XMLTV sem dependências externas além da biblioteca padrão do Python.
-- GitHub Actions atualiza `epg.xml` e `pareamentos.csv` a cada seis horas e também pode ser iniciado manualmente na aba Actions.
+- Fonte atualizada: https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/claro.xml
+- `pareamentos.csv` mostra as correspondências recalculadas a cada execução.
+- `build_epg.py` gera o XMLTV usando apenas a biblioteca padrão do Python.
+- GitHub Actions roda a cada seis horas e também aceita execução manual na aba Actions.
 
-A grade só pode ser gerada para canais com correspondência na fonte. Feeds de evento sem grade fixa e canais sem correspondência ficam fora do XMLTV.
+Canais sem correspondência na fonte ou feeds de evento sem grade fixa não recebem programação.
