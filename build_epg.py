@@ -26,7 +26,11 @@ EXTRA_SOURCES = [
     ("Open-EPG Brazil 3", "https://www.open-epg.com/files/brazil3.xml.gz"),
     ("EPG-Scrapper-BR", "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml"),
     ("epg.pw", "https://epg.pw/xmltv/epg_BR.xml"),
+    ("vinnyoliveira/epg-br fallback", "https://raw.githubusercontent.com/vinnyoliveira/epg-br/main/epg.xml.gz"),
 ]
+SOURCE_CHANNEL_ALLOWLIST = {
+    "vinnyoliveira/epg-br fallback": {"ec:mtv", "ec:comedycentral"},
+}
 CATALOG_URL = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
 AMC_SERIES_URL = "https://www.amcseries.com.br/horarios/{}"
 AMC_SERIES_CHANNEL = "ec:amcseries"
@@ -129,6 +133,8 @@ def main():
     source_for = {}
     all_sources = [(filename, BASE + filename) for filename in SOURCES] + EXTRA_SOURCES
     for filename, url in all_sources:
+        allowed_targets = SOURCE_CHANNEL_ALLOWLIST.get(filename)
+        blocked_targets = {channel_id for channel_id in (allowed_targets or ()) if counts[channel_id]}
         try:
             raw = get_bytes(filename) if url.startswith(BASE) else fetch(url)
         except Exception as error:
@@ -156,13 +162,15 @@ def main():
                     source_label = source_id.rsplit(".", 1)[0] if source_id.lower().endswith(".br") else source_id
                     display_names.append(normalize(source_label))
                     matched = {channel_id for display in display_names for channel_id in target_names.get(display, [])}
+                    if allowed_targets is not None:
+                        matched &= allowed_targets
                     if len(matched) == 1:
                         source_map[source_id] = matched.pop()
                     element.clear()
             for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
                 if element.tag == "programme":
                     channel_id = source_map.get(element.get("channel", ""))
-                    if channel_id:
+                    if channel_id and channel_id not in blocked_targets:
                         element.set("channel", channel_id)
                         title = element.findtext("title", "")
                         key = (channel_id, element.get("start", ""), title)
