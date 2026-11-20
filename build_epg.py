@@ -2,6 +2,7 @@
 """Merge available BrazilTVEPG XMLTV sources into Meu EPG."""
 
 import csv
+import gzip
 import io
 import json
 import os
@@ -16,6 +17,7 @@ BASE = "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/"
 # Specific channel feeds come first; claro.xml fills the remaining matches.
 SOURCES = ["globo.xml", "maissbt.xml", "vivoplay.xml", "xsports.xml", "epg.xml", "claro.xml"]
 EXTRA_SOURCES = [
+    ("rootcoder/epgtv Rio map", "https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"),
     ("EPG-Scrapper-BR", "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml"),
     ("epg.pw", "https://epg.pw/xmltv/epg_BR.xml"),
 ]
@@ -80,6 +82,12 @@ def main():
         except Exception as error:
             print(f"Skipping unavailable source {filename}: {error}")
             continue
+        if filename.endswith(".gz"):
+            try:
+                raw = gzip.decompress(raw)
+            except OSError as error:
+                print(f"Skipping invalid compressed source {filename}: {error}")
+                continue
         source_map = {}
         for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
             if element.tag == "channel":
