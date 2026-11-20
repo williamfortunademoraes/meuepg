@@ -1,7 +1,7 @@
 TvvioId,Tvvio,XmltvId,XmltvName,Status
 ec:aee,A&E,vivoplay.xml,vivoplay.xml,Correspondência
 ec:amc,AMC,vivoplay.xml,vivoplay.xml,Correspondência
-ec:amcseries,AMC Séries,,,Sem correspondência
+ec:amcseries,AMC Séries,AMC Series Brasil official,AMC Series Brasil official,Correspondência
 ec:axn,AXN,vivoplay.xml,vivoplay.xml,Correspondência
 ec:cinemax,Cinemax,vivoplay.xml,vivoplay.xml,Correspondência
 ec:globoplaynovelas,Globoplay Novelas,globo.xml,globo.xml,Correspondência
