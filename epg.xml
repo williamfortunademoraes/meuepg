@@ -122,21 +122,6 @@
     <category lang="en">live broadcast</category>
   </programme>
   
-  <programme start="20261120082902 -0300" stop="20261120104559 -0300" channel="ec:megapix">
-    <title lang="pt">Alerta de Emergência</title>
-    <desc lang="pt">Um homem misterioso embarca num avião com destino ao Havaí. Com o iminente ataque e enquanto o medo se espalha a bordo, as forças antiterrorismo tentam pousar o avião.</desc>
-    <length units="minutes">136</length>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120083000 -0300" stop="20261120103000 -0300" channel="ec:xsports">
-    <title lang="pt"> Triathlon World Tour - Etapa de Dubai - Masculino e Feminino : Etapa de Dubai - Masculino e Feminino</title>
-    <desc lang="pt">As emoções do circuito mundial de triatlo, com provas em percursos de 100 km espalhadas pelo mundo.</desc>
-    <episode-num system="xmltv_ns">99..</episode-num>
-  </programme>
-  
   <programme start="20261120083000 -0300" stop="20261120124000 -0300" channel="ec:sbtsp">
     <title lang="pt">Primeiro Impacto</title>
     <desc lang="pt">Um formato original da emissora americana Univision, o jornal abordará as principais pautas do Brasil e do mundo.</desc>
@@ -153,35 +138,12 @@
     </rating>
   </programme>
   
-  <programme start="20261120084000 -0300" stop="20261120103151 -0300" channel="ec:getv">
-    <title lang="pt">VT - UEFA Nations League: Sérvia x Alemanha</title>
-    <desc lang="pt">As estrelas da Liga das Nações da UEFA tão de volta! Confira agora mais um jogão.</desc>
-    <length units="minutes">111</length>
-    <category lang="en">football/soccer</category>
-    <previously-shown />
-  </programme>
-  
   <programme start="20261120084636 -0300" stop="20261120112153 -0300" channel="ec:sportv2">
     <title lang="pt">VT - NFL: Indianapolis Colts x Houston Texans</title>
     <desc lang="pt">A NFL está de volta! E chegou a hora de viver cada jogada, vibrar com os touchdowns e acompanhar o talento das grandes estrelas. Viva a NFL!</desc>
     <length units="minutes">155</length>
     <category lang="en">team sports</category>
     <previously-shown />
-  </programme>
-  
-  <programme start="20261120085000 -0300" stop="20261120104800 -0300" channel="ec:sportynet">
-    <title lang="pt">Mantova x Hellas Verona - Campeonato Italiano - Série B : Mantova x Hellas Verona</title>
-    <desc lang="pt">Acompanhe os jogos da segunda divisão do futebol italiano.</desc>
-    <episode-num system="xmltv_ns">26..</episode-num>
-  </programme>
-  
-  <programme start="20261120085500 -0300" stop="20261120104000 -0300" channel="ec:hbopop">
-    <title lang="pt">Padrinhos Ltda.</title>
-    <desc lang="pt">Em duas semanas, Doug Harris vai se casar com a mulher dos seus sonhos, mas o problema é que ele não tem padrinhos para a ocasião. Desesperado, Doug contrata uma empresa especializada em providenciar padrinhos para noivos que não têm amigos.</desc>
-    <episode-num system="xmltv_ns">2015..</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
   </programme>
   
   <programme start="20261120085619 -0300" stop="20261120110635 -0300" channel="ec:tccult">
@@ -227,24 +189,6 @@
     <length units="minutes">10800</length>
   </programme>
   
-  <programme start="20261120090510 -0300" stop="20261120104458 -0300" channel="ec:tcpremium">
-    <title lang="pt">Pinocchio: O Menino de Madeira</title>
-    <desc lang="pt">Pinóquio quer conhecer o mundo e, por isso, entra para um circo. Lá, ele encontra o amor, quando se apaixona pela adorável Bela, e o mal, quando descobre que o diretor do circo é, na verdade, um ladrão.</desc>
-    <length units="minutes">99</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120091400 -0300" stop="20261120104900 -0300" channel="ec:tnt">
-    <title lang="pt">Como Treinar o Seu Dragão</title>
-    <desc lang="pt">Soluço é um jovem viking que não tem capacidade para lutar contra os dragões, como é a tradição local. Sua vida muda quando ele ajuda um dragão que lhe mostra toda a verdade. Juntos, eles tentam provar que dragões e humanos podem ser amigos.</desc>
-    <episode-num system="xmltv_ns">2010..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120092000 -0300" stop="20261120113800 -0300" channel="ec:hbosignature">
     <title lang="pt">Até o Fim</title>
     <desc lang="pt">Lyndon B. Johnson torna-se o presidente dos Estados Unidos após o assassinato de JFK. Seu primeiro ano de mandato é dedicado a passar, rapidamente, a lei dos direitos civis.</desc>
@@ -260,34 +204,6 @@
     <episode-num system="xmltv_ns">1997..</episode-num>
     <rating system="Brazil">
       <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120093000 -0300" stop="20261120103000 -0300" channel="ec:espn6">
-    <title lang="pt">Saban</title>
-    <desc lang="pt">A história e o legado de Nick Saban, um dos maiores treinadores do futebol americano universitário. Com mais de 70 vozes e entrevistas diferentes, centenas de gravações sobre a lendária carreira do ex-treinador de Alabama e LSU.</desc>
-    <episode-num system="xmltv_ns">2026..</episode-num>
-    <rating system="Brazil">
-      <value>[AGE88]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120093000 -0300" stop="20261120103000 -0300" channel="ec:premiereclubes">
-    <title lang="pt">Giro da Rodada: Brasileirão</title>
-    <sub-title lang="pt">34ª Rodada</sub-title>
-    <desc lang="pt">Assista agora o Giro da Rodada com os destaques dos Campeonatos de Futebol.</desc>
-    <length units="minutes">3600</length>
-    <category lang="en">sports (general)</category>
-    <episode-num system="xmltv_ns">89.324.</episode-num>
-  </programme>
-  
-  <programme start="20261120093000 -0300" stop="20261120103500 -0300" channel="ec:globosp">
-    <title lang="pt">Encontro com Patrícia Poeta</title>
-    <desc lang="pt">Patrícia Poeta comanda o programa que mistura comportamento, prestação de serviço, informação, música, entretenimento e muita diversão.</desc>
-    <length units="minutes">3900</length>
-    <episode-num system="xmltv_ns">9.324.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
     </rating>
   </programme>
   
@@ -309,28 +225,10 @@
     </rating>
   </programme>
   
-  <programme start="20261120093900 -0300" stop="20261120103200 -0300" channel="ec:discoverychannel">
-    <title lang="pt">Desafio em Dose Dupla - Brasil : Inferno Verde</title>
-    <desc lang="pt">Leo Rocha e Coronel Leite extrapolam limites de resistência física e psicológica para mostrar como duas vítimas de um acidente aéreo podem sobreviver na Amazônia.</desc>
-    <episode-num system="xmltv_ns">2.1.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120094500 -0300" stop="20261120112500 -0300" channel="ec:hbomundi">
     <title lang="pt">Perfeitos Desconhecidos</title>
     <desc lang="pt">Durante um encontro de amigos, um jogo é proposto: ler em voz alta todas as mensagens que chegam nos celulares de cada um. O que se segue é uma cascata de revelações inesperadas e embaraçosas, expondo segredos obscuros.</desc>
     <episode-num system="xmltv_ns">2024..</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120095000 -0300" stop="20261120104000 -0300" channel="ec:universaltv">
-    <title lang="pt">Chicago Fire : Seu Dia Está Chegando</title>
-    <desc lang="pt">Os membros do esquadrão se unem para apoiar um dos seus; Herrmann tenta encontrar uma forma de reabrir o Molly; Severide intensifica investigação do incêndio criminoso.</desc>
-    <episode-num system="xmltv_ns">4.4.</episode-num>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -343,24 +241,6 @@
     <episode-num system="xmltv_ns">89.324.</episode-num>
   </programme>
   
-  <programme start="20261120095100 -0300" stop="20261120103200 -0300" channel="ec:animalplanet">
-    <title lang="pt">Everest Air : Caos na Montanha</title>
-    <desc lang="pt">O médico Jeff Evans e sua equipe de resgate aéreo enfrentam novos desafios. Seu helicóptero faz um pouso arriscado na perigosa Geleira de Khumbu para atender um jovem em perigo e resgata dois alpinistas doentes no Campo 2.</desc>
-    <episode-num system="xmltv_ns">1.2.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120095300 -0300" stop="20261120104100 -0300" channel="ec:tntseries">
-    <title lang="pt">Sob Suspeita : Witness</title>
-    <desc lang="pt">Reese e Finch tentam salvar um professor que testemunhou um crime.</desc>
-    <episode-num system="xmltv_ns">1.7.</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120095500 -0300" stop="20261120121200 -0300" channel="ec:hboxtreme">
     <title lang="pt">A Lei da Noite</title>
     <desc lang="pt">Boston, década de 1920. Joe, filho mais novo de um capitão de polícia, se envolve com o crime organizado. Ele aproveita seus dias rodeado de dinheiro e poder, mas suas escolhas podem levá-lo à prisão ou até mesmo à morte.</desc>
@@ -370,57 +250,11 @@
     </rating>
   </programme>
   
-  <programme start="20261120095505 -0300" stop="20261120104833 -0300" channel="ec:gnt">
-    <title lang="pt">Mais Cor, Por Favor!</title>
-    <sub-title lang="pt">Varanda para Festas</sub-title>
-    <desc lang="pt">Jubiracy e Penha amam reunir a família na varanda, mas o espaço está sem cor. Thalita leva muita alegria ao local que será inaugurado com uma festa de aniversário.</desc>
-    <length units="minutes">53</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120095800 -0300" stop="20261120104200 -0300" channel="ec:hgtv">
-    <title lang="pt">Desafio dos Corretores : O Tempo Está Acabando</title>
-    <desc lang="pt">Faltam poucas semanas para o prazo de seis meses acabar; Dani e Jon discordam sobre uma opção de design que pode comprometer o valor final da casa; EJ e Jason percebem que concluir o próximo projeto pode ser impossível.</desc>
-    <episode-num system="xmltv_ns">1.5.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120103000 -0300" channel="ec:amc">
-    <title lang="pt">Planet Action</title>
-    <desc lang="pt">De tiroteios com caubóis a carros explodindo e monstros rugindo, acompanhe os bastidores dos melhores filmes de ação lançados.</desc>
-    <episode-num system="xmltv_ns">2025..</episode-num>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120100000 -0300" stop="20261120110000 -0300" channel="ec:bandnews">
     <title lang="pt">Manhã BandNews</title>
     <desc lang="pt">A atualização das notícias da manhã e tudo o que é importante para se manter antenado ao longo do dia.</desc>
     <category lang="en">news/current affairs (general)</category>
     <episode-num system="xmltv_ns">..</episode-num>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120104500 -0300" channel="ec:bandsports">
-    <title lang="pt">Expedicionário do Brasil</title>
-    <desc lang="pt">Renato Castanho visita e explora caminhos históricos do Brasil.</desc>
-    <episode-num system="xmltv_ns">2022..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120103000 -0300" channel="ec:cancaonova">
-    <title lang="pt">Cantinho da Criança</title>
-    <desc lang="pt">Acompanhe histórias de evangelização para crianças apresentadas de forma divertida e inteligente, com vários personagens, bonecos e muita música. São abordados conceitos como relacionamento, família, amizade, educação, perdão e respeito.</desc>
-    <episode-num system="xmltv_ns">2012..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120100000 -0300" stop="20261120120000 -0300" channel="ec:espn2">
@@ -457,15 +291,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120100000 -0300" stop="20261120105000 -0300" channel="ec:history">
-    <title lang="pt">Mistérios Revelados : A Fera Marinha e o Óvni de Formato Misterioso</title>
-    <desc lang="pt">Tony e sua equipe investigam uma misteriosa fera marinha avistada na costa de uma pequena cidade do Reino Unido e enormes e intrigantes potes supostamente feitos por gigantes, e uma área onde o solo parece respirar.</desc>
-    <episode-num system="xmltv_ns">3.15.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120100000 -0300" stop="20261120120000 -0300" channel="ec:jovempannews">
     <title lang="pt">Morning Show</title>
     <desc lang="pt">Os principais destaques da política, da cultura e do entretenimento, com debates de qualidade.</desc>
@@ -481,21 +306,6 @@
     <desc lang="pt">As principais notícias e destaques do Brasil no início de todas as manhãs.</desc>
     <category lang="en">news/current affairs (general)</category>
     <episode-num system="xmltv_ns">.232.</episode-num>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120103000 -0300" channel="ec:redevida">
-    <title lang="pt">Terço de Nossa Senhora</title>
-    <desc lang="pt">Padre Lúcio Cesquin conduz um momento diário de oração e fé com o terço em família. A atração é um espaço para agradecer, entregar intenções e fortalecer toda espiritualidade em família e em comunhão.</desc>
-    <episode-num system="xmltv_ns">2026..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120103000 -0300" channel="ec:redetv">
-    <title lang="pt">RedeTV! Notícias - 1ª Edição</title>
-    <desc lang="pt">Telejornal com as principais notícias do Brasil e do mundo.</desc>
-    <episode-num system="xmltv_ns">..</episode-num>
   </programme>
   
   <programme start="20261120100000 -0300" stop="20261120113000 -0300" channel="ec:tvaparecida">
@@ -577,27 +387,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120100000 -0300" stop="20261120103000 -0300" channel="ec:sonychannel">
-    <title lang="pt">The Nanny</title>
-    <sub-title lang="pt">Not Without My Nanny</sub-title>
-    <desc lang="pt">Fran e Grace visitam um príncipe do Oriente Médio e sua família.</desc>
-    <length units="minutes">1800</length>
-    <episode-num system="xmltv_ns">5.14.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120103000 -0300" channel="ec:paieterno">
-    <title lang="pt">Novena dos Filhos do Pai Eterno</title>
-    <desc lang="pt">Padre João Paulo dos Santos reza a Novena dos Filhos do Pai Eterno.</desc>
-    <length units="minutes">1800</length>
-    <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120100100 -0300" stop="20261120121500 -0300" channel="ec:hbo2">
     <title lang="pt">Superman</title>
     <desc lang="pt">Superman é arrastado para conflitos nacionais e internacionais e suas ações começam a ser questionadas. Neste cenário, o bilionário da tecnologia Lex Luthor tem a oportunidade perfeita para tirar o Homem de Aço de seu caminho de uma vez por todas.</desc>
@@ -616,15 +405,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120100400 -0300" stop="20261120104700 -0300" channel="ec:discoveryid">
-    <title lang="pt">Vidas Destruídas : A Caixa</title>
-    <desc lang="pt">No Texas, um pai busca vingança pelo esquartejamento de seu filho. No Mississippi, uma garota tenta escapar do armário de metal onde foi aprisionada. Um detetive novato assume um caso que definirá sua carreira.</desc>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120100500 -0300" stop="20261120113959 -0300" channel="ec:studiouniversal">
     <title lang="pt">Studio Movie</title>
     <sub-title lang="pt">Próxima Parada: Natal</sub-title>
@@ -640,33 +420,6 @@
     <episode-num system="xmltv_ns">2023..</episode-num>
     <rating system="Brazil">
       <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100500 -0300" stop="20261120105500 -0300" channel="ec:amcseries"><title lang="pt">The Son</title></programme>
-  <programme start="20261120100658 -0300" stop="20261120104029 -0300" channel="ec:sportv3">
-    <title lang="pt">FAIXA OLÍMPICA: NÁDIA COMANECI  ()</title>
-    <sub-title lang="pt">realizado em 31/10/2020</sub-title>
-    <length units="minutes">33</length>
-    <category lang="en">sports (general)</category>
-    <date>20201031</date>
-  </programme>
-  
-  <programme start="20261120100700 -0300" stop="20261120103100 -0300" channel="ec:cartoonito">
-    <title lang="pt">A Casa Mágica da Gabby : Bebê Benny Caixa!</title>
-    <desc lang="pt">A família Caixa dá as boas-vindas a Benny Caixa. A Mamãe Caixa precisa tirar uma soneca, e Gabby e Pandy ensinam Bebê Caixa a cuidar do irmãozinho.</desc>
-    <episode-num system="xmltv_ns">8.3.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100800 -0300" stop="20261120105400 -0300" channel="ec:tntnovelas">
-    <title lang="pt">Iludida</title>
-    <desc lang="pt">Todos descobrem o que Leyla fez com Aras; Asya bate a cabeça e Derin é pega com a arma do ataque; Nil faz algo errado e pede ajuda a Selçuk.</desc>
-    <episode-num system="xmltv_ns">2.31.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
     </rating>
   </programme>
   
@@ -696,15 +449,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120101000 -0300" stop="20261120103500 -0300" channel="ec:dreamworks">
-    <title lang="pt">As Aventuras das Harvey Street : Lolla Frenética; De Vento em Popa</title>
-    <desc lang="pt">Lolla faz um teste de personalidade e o resultado indica que ela é malvada; Pingo e Lucrécia ajudam as meninas a conseguirem fantasias para a convenção de Chifrecórnios.</desc>
-    <episode-num system="xmltv_ns">3.3.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120101000 -0300" stop="20261120110000 -0300" channel="ec:espn4">
     <title lang="pt">Moto 3 - GP de Portugal - Treinos Livres : GP de Portugal - Treinos Livres</title>
     <desc lang="pt">Todas as emoções do terceiro escalão da principal competição de motovelocidade do mundo.</desc>
@@ -720,67 +464,10 @@
     </rating>
   </programme>
   
-  <programme start="20261120101415 -0300" stop="20261120104111 -0300" channel="ec:multishow">
-    <title lang="pt">Chaves</title>
-    <sub-title lang="pt">O Livro Da Chiquinha</sub-title>
-    <desc lang="pt">Chiquinha ganha um livro de animais do Seu Madruga, mas não fica muito contente. Mesmo assim, resolve olhar o livro com Chaves e Quico.
-</desc>
-    <length units="minutes">26</length>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120101500 -0300" stop="20261120120000 -0300" channel="ec:nsports">
     <title lang="pt">Um Assado para</title>
     <desc lang="pt">Duda Garbi recebe convidados e conversa sobre o que rola no mundo da bola, histórias e muito mais.</desc>
     <episode-num system="xmltv_ns">..</episode-num>
-  </programme>
-  
-  <programme start="20261120101500 -0300" stop="20261120103000 -0300" channel="ec:tvratimbum">
-    <title lang="pt">DJ Cão e a Loja de Discos : Marlui Miranda - A Música Sempre...</title>
-    <desc lang="pt">DJ Cão está na loja ouvindo música quando acaba a luz. No escuro, ele se questiona como as pessoas ouviam música antes da Internet, do rádio, do teatro e dos músicos nas ruas.</desc>
-    <episode-num system="xmltv_ns">1.13.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120101500 -0300" stop="20261120103000 -0300" channel="ec:tvcultura">
-    <title lang="pt">O Show da Luna!</title>
-    <desc lang="pt">Luna é uma garotinha curiosa e alegre, que está sempre às voltas com perguntas sobre o mundo. Para ela, o planeta Terra é um laboratório gigante e todos os acontecimentos são fenômenos a serem investigados.</desc>
-    <length units="minutes">900</length>
-    <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120101700 -0300" stop="20261120105900 -0300" channel="ec:foodnetwork">
-    <title lang="pt">A Guerra dos Bolos : Capitão América</title>
-    <desc lang="pt">A Guerra dos Bolos homenageia um dos maiores heróis das histórias em quadrinhos: Capitão América. Somente um entre quatro talentosos confeiteiros levará sua criação para uma festa em comemoração ao aniversário de 75 anos do supersoldado.</desc>
-    <episode-num system="xmltv_ns">3.1.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120101900 -0300" stop="20261120104600 -0300" channel="ec:canaloff">
-    <title lang="pt">Mar e Música : Papatinho</title>
-    <desc lang="pt">O famoso DJ Papatinho mostra a relação de sua produção musical com a natureza, as suas fugas do estúdio para ir surfar e a praticidade de morar de frente ao mar.</desc>
-    <episode-num system="xmltv_ns">1.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102100 -0300" stop="20261120103200 -0300" channel="ec:discoverykids">
-    <title lang="pt">Hello Kitty: Super Style! : O Show da Podo</title>
-    <desc lang="pt">Podo Pooch descobre que o Keroppi não é fã da sua música; ela pede a ajuda da Pop Star Kitty para mudar a opinião dele e fazê-lo ir ao seu concerto.</desc>
-    <episode-num system="xmltv_ns">12.2.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120102200 -0300" stop="20261120130600 -0300" channel="ec:hbofamily">
@@ -792,33 +479,12 @@
     </rating>
   </programme>
   
-  <programme start="20261120102200 -0300" stop="20261120104700 -0300" channel="ec:warner">
-    <title lang="pt">Two and a Half Men</title>
-    <sub-title lang="pt">Camel Filters and Pheremones</sub-title>
-    <desc lang="pt">Quando a empregada de Charlie, Berta, traz consigo sua filha rebelde de 16 anos, Prudence, para a casa de Charlie, Jake desenvolve por ela uma paixão infantil.</desc>
-    <length units="minutes">1500</length>
-    <episode-num system="xmltv_ns">1.12.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120102233 -0300" stop="20261120120103 -0300" channel="ec:tcaction">
     <title lang="pt">Lacuna</title>
     <desc lang="pt">Após um acidente, uma família enfrenta grandes mudanças que revelam segredos antigos e ameaçam destruir seus laços problemáticos.</desc>
     <length units="minutes">98</length>
     <rating system="Brazil">
       <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102306 -0300" stop="20261120103010 -0300" channel="ec:gloobinho">
-    <title lang="pt">Oi, Duggee!</title>
-    <sub-title lang="pt">Duggee e o Distintivo da Navegação</sub-title>
-    <desc lang="pt">Duggee e os escoteiros estão curtindo um dia na praia, quando encontram um grupo de pinguins. Eles explicam que estavam em uma missão quando ficaram doentes.</desc>
-    <length units="minutes">7</length>
-    <rating system="Brazil">
-      <value>[L]</value>
     </rating>
   </programme>
   
@@ -840,31 +506,12 @@
     </rating>
   </programme>
   
-  <programme start="20261120102400 -0300" stop="20261120104800 -0300" channel="ec:discoveryworld">
-    <title lang="pt">Vende-se Pântano : Um Lugar para Relaxar</title>
-    <desc lang="pt">Mike, Kim e suas quatro filhas adolescentes procuram uma casa de final de semana, onde possam relaxar e se divertir longe da agitação e estresse da vida quotidiana. E nos melhores lugares só se chega de barco.</desc>
-    <episode-num system="xmltv_ns">1.12.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120102500 -0300" stop="20261120111500 -0300" channel="ec:aee">
     <title lang="pt">Esquadrão de Homicídios - Nova Orleans : Cuidado com o Vizinho</title>
     <desc lang="pt">O detetive Maurice Stewart investiga o assassinato de uma mulher, supostamente morta por seu vizinho após uma discussão sobre seus animais de estimação. Mais um exemplo de como um conflito cotidiano pode escalar para um desfecho trágico.</desc>
     <episode-num system="xmltv_ns">2.2.</episode-num>
     <rating system="Brazil">
       <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102600 -0300" stop="20261120103800 -0300" channel="ec:cartoonnetwork">
-    <title lang="pt">Os Jovens Titãs em Açãomente, Uma Lição</title>
-    <sub-title lang="pt">Final</sub-title>
-    <desc lang="pt">Robin finalmente ensina uma lição valiosa aos outros Titãs.</desc>
-    <episode-num system="xmltv_ns">3.30.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
     </rating>
   </programme>
   
@@ -891,36 +538,6 @@
     <title lang="pt">Invasão de Garagens : Torino na Cápsula do Tempo</title>
     <desc lang="pt">Um Cobra Jet Torino 1972 de um único proprietário fica guardado por mais de 40 anos depois que um problema no motor o deixa parado. O time do Garage Squad tenta trazer a mordida de volta a este Cobra Jet.</desc>
     <episode-num system="xmltv_ns">8.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102900 -0300" stop="20261120105400 -0300" channel="ec:adultswim">
-    <title lang="pt">Rick and Morty : Descanso e Rickrelaxamento</title>
-    <desc lang="pt">Rick e Morty decidem que precisam de férias após outra aventura cansativa. Mas seu relaxamento não sai como planejado quando experimentam uma máquina especial de desintoxicação que desperta o lado tóxico de suas personalidades.</desc>
-    <episode-num system="xmltv_ns">3.6.</episode-num>
-    <rating system="Brazil">
-      <value>[AGE88]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102900 -0300" stop="20261120103600 -0300" channel="ec:tooncast">
-    <title lang="pt">Sheep na Cidade Grande</title>
-    <desc lang="pt">Soldado Público é peça fundamental para a captura de Sheep; um sanduíche de presunto concorre ao cargo de pegador de cães da Cidade Grande.</desc>
-    <episode-num system="xmltv_ns">1.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102918 -0300" stop="20261120105303 -0300" channel="ec:gloob">
-    <title lang="pt">Miraculous – As Aventuras De L</title>
-    <sub-title lang="pt">Camaleoa</sub-title>
-    <desc lang="pt">Uma amiga do pessoal é confrontada com suas próprias mentiras e pede a Hawk Moth que a akumatize.
-Agora como Camaleoa, ela pode assumir a aparência de qualquer um... começando com Adrien.
-Ladybug vai confundi-la?</desc>
-    <length units="minutes">23</length>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -968,15 +585,6 @@ Ladybug vai confundi-la?</desc>
     </rating>
   </programme>
   
-  <programme start="20261120103000 -0300" stop="20261120104000 -0300" channel="ec:tvratimbum">
-    <title lang="pt">Traçando Arte : A Traça Morta-Viva</title>
-    <desc lang="pt">Trácio é uma traça gulosa que mora em um museu brasileiro. Quando conhece Jean Pierre, que vivia atrás do quadro da Mona Lisa no museu do Louvre, em Paris, ele aprende tudo sobre os pintores brasileiros, deixando de comer os quadros.</desc>
-    <episode-num system="xmltv_ns">3.11.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120103000 -0300" stop="20261120131500 -0300" channel="ec:xsports">
     <title lang="pt">O Melhor da Xsports</title>
     <desc lang="pt">Os melhores momentos, lances e destaques das grandes transmissões esportivas reunidos diariamente com o que de mais emocionante acontece no mundo dos esportes.</desc>
@@ -991,52 +599,11 @@ Ladybug vai confundi-la?</desc>
     <previously-shown />
   </programme>
   
-  <programme start="20261120103000 -0300" stop="20261120104000 -0300" channel="ec:tvcultura">
-    <title lang="pt">Bino e Fino</title>
-    <desc lang="pt">Bino e Fino é sobre um irmão e uma irmã gêmeos que vivem na África subsaariana. Em cada episódio, Bino e Fino, com a ajuda de sua amiga Zeena, a Borboleta Mágica, e sua família, descobrem aspectos diferentes...</desc>
-    <length units="minutes">600</length>
-    <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103000 -0300" stop="20261120105500 -0300" channel="ec:sonychannel">
-    <title lang="pt">Eu, A Patroa e as Crianças</title>
-    <sub-title lang="pt">Sorriso ilegal</sub-title>
-    <desc lang="pt">Michael leva uma multa de trânsito e precisa ir ao tribunal um dia após colocar uma injeção antirrugas e ficar com uma expressão não natural. O juiz fica irritado com seu sorriso congelado e o condena a uma noite na p...</desc>
-    <length units="minutes">1500</length>
-    <episode-num system="xmltv_ns">4.18.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120103000 -0300" stop="20261120114500 -0300" channel="ec:paieterno">
     <title lang="pt">Família de Amor</title>
     <desc lang="pt">Padre Jadeilson Santos Apresenta o programa Família de Amor.</desc>
     <length units="minutes">4500</length>
     <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103012 -0300" stop="20261120103716 -0300" channel="ec:gloobinho">
-    <title lang="pt">Oi, Duggee!</title>
-    <sub-title lang="pt">Duggee e o Distintivo da Chave</sub-title>
-    <desc lang="pt">Roly está cavando no jardim quando sua pá de repente atinge algo. É uma chave! Os escoteiros saem em uma aventura para descobrir o que a chave abre e o que poderia estar dentro.</desc>
-    <length units="minutes">7</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103100 -0300" stop="20261120103800 -0300" channel="ec:cartoonito">
-    <title lang="pt">Pocoyo - De ao Passado</title>
-    <sub-title lang="pt">Jogo de Volta</sub-title>
-    <desc lang="pt">Elly está há horas cozinhando pastéis e, devido a uma banana, todo o trabalho está perdido.</desc>
-    <episode-num system="xmltv_ns">4.14.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -1068,15 +635,6 @@ Ladybug vai confundi-la?</desc>
     </rating>
   </programme>
   
-  <programme start="20261120103200 -0300" stop="20261120105500 -0300" channel="ec:discoverykids">
-    <title lang="pt">Mermicorno - A Queda das Estrelas : A Dança Especial</title>
-    <desc lang="pt">As Mermicornos conhecem uma comunidade de peixes que proibiu a dança, mas Nautique decide burlar a regra e ensiná-los.</desc>
-    <episode-num system="xmltv_ns">1.11.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120103500 -0300" stop="20261120110000 -0300" channel="ec:dreamworks">
     <title lang="pt">As Aventuras das Harvey Street : Hora da Convenção</title>
     <desc lang="pt">Audrey, Poá, Lolla, Riquinho, Lucrécia e Pingo chegam à convenção de Chifrecórnios e decidem se dividir em três grupos para aproveitar ao máximo.</desc>
@@ -1096,43 +654,6 @@ Ladybug vai confundi-la?</desc>
     </rating>
   </programme>
   
-  <programme start="20261120103600 -0300" stop="20261120104700 -0300" channel="ec:tooncast">
-    <title lang="pt">Esquadrão do Tempo</title>
-    <desc lang="pt">As crianças do Esquadrão do Tempo curtem sua novela favorita, mas na parte mais emocionante, o alarme os interrompe com uma missão para ajudar Samuel Morse em 1836. Lá, eles conhecem suas versões do futuro e tudo sai de controle.</desc>
-    <episode-num system="xmltv_ns">2003..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103717 -0300" stop="20261120104421 -0300" channel="ec:gloobinho">
-    <title lang="pt">Oi, Duggee!</title>
-    <sub-title lang="pt">Duggee e o Distintivo da Moda</sub-title>
-    <desc lang="pt">O uniforme de Duggee está antigo demais e precisa ser atualizado. Duggee irá ele mesmo fazer suas novas roupas!</desc>
-    <length units="minutes">7</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103800 -0300" stop="20261120104900 -0300" channel="ec:cartoonnetwork">
-    <title lang="pt">Os Jovens Titãs em Ação : Duas Partes</title>
-    <desc lang="pt">Os Titãs visitam o Hall da Justiça para usar a piscina. Mas depois decidem dar uma espiada interna.</desc>
-    <episode-num system="xmltv_ns">3.17.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103800 -0300" stop="20261120104600 -0300" channel="ec:cartoonito">
-    <title lang="pt">Pocoyo : Pato Boneco</title>
-    <desc lang="pt">Pato faz um boneco dele mesmo e Pocoyo começa a brincar com ele. Como em um passe de mágica, tudo o que acontece com o boneco acontece com o Pato também. Se Pocoyo o desmonta, Pato acaba desmantelado.</desc>
-    <episode-num system="xmltv_ns">5.13.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120104000 -0300" stop="20261120122500 -0300" channel="ec:hbopop">
     <title lang="pt">Gente Grande</title>
     <desc lang="pt">A morte do treinador de basquete de infância de velhos amigos reúne a turma no mesmo lugar que celebraram um campeonato anos atrás. Os amigos, acompanhados de suas esposas e filhos, descobrem que idade não significa o mesmo que maturidade.</desc>
@@ -1142,30 +663,12 @@ Ladybug vai confundi-la?</desc>
     </rating>
   </programme>
   
-  <programme start="20261120104000 -0300" stop="20261120104500 -0300" channel="ec:tvratimbum">
-    <title lang="pt">Eu e o Quarteto Apavorante : Yes, Macarrão!</title>
-    <desc lang="pt">Macarrão e Cueca ganham uma nova amiga, Elvis, que também gosta de rock n'roll. Seu Gregório e os fantasmas do Quarteto Apavorante continuam dando aulas de música para o Macarrão, que toca guitarra cada vez melhor.</desc>
-    <episode-num system="xmltv_ns">2.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120104000 -0300" stop="20261120113000 -0300" channel="ec:universaltv">
     <title lang="pt">Chicago Fire : Sobre Esse Casamento</title>
     <desc lang="pt">Boden oferece a sede do corpo de bombeiros para receber um casamento depois de um incêndio arruinar a cerimônia, mas Riddle não concorda com a decisão, o que causa atritos entre os bombeiros.</desc>
     <episode-num system="xmltv_ns">4.5.</episode-num>
     <rating system="Brazil">
       <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104000 -0300" stop="20261120104500 -0300" channel="ec:tvcultura">
-    <title lang="pt">Esse é o Bicho!</title>
-    <desc lang="pt">Misturando imaginação, humor e ciência, "Esse é o Bicho!" convida o público infantil a enxergar com novos olhos os animais que fazem parte do seu dia a dia.</desc>
-    <length units="minutes">300</length>
-    <rating system="Brazil">
-      <value>[L]</value>
     </rating>
   </programme>
   
@@ -1206,16 +709,6 @@ Ladybug vai confundi-la?</desc>
     </rating>
   </programme>
   
-  <programme start="20261120104422 -0300" stop="20261120105534 -0300" channel="ec:gloobinho">
-    <title lang="pt">S.O.S. Fada Manu</title>
-    <sub-title lang="pt">O Anãozinho Diferente</sub-title>
-    <desc lang="pt">Após acharem o Espelho Mágico, os anões descobrem que um deles é diferente. E agora? Manu quer ajudar os anõezinhos, mas o irmão diferente parece não ficar muito feliz com a solução.</desc>
-    <length units="minutes">11</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120104459 -0300" stop="20261120124437 -0300" channel="ec:tcpremium">
     <title lang="pt">Invasão Zumbi 2: Península</title>
     <desc lang="pt">Quatro anos após o surto zumbi que devastou a Coreia, um ex-soldado retorna a pinínsula para uma missão arriscada e descobre sobreviventes inesperados.</desc>
@@ -1231,29 +724,11 @@ Ladybug vai confundi-la?</desc>
     <episode-num system="xmltv_ns">..</episode-num>
   </programme>
   
-  <programme start="20261120104500 -0300" stop="20261120105000 -0300" channel="ec:tvratimbum">
-    <title lang="pt">T.R.EX.C.I : Saudade</title>
-    <desc lang="pt">A série visa despertar a curiosidade sobre a evolução da vida na Terra. Trexci vai mostrar como vivíamos, como vivemos atualmente e como viveremos no futuro.</desc>
-    <episode-num system="xmltv_ns">1.13.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120104500 -0300" stop="20261120110000 -0300" channel="ec:tvcultura">
     <title lang="pt">Iuri &amp; Udi</title>
     <desc lang="pt">Iuri é um garoto de 9 anos muito habilidoso na arte da gambiarra, sempre inventando loucuras para se divertir e ajudar o pai na loja de antiguidades da família. Ele é o melhor amigo de Udi, uma tartaruga extraterrestre rabugenta.</desc>
     <length units="minutes">900</length>
     <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104600 -0300" stop="20261120105400 -0300" channel="ec:cartoonito">
-    <title lang="pt">Pocoyo : Bea É Grande</title>
-    <desc lang="pt">Bea deseja ser grande e seu desejo se realiza. No início é legal, mas depois traz problemas.</desc>
-    <episode-num system="xmltv_ns">5.48.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -1426,16 +901,6 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
   </programme>
   
   <programme start="20261120105500 -0300" stop="20261120114500 -0300" channel="ec:amcseries"><title lang="pt">The Son</title></programme>
-  <programme start="20261120105535 -0300" stop="20261120105825 -0300" channel="ec:gloobinho">
-    <title lang="pt">Cocomelon</title>
-    <sub-title lang="pt">Au-au no Petshop</sub-title>
-    <desc lang="pt">Quando Nina visita o pet shop, seu cachorro, Patas, late para comunicar tudo o que precisa.</desc>
-    <length units="minutes">2</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120105826 -0300" stop="20261120110129 -0300" channel="ec:gloobinho">
     <title lang="pt">Cocomelon</title>
     <sub-title lang="pt">Família de dedos</sub-title>
@@ -2055,12 +1520,6 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     <category lang="en">sports (general)</category>
   </programme>
   
-  <programme start="20261120113000 +0000" stop="20261120134500 +0000" channel="ec:sbtrj">
-		<title>Primeiro Impacto</title>
-		<desc>2026. Acompanhe as reportagens que trazem informações do dia a dia. Saiba o que é relevante para o cenário cotidiano por meio de análises e opiniões de colunistas.</desc>
-		<date>2026</date>
-	</programme>
-	
   <programme start="20261120113000 -0300" stop="20261120134000 -0300" channel="ec:amc">
     <title lang="pt">Sete Vidas</title>
     <desc lang="pt">A vida secreta atormenta Ben Thomas. A fim de encontrar a redenção, ele se propõe a mudar a vida de sete estranhos. Ao longo de sua jornada, ele conhece e se apaixona por uma paciente cardíaca chamada Emily e, ao fazer isso, complica a sua missão.</desc>
@@ -3285,13 +2744,6 @@ Anthony &amp; Marq. Anthony is a Iraq War veteran who wears his Purple Heart on 
     </rating>
   </programme>
   
-  <programme start="20261120123000 +0000" stop="20261120133500 +0000" channel="ec:globorj">
-		<title>Encontro com Patrícia Poeta - T2026E1132</title>
-		<desc>2026. O programa é uma mistura de jornalismo, informação, humor e música. Com a participação de comentaristas, jornalistas e convidados especiais, os assuntos são abordados em um formato de bate-papo.</desc>
-		<date>2026</date>
-		<episode-num system="xmltv_ns">2025.1131</episode-num>
-	</programme>
-	
   <programme start="20261120123000 -0300" stop="20261120130000 -0300" channel="ec:bandnews">
     <title lang="pt">Resumo Bandnews</title>
     <desc lang="pt">Nelson Gomes apresenta os acontecimentos mais relevantes do Brasil e do mundo, com linguagem objetiva, ritmo dinâmico e atualização precisa. Ele leva ao público as principais notícias do momento de forma ágil e direta.</desc>
@@ -3916,8 +3368,6 @@ Cameron compra um terreno para voltar a se centrar; Joe e Gordon contratam uma e
       <value>[L]</value>
     </rating>
   <category lang="en">COMEDY</category><category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><category lang="en">MOVIES</category><category lang="en">MUSIC</category><episode-num system="onscreen">2020..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F96%2F23969791_8f4ec6a120b6583fc9b7abc7f59105f8.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
-  <programme start="20261120130200 +0000" stop="20261120133100 +0000" channel="ec:disneyplus"><title>Disney Junior Ariel</title><desc>Ariel, uma jovem sereia, aprende a se defender falando e cantando. Assim, ela pode mudar o mundo. No país de Atlântica, ela está acompanhada por Sebastian e Linguado, além de outros personagens empolgantes.</desc></programme>
-
   <programme start="20261120130300 -0300" stop="20261120132500 -0300" channel="ec:discoverykids">
     <title lang="pt">Winx Club - A Magia Está de - Viagem de Compras</title>
     <sub-title lang="pt">Jogo de Volta</sub-title>
@@ -59819,18 +59269,477 @@ Uma jovem em St. Augustine, Flórida, é encontrada morta a tiros com a arma do 
     </rating>
   </programme>
   
+  <programme start="20261122163000 -0300" stop="20261122163959 -0300" channel="ec:gloobinho">
+    <title lang="pt">Senninha Na Pista Maluca</title>
+    <sub-title lang="pt">Um Peixe Chamado Doralice</sub-title>
+    <desc lang="pt">Neco acidentalmente aciona o Pistatrix, que leva sua peixinha de estimação, Doralice, para a Pista Maluca. Os amigos vão até lá para resgatá-la, mas talvez esse seja o lugar certo para ela.</desc>
+    <length units="minutes">9</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><episode-num system="xmltv_ns">1.6.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F42%2F28422922_7893f12b6c8da67088665cea06d3feba.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122165959 -0300" channel="ec:sportv">
+    <title lang="pt">VT - Brasileirão: Chapecoense x Cruzeiro</title>
+    <desc lang="pt">Aqui no Brasileirão tem coisa pra caramba! Tem a qualidade em 4K, tem o Aquecimento com muito pré-jogo e tem o Super Brasileirão de Sábado com os melhores jogos!</desc>
+    <length units="minutes">29</length>
+    <category lang="en">football/soccer</category>
+    <previously-shown />
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122165959 -0300" channel="ec:sportv3">
+    <title lang="pt">Faixa Olímpica: Momentos Olímpicos Inesquecíveis - Ásia Parte 2</title>
+    <desc lang="pt">Não perca Olympic Channel, um programa que aborda o mundo olímpico.</desc>
+    <length units="minutes">29</length>
+    <category lang="en">sports (general)</category>
+  <rating system="age"><value>L</value></rating><rating system="Classificação Indicativa"><value>GA</value></rating><episode-num system="onscreen">86.326.</episode-num><sub-title lang="pt">Ásia Parte 2</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28594789_fbafdc325564c450fbcd83c390dfa561.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122175959 -0300" channel="ec:studiouniversal">
+    <title lang="pt">Studio Movie</title>
+    <sub-title lang="pt">Um Natal de Mudanças</sub-title>
+    <desc lang="pt">Cansadas da rotina e dos rumos que suas vidas tomaram, duas irmãs gêmeas resolvem trocar de identidade até o dia do Natal para descobrirem o verdadeiro sentido de suas vidas.</desc>
+    <length units="minutes">89</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122181459 -0300" channel="ec:tcpremium">
+    <title lang="pt">Quarto do Pânico</title>
+    <desc lang="pt">Adaptação brasileira de Panic Room: mãe e filha se trancam no quarto secreto ao terem a casa invadida por criminosos que procuram algo guardado ali.</desc>
+    <length units="minutes">104</length>
+    <rating system="Brazil">
+      <value>[16]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">MOVIES</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F64%2F28640714_55013f301c5ed857325db88ea1768082.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122171959 -0300" channel="ec:usa">
+    <title lang="pt">Blue Bloods</title>
+    <sub-title lang="pt">Heróis Esquecidos</sub-title>
+    <desc lang="pt">Danny e a sua família são ameaçados por um serial killer que ele não conseguiu prender e as preocupações de Linda aumentam. Enquanto isso, Jamie desafia seu superior.</desc>
+    <length units="minutes">49</length>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  <category lang="en">DRAMA</category><episode-num system="xmltv_ns">5.7.0</episode-num><icon src="https://images.pluto.tv/series/6a46b26c925ff998a6dff96b/tile_1790720910581.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122172500 -0300" channel="ec:axn">
+    <title lang="pt">Criminal Minds : Rule 34</title>
+    <desc lang="pt">A equipe precisa descobrir o que há em comum entre seis pessoas que receberam um pacote misterioso a fim de identificar um suspeito; Simmons e sua esposa Kristy precisam lidar com o filho que foi suspenso da escola.</desc>
+    <episode-num system="xmltv_ns">14.3.</episode-num>
+    <rating system="Brazil">
+      <value>[AGE88]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122173000 -0300" channel="ec:bandsports">
+    <title lang="pt">AMG Cup Brasil - Décima Segunda Etapa: Chapecó, SC - Corrida 2 : Décima Segunda Etapa: Chapecó, SC - Corrida 2</title>
+    <desc lang="pt">Competição de velocidade com carros da montadora Mercedes-Benz e corridas por todo o Brasil.</desc>
+    <episode-num system="xmltv_ns">2026..</episode-num>
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122170000 -0300" channel="ec:cancaonova">
+    <title lang="pt">Na Escola dos Apóstolos</title>
+    <desc lang="pt">Resgate das origens do cristianismo e da missão dos apóstolos, com ensinamentos bíblicos, catequéticos, de espiritualidade e formação humana.</desc>
+    <episode-num system="xmltv_ns">2023..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F15%2F92%2F15925543_127E2E2B81584C00.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122171500 -0300" channel="ec:discoveryturbo">
+    <title lang="pt">Invasão de Garagens : Caminhonete da Fazenda</title>
+    <desc lang="pt">Após se apaixonar por uma Chevy K20 1978 surrada quando adolescente, uma mulher sabia que tinha que comprá-la. Depois de um ano difícil, a equipe tenta ajudá-la a viver um novo capítulo com sua caminhonete.</desc>
+    <episode-num system="xmltv_ns">5.4.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122170000 -0300" channel="ec:espn2">
+    <title lang="pt">Kansas City Current x Washington Spirit - NWSL : Kansas City Current x Washington Spirit</title>
+    <desc lang="pt">Acompanhe as emoções da Liga Americana de Futebol Feminino.</desc>
+    <episode-num system="xmltv_ns">2026..</episode-num>
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122173000 -0300" channel="ec:recordnews">
+    <title lang="pt">Ressoar</title>
+    <desc lang="pt">Diversos assuntos como meio ambiente, inclusão social e cidadania são tratados de maneira direta.</desc>
+    <category lang="en">news/current affairs (general)</category>
+    <episode-num system="xmltv_ns">.902.</episode-num>
+  <icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F37%2F23374837_926d6c21db4da6bdd76fb7df28f60915.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122183000 -0300" channel="ec:sportynet">
+    <title lang="pt">Werder Bremen x Hamburgo - Campeonato Alemão : Werder Bremen x Hamburgo</title>
+    <desc lang="pt">Todas as emoções das partidas da Bundesliga, primeira divisão de futebol masculino da Alemanha.</desc>
+    <episode-num system="xmltv_ns">2026..</episode-num>
+  </programme>
+  
+  <programme start="20261122163000 -0300" stop="20261122170000 -0300" channel="ec:novotempo">
+    <title lang="pt">Bíblia Fácil</title>
+    <desc lang="pt">O programa tem o objetivo de ensinar temas bíblicos da forma mais simples possível.</desc>
+    <episode-num system="xmltv_ns">26.47.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F96%2F20967361_BC5FC1AFB070E2A8.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163000 -0300" stop="20261122170000 -0300" channel="ec:disneyplus"><title>Zombies - A Série Reanimada</title><category>Infantil</category><desc>No último ano de escola de Zed e Addison, Seabrook se tornou um refúgio para monstros e humanos, mas quando estranhos intergalácticos aparecem para competir na Torcida, Seabrook suspeita que eles possam querer mais do que uma competição amigável.</desc></programme>
+  <programme start="20261122163100 -0300" stop="20261122180059 -0300" channel="ec:megapix">
+    <title lang="pt">Especial Sem Saída</title>
+    <sub-title lang="pt">Reféns Na Ponte</sub-title>
+    <desc lang="pt">Eric é um veterano de guerra que estava indo para um passeio com sua irmã, quando um grupo de ex-militares faz todos na ponte de reféns. Agora, ele terá que usar suas habilidades para salvar a todos.</desc>
+    <length units="minutes">89</length>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163300 -0300" stop="20261122184000 -0300" channel="ec:space">
+    <title lang="pt">Máquina Mortífera 2</title>
+    <desc lang="pt">Policiais de LA, Riggs e Murtaugh, são designados para proteger um contador corrupto que testemunhará em comissão federal. O que parecia rotina se complica quando descobrem que ele lava dinheiro para o mesmo cartel sul-africano que tentam combater.</desc>
+    <episode-num system="xmltv_ns">1989..</episode-num>
+    <rating system="Brazil">
+      <value>[AGE88]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">MOVIES</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F64%2F28640695_e360a36fbd8bae1aab52b48a6dc5bf63.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122163500 -0300" stop="20261122171459 -0300" channel="ec:combate">
+    <title lang="pt">Sessão Combate: Acesso Total - Ippon</title>
+    <desc lang="pt">Acompanha os grandes nomes deste esporte ao longo do ciclo olímpico que culmina em Los Angeles 28. Entre competições internacionais, cursos de formação intensiva e um processo de seleção implacável, vamos revelar de maneira inédita e exclusiva os bastidores do judô.</desc>
+    <length units="minutes">39</length>
+    <category lang="en">sports (general)</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163500 -0300" stop="20261122170100 -0300" channel="ec:adultswim">
+    <title lang="pt">Blue Lock : I'm Not There</title>
+    <desc lang="pt">Isagi tenta analisar o jogo de Rin e parece ter encontrado uma resposta para conseguir superar o adversário. Mas o jogo mental está muito além do que ele imaginou.</desc>
+    <episode-num system="xmltv_ns">1.21.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163500 -0300" stop="20261122164700 -0300" channel="ec:discoverykids">
+    <title lang="pt">Topo Gigio : Agente Especial</title>
+    <desc lang="pt">Zoe participa de um concurso de ciências na escola, mas Gigio percebe que ela deixou sua experiência em casa. Esta é uma missão para o agente especial McGigio e seu time.</desc>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163500 -0300" stop="20261122164000 -0300" channel="ec:tvratimbum">
+    <title lang="pt">Contos Rá-Tim-Bum : O Pedreiro Ambicioso</title>
+    <desc lang="pt">Mafuane Oliveira conta a história de um pedreiro ambicioso que busca o sucesso. Ele consegue tudo o que deseja, mas descobre que a felicidade só vem ao encontrar sua verdadeira essência e valorizar suas próprias habilidades.</desc>
+    <episode-num system="xmltv_ns">1.8.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163500 -0300" stop="20261122165500 -0300" channel="ec:mtv"><title lang="pt">Just Tattoo Of Us Usa</title><desc lang="pt">🎭 Música
+Shit Hits the Fan. Lifelong friends brand each other with massive tattoos that will ruin their sex lives. And heels come off when best frenemies expose embarrassing personal stories from the past with their tattoos</desc><category lang="en">MUSIC</category><icon src="http://epg.bnet.hr/images/https://cdn.a1xploretv.hr/cdn_publish/epg/498x280_event_thumb/a443236e7fd1438db7625f57365d0305_thumb.jpg" /><credits><director>Michael Pearlman</director><actor>Nico Tortorella</actor><actor>Nicole Polizzi</actor><actor>Courtney Raimondi</actor><actor>Kevin Laroy</actor><actor>Jordan Dollarz Tatu Ginsberg</actor><actor>Travis Ross</actor><actor>Angelina Pivarnick</actor><actor>Tiffany Tattooz</actor><actor>Tony Raines</actor><actor>Alyssa Giacone</actor></credits></programme>
+  <programme start="20261122163600 -0300" stop="20261122164700 -0300" channel="ec:cartoonito">
+    <title lang="pt">Batwheels : Morcego Assustado</title>
+    <desc lang="pt">Batman se recusa a envolver Coringa em uma corrida, e Prank incita Bam a uma revanche; Bam tem que aprender a não ceder aos desafios do valentão e seguir o caminho certo.</desc>
+    <episode-num system="xmltv_ns">1.11.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163600 -0300" stop="20261122171800 -0300" channel="ec:foodnetwork">
+    <title lang="pt">A Guerra dos Bolos : Vila Sésamo</title>
+    <desc lang="pt">Garibaldo e a turma toda vão sair da Vila Sésamo e visitar o programa. Quatro talentosos confeiteiros estão na disputa para que sua criação seja o destaque de uma grande festa para comemorar o lançamento da nova temporada de Vila Sésamo.</desc>
+    <episode-num system="xmltv_ns">2.9.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163600 -0300" stop="20261122170300 -0300" channel="ec:canaloff">
+    <title lang="pt">Brava Mente : Coragem - Com Shane Dorian</title>
+    <desc lang="pt">Perdas e riscos levaram Shane Dorian a reavaliar sua abordagem no esporte e substituir a imprudência pela maturidade.</desc>
+    <episode-num system="xmltv_ns">2024..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122163700 -0300" stop="20261122164800 -0300" channel="ec:cartoonnetwork">
+    <title lang="pt">Clarêncio, o Otimista : Cloris</title>
+    <desc lang="pt">Clarêncio faz amizade com mulher na casa de repouso e fica determinado a lembrá-la de seu velho eu.</desc>
+    <episode-num system="xmltv_ns">2.34.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164000 -0300" stop="20261122164459 -0300" channel="ec:gloobinho">
+    <title lang="pt">Conta Comigo</title>
+    <sub-title lang="pt">Corrida De Barcos</sub-title>
+    <desc lang="pt">As crianças fazem barcos de brinquedo, mas o dia está chuvoso pra ir até o lago do parque.</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">EDUCATION</category><episode-num system="onscreen">2020..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F61%2F28615319_d1fd8676cdb02b1f05f0b0a74c0d3b50.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122164000 -0300" stop="20261122165000 -0300" channel="ec:redevida">
+    <title lang="pt">Angelus</title>
+    <desc lang="pt">O programa apresenta uma oração rezada para celebrar o anúncio do nascimento de Cristo feito pelo anjo Gabriel a Maria.</desc>
+    <episode-num system="xmltv_ns">2007..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F11%2F77%2F11775589_63CDD810DF7940C4.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122164000 -0300" stop="20261122165000 -0300" channel="ec:tvratimbum">
+    <title lang="pt">Traçando Arte : Cadê o Museu?</title>
+    <desc lang="pt">Jean Pierre e Trácio se perdem do museu onde moram e exploram a arte do grafite em São Paulo com a ajuda da traça Treta. Eles enfrentam diversas aventuras enquanto buscam o caminho de volta para casa.</desc>
+    <episode-num system="xmltv_ns">3.1.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164100 -0300" stop="20261122170600 -0300" channel="ec:tooncast">
+    <title lang="pt">ThunderCats : Mandora, a Caçadora do Mal</title>
+    <desc lang="pt">Lion-O encontra o que parece ser uma cápsula de escape de nave espacial, ele a abre e, inadvertidamente, libera os condenados galácticos Quickpick, Burnout e Plutar.</desc>
+    <episode-num system="xmltv_ns">1.10.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164400 -0300" stop="20261122183900 -0300" channel="ec:hbopop">
+    <title lang="pt">A Grande Viagem da Sua Vida</title>
+    <episode-num system="xmltv_ns">2025..</episode-num>
+    <rating system="Brazil">
+      <value>[12]</value>
+    </rating>
+  <desc lang="pt">🟡 Não recomendado para menores de 12 anos
+⏱ 115 mins | 🎭 Fantasia, Romance
+Quando um rico empresário é condenado por um crime que ele não cometeu, a solução é pedir ajuda ao homem que lava o seu carro
+🌍 Irlanda,Estados Unidos | 📅 2025</desc><category lang="en">DRAMA</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F27%2F23275741_d9b90a1187248a3d86db9f1a41db6a47.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
   <programme start="20261122164500 +0000" stop="20261122183000 +0000" channel="ec:recordrj">
 		<title>Invasão a Londres</title>
 		<desc>2016. Após a morte misteriosa do premier britânico, seu funeral reúne líderes mundiais. O agente Mike Banning desvenda uma trama para assassinar os presentes e uma corrida contra o tempo se inicia para impedir um ataque que pode mudar o curso da história.</desc>
 		<date>2016</date>
 	</programme>
 	
+  <programme start="20261122164500 -0300" stop="20261122164959 -0300" channel="ec:gloobinho">
+    <title lang="pt">Conta Comigo</title>
+    <sub-title lang="pt">O Que É? O Que É?</sub-title>
+    <desc lang="pt">A mãe de Moby deu um enigma para as crianças resolverem. Que desafio!</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">EDUCATION</category><episode-num system="onscreen">2020..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F61%2F28615197_8ca14df8d2b2c5cd8738b903a234fec1.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122164500 -0300" stop="20261122182459 -0300" channel="ec:tcpipoca">
+    <title lang="pt">Especial Monstros Apocalípticos</title>
+    <sub-title lang="pt">Eu Sou a Lenda</sub-title>
+    <desc lang="pt">Após um vírus devastar a humanidade, Neville, imune, é o último sobrevivente em Nova York — e talvez no mundo. Mas será que está mesmo sozinho?</desc>
+    <length units="minutes">99</length>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164500 -0300" stop="20261122173500 -0300" channel="ec:aee">
+    <title lang="pt">As Primeiras 48 Horas - Minutos Críticos - Reviras Chocantes</title>
+    <sub-title lang="pt">Jogo de Volta</sub-title>
+    <desc lang="pt">No Kansas, os detetives não sabem o que esperar quando encontram duas mulheres em um estacionamento abandonado. Enquanto isso, em Dallas, os investigadores conseguem prender assassinos graças a uma pista surpreendente.</desc>
+    <episode-num system="xmltv_ns">1.12.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164500 -0300" stop="20261122171500 -0300" channel="ec:paieterno">
+    <title lang="pt">Novena dos Filhos do Pai Eterno</title>
+    <desc lang="pt">Padre João Paulo dos Santos reza a Novena dos Filhos do Pai Eterno.</desc>
+    <length units="minutes">1800</length>
+    <episode-num system="xmltv_ns">16.326.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><category lang="en">LIFE_STYLE</category></programme>
+  <programme start="20261122164700 -0300" stop="20261122165900 -0300" channel="ec:cartoonito">
+    <title lang="pt">Batwheels : Baitawheels</title>
+    <desc lang="pt">A Legião do Zoom quer provar que é melhor que os Batwheels em fazer o bem por Gotham, então eles formam sua própria superequipe.</desc>
+    <episode-num system="xmltv_ns">3.2.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164700 -0300" stop="20261122165800 -0300" channel="ec:discoverykids">
+    <title lang="pt">Topo Gigio : Dinheiro</title>
+    <desc lang="pt">Gigio quer comprar um super microfone, mas ele e Zoe não têm dinheiro. Gigio tem uma ideia: ganhar dinheiro com os preciosos rolos de papel que Gregory tem que usar para uma de suas sessões de fotos.</desc>
+    <episode-num system="xmltv_ns">1.10.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164800 -0300" stop="20261122174559 -0300" channel="ec:globoplaynovelas">
+    <title lang="pt">Belíssima</title>
+    <desc lang="pt">André diz a Murat que quer comprar sua casa. Rebeca pede que Alberto ajude-a a enganar Karen. Safira diz a Ornela que quer ajudá-la a se casar com Mateus, pra afastá-lo de Giovana.</desc>
+    <length units="minutes">57</length>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  <category lang="en">DRAMA</category><episode-num system="onscreen">86.326.</episode-num><icon src="https://iptv-epg.org/images/2Ct48p903y6q00gWIN98WCVTJdKxErxbQM0xwZ0xWdcFi6wPuHwIqrf35XgTgkxgGFOQ7cbSrA9cfKUgemQ8Z3UiC3CKaA1oU2yXurQ0rcJWiroX" /></programme>
+  <programme start="20261122164800 -0300" stop="20261122165100 -0300" channel="ec:cartoonnetwork">
+    <title lang="pt">Looney Tunes Apresenta: Simplificando os Esportes</title>
+    <desc lang="pt">Pernalonga supera a concorrência, dominando as técnicas de patinação artística.</desc>
+    <episode-num system="xmltv_ns">2.2.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164800 -0300" stop="20261122173600 -0300" channel="ec:discoveryscience">
+    <title lang="pt">Rumo ao Desconhecido - Mistérios Paranormais : Lago dos Mortos</title>
+    <desc lang="pt">Phil e Jessica vão para o Lago Lanier, o mais mortal dos Estados Unidos, e descobrem rumores de afogamentos e encontros fantasmagóricos.</desc>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164800 -0300" stop="20261122173600 -0300" channel="ec:discoverytheater">
+    <title lang="pt">Alasca: Perigo no Ar : Ventos Árticos</title>
+    <desc lang="pt">Sobrevoando Nulato Hills, John Ponts enfrenta uma turbulência e a raiva dos passageiros; Jim e Ferno entregam o terminal aos pilotos; para resgatar uma pessoa perdida em uma tempestade, o voo de Sarah transforma-se em uma batalha pela sobrevivência.</desc>
+    <episode-num system="xmltv_ns">2.1.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164800 -0300" stop="20261122171200 -0300" channel="ec:discoveryworld">
+    <title lang="pt">O Poder dos Alimentos : Dietas Radicais</title>
+    <desc lang="pt">Conheça dois praticantes de dietas não convencionais: o artista Marc Dennis organiza jantares onde serve apenas pratos à base de insetos; a designer vegana Stacey Jackson se alimenta apenas de frutas.</desc>
+    <episode-num system="xmltv_ns">2010.8.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122164800 -0300" stop="20261122182900 -0300" channel="ec:hbofamily">
+    <title lang="pt">Meu Malvado Favorito 2</title>
+    <desc lang="pt">Gru se dedica às filhas Agnes, Edith e Margo, deixando de lado os tempos de vilão. Mesmo assim, ele é recrutado pela Liga Antivilões para salvar o mundo na companhia da agente Lucy. Juntos, precisam localizar o criminoso que roubou a fórmula PX41.</desc>
+    <episode-num system="xmltv_ns">2013..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">COMEDY</category><category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><category lang="en">MOVIES</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F18%2F45%2F18452582_47575116AF901086.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165000 -0300" stop="20261122165459 -0300" channel="ec:gloobinho">
+    <title lang="pt">Conta Comigo</title>
+    <sub-title lang="pt">Porquinhos Fujões</sub-title>
+    <desc lang="pt">Enquanto tio Abel trabalha no campo, as crianças precisam cuidar dos porquinhos, mas eles sempre conseguem escapar!</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">EDUCATION</category><episode-num system="onscreen">2020..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28620614_bed8d3c8b51275bc4d463a75210c4a9e.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165000 -0300" stop="20261122181959 -0300" channel="ec:tctouch">
+    <title lang="pt">Muito Bem Acompanhada</title>
+    <desc lang="pt">Com o casamento de seu irmão prestes a acontecer, Kat terá que encarar seu ex-noivo. Sem coragem, ela contrata um acompanhante para fingir ser seu namorado.  
+</desc>
+    <length units="minutes">89</length>
+    <rating system="Brazil">
+      <value>[12]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">ENTERTAINMENT</category><category lang="en">MOVIES</category><episode-num system="onscreen">2005..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F12%2F00%2F12007679_1F24DBF803CD3513.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165000 -0300" stop="20261122170000 -0300" channel="ec:redevida">
+    <title lang="pt">Meditação da Palavra</title>
+    <desc lang="pt">Meditação sobre a palavra do Senhor com o Frei Gilson.</desc>
+    <episode-num system="xmltv_ns">2023..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F21%2F43%2F21435133_9F7FA3D884A80BC2.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165000 -0300" stop="20261122170000 -0300" channel="ec:tvratimbum">
+    <title lang="pt">Eu e o Quarteto Apavorante : Toca Raul</title>
+    <desc lang="pt">Macarrão e Cueca ganham uma nova amiga, Elvis, que também gosta de rock n' roll. Seu Gregório e os fantasmas do Quarteto Apavorante continuam dando aulas de música para o Macarrão, que toca guitarra cada vez melhor.</desc>
+    <episode-num system="xmltv_ns">2.11.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122165100 -0300" stop="20261122173700 -0300" channel="ec:animalplanet">
+    <title lang="pt">Bichos Malcriados : Inimigos de Comida</title>
+    <desc lang="pt">Um cachorro adora sorvete, outro sempre prende o pescoço nas coisas; uma gata toca piano e age como diva; conheça um papagaio que canta rap e fala muitos palavrões.</desc>
+    <episode-num system="xmltv_ns">3.3.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122165100 -0300" stop="20261122170300 -0300" channel="ec:cartoonnetwork">
+    <title lang="pt">O Mundo Maravilhosamente Estranho de Gumball : O Astrológico</title>
+    <desc lang="pt">Gumball e Penny precisam ficar juntos até o final do dia escolar para provar que estão destinados a ficar juntos, apesar da previsão astrológica feita pelo Sr. Small.</desc>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
   <programme start="20261122165500 +0000" stop="20261122205500 +0000" channel="ec:cnnbrasil">
 		<title>Programação CNN Brasil - T83E326</title>
 		<desc>Você por dentro de tudo - Notícias ao vivo, fatos da política nacional e internacional no maior canal de notícias do mundo!</desc>
 		<episode-num system="xmltv_ns">82.325</episode-num>
 	</programme>
 	
+  <programme start="20261122165500 -0300" stop="20261122165959 -0300" channel="ec:gloobinho">
+    <title lang="pt">Conta Comigo</title>
+    <sub-title lang="pt">O Balão Da Sorte</sub-title>
+    <desc lang="pt">É o aniversário de Moby e seus amigos estão preparando uma festa surpresa.</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">EDUCATION</category><episode-num system="onscreen">2020..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28620711_5952e5ca1caff21e061e799cbb68ab35.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165500 -0300" stop="20261122172000 -0300" channel="ec:mtv"><title lang="pt">Just Tattoo Of Us Usa</title><desc lang="pt">🎭 Música
+Deadly Secret. Hosts Nico Tortorella and Snooki put relationships to the ultimate test of trust by asking friends, family and couples to design tattoos for each another that wont be revealed until the end</desc><category lang="en">MUSIC</category><icon src="http://epg.bnet.hr/images/https://cdn.a1xploretv.hr/cdn_publish/epg/498x280_event_thumb/0e8743fed69c4cfdb2a9a0cdd832f395_thumb.jpg" /><credits><director>Michael Pearlman</director><actor>Nicole Polizzi</actor><actor>Courtney Raimondi</actor><actor>Nico Tortorella</actor></credits></programme>
+  <programme start="20261122165500 -0300" stop="20261122220000 -0300" channel="ec:amcseries"><title lang="pt">Crime Real: Isso Aconteceu Aqui?</title><desc lang="pt">🟠 Não recomendado para menores de 14 anos
+📖 T1 E4 | ⏱ 305 mins | 🎭 Drama, Policial
+Casal de imigrantes é assassinado enquanto dormia e sua casa é incendiada na cidade de Cookeville, Tennessee. Os investigadores identificam um suspeito com motivações. Mas em sua correria para prender alguém, talvez pegaram o homem errado
+📅 2021 | 📝 Cookeville, Tennessee</desc><category lang="en">DRAMA</category><rating system="age"><value>14</value></rating><rating system="Classificação Indicativa"><value>PG-14</value></rating><episode-num system="xmltv_ns">0.3.0</episode-num><sub-title lang="pt">Cookeville, Tennessee</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F40%2F28406443_02d977e3cf2619fcdc498f985c8965c5.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165600 -0300" stop="20261122172859 -0300" channel="ec:gnt">
+    <title lang="pt">Cozinha Prática Com Rita Lobo</title>
+    <sub-title lang="pt">Pernil na Cachaça</sub-title>
+    <desc lang="pt">Rita Lobo prepara um incrível pernil de porco na pressão, que vai para a panela com um molho de abacaxi, pimentão vermelho e cachaça, e chega à mesa acompanhado de farofa de biju com castanha-do-Pará.</desc>
+    <length units="minutes">32</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">EDUCATION</category><category lang="en">LIFE_STYLE</category><episode-num system="xmltv_ns">11.33.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F19%2F99%2F19994926_6B0DD902B012F777.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165600 -0300" stop="20261122190100 -0300" channel="ec:warner">
+    <title lang="pt">Encontro De Casais</title>
+    <desc lang="pt">Tentando salvar seu casamento, Jason e Cynthia convidam três outros casais para um encontro em um resort localizado em uma ilha tropical.</desc>
+    <length units="minutes">7500</length>
+    <rating system="Brazil">
+      <value>[12]</value>
+    </rating>
+  <category lang="en">COMEDY</category><category lang="en">MOVIES</category><episode-num system="onscreen">2009..</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F35%2F28356243_2b62b2379b2155eb385d955507869da1.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122165800 -0300" stop="20261122170900 -0300" channel="ec:discoverykids">
+    <title lang="pt">Topo Gigio : O Diário Secreto de Zoe</title>
+    <desc lang="pt">Laura e Gigio descobrem que surpresas deixam as pessoas felizes. Eles resolvem agradar seus amigos dando presentes a todos de surpresa. Mas Bob acaba ganhando o diário de Zoe.</desc>
+    <episode-num system="xmltv_ns">1.12.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122165900 -0300" stop="20261122170600 -0300" channel="ec:cartoonito">
+    <title lang="pt">Grizzy e os Lemmings : Areias Voadoras</title>
+    <desc lang="pt">Grizzy sonha em beber um delicioso leite de coco no sofá, mas primeiro precisa se livrar dos Lemmings que estão se divertindo voando pela sala de estar. Em seguida, ele deve encontrar cocos que não tenham sido esvaziados de seu néctar.</desc>
+    <episode-num system="xmltv_ns">4.37.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
   <programme start="20261122175000 +0000" stop="20261122193500 +0000" channel="ec:globorj">
 		<title>Nosso Sonho</title>
 		<desc>2023. A trajetória de Claudinho &amp; Buchecha, a dupla de maior sucesso do funk melody brasileiro de todos os tempos. A história de uma amizade que se transforma em força de superação e conquista.</desc>
@@ -59847,6 +59756,13 @@ Uma jovem em St. Augustine, Flórida, é encontrada morta a tiros com a arma do 
 		<desc>2026. Empresário, modelos, jornalistas, humoristas e cantores disputam o prêmio de até 300 mil reais.</desc>
 		<date>2026</date>
 		<episode-num system="xmltv_ns">2025.46</episode-num>
+	</programme>
+	
+  <programme start="20261122193500 +0000" stop="20261122203000 +0000" channel="ec:globorj">
+		<title>Em Família com Eliana - T01E31</title>
+		<desc>2026. No "Em Família com Eliana", Sandra Annenberg, Ary Fontoura e a dupla Marcos e Belutti participam como jurados do Show em Família. Três famílias voltam ao palco em uma competição que busca a família mais musical do Brasil.</desc>
+		<date>2026</date>
+		<episode-num system="xmltv_ns">0.30</episode-num>
 	</programme>
 	
 </tv>
