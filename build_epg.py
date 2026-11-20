@@ -102,9 +102,13 @@ def main():
             for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
                 if element.tag == "channel":
                     display_names = [normalize((child.text or "").removeprefix("BR - ")) for child in element.findall("display-name")]
+                source_id = element.get("id", "")
+                # Some XMLTV feeds omit display-name and identify the channel only by id.
+                source_label = source_id.rsplit(".", 1)[0] if source_id.lower().endswith(".br") else source_id
+                display_names.append(normalize(source_label))
                     matched = {channel_id for display in display_names for channel_id in target_names.get(display, [])}
                     if len(matched) == 1:
-                        source_map[element.get("id", "")] = matched.pop()
+                    source_map[source_id] = matched.pop()
                     element.clear()
             for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
                 if element.tag == "programme":
