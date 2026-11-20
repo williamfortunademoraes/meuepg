@@ -13,7 +13,7 @@ import re
 import urllib.request
 import unicodedata
 import xml.etree.ElementTree as ET
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -33,9 +33,11 @@ SOURCE_CHANNEL_ALLOWLIST = {
     "vinnyoliveira/epg-br fallback": {"ec:mtv", "ec:comedycentral"},
 }
 CATALOG_URL = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
+RICH_EPG_URL = "https://raw.githubusercontent.com/vinnyoliveira/epg-br/main/epg-rich.xml.gz"
 AMC_SERIES_URL = "https://www.amcseries.com.br/horarios/{}"
 AMC_SERIES_CHANNEL = "ec:amcseries"
 SP_TZ = dt.timezone(dt.timedelta(hours=-3))
+RICH_METADATA_TAGS = ("desc", "category", "rating", "episode-num", "sub-title", "icon")
 ALIASES = {
     "ec:globorj": "GLOBO RJ", "ec:globosp": "GLOBO SP",
     "ec:globoes": "GLOBO ES", "ec:globomg": "GLOBO MG",
@@ -118,6 +120,85 @@ def parse_xmltv_datetime(value):
         return dt.datetime.strptime(value[:20], "%Y%m%d%H%M%S %z").astimezone(dt.timezone.utc)
     except (TypeError, ValueError):
         return None
+
+
+def normalize_programme_title(value):
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().upper()
+    return "".join(char for char in value if char.isalnum())
+
+
+def enrich_programme_metadata(programmes, target_names):
+    """Copy missing metadata from matching channel/title entries without changing schedules."""
+    current = {}
+    current_by_title = defaultdict(list)
+    for key, raw_programme in programmes.items():
+        element = ET.fromstring(raw_programme)
+        start = parse_xmltv_datetime(element.get("start"))
+        title_key = normalize_programme_title(element.findtext("title", ""))
+        if start and title_key:
+            current[key] = element
+            current_by_title[(key[0], title_key)].append((start, key))
+    for entries in current_by_title.values():
+        entries.sort(key=lambda entry: entry[0])
+
+    raw = gzip.decompress(fetch(RICH_EPG_URL))
+    source_map = {}
+    for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
+        if element.tag == "channel":
+            displays = [normalize((child.text or "").removeprefix("BR - ")) for child in element.findall("display-name")]
+            source_id = element.get("id", "")
+            source_label = source_id.rsplit(".", 1)[0] if source_id.lower().endswith(".br") else source_id
+            displays.append(normalize(source_label))
+            matched = {channel_id for display in displays for channel_id in target_names.get(display, [])}
+            if len(matched) == 1:
+                source_map[source_id] = matched.pop()
+            element.clear()
+
+    best_metadata = {}
+    tolerance = dt.timedelta(minutes=5)
+    starts_by_title = {key: [entry[0] for entry in entries] for key, entries in current_by_title.items()}
+    for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
+        if element.tag == "programme":
+            channel_id = source_map.get(element.get("channel", ""))
+            start = parse_xmltv_datetime(element.get("start"))
+            title_key = normalize_programme_title(element.findtext("title", ""))
+            entries = current_by_title.get((channel_id, title_key), []) if channel_id and start and title_key else []
+            if entries:
+                starts = starts_by_title[(channel_id, title_key)]
+                position = bisect_left(starts, start)
+                candidates = entries[max(0, position - 1):min(len(entries), position + 1)]
+                if candidates:
+                    match_start, match_key = min(candidates, key=lambda entry: abs(entry[0] - start))
+                    difference = abs(match_start - start)
+                    if difference <= tolerance:
+                        existing_tags = {
+                            tag for tag in RICH_METADATA_TAGS
+                            if any(any((part.text or "").strip() for part in child.iter()) or child.get("src") for child in current[match_key].findall(tag))
+                        }
+                        metadata = {}
+                        for tag in RICH_METADATA_TAGS:
+                            if tag not in existing_tags:
+                                children = [
+                                    child for child in element.findall(tag)
+                                    if any((part.text or "").strip() for part in child.iter()) or child.get("src")
+                                ]
+                                if children:
+                                    metadata[tag] = [ET.tostring(child, encoding="unicode") for child in children]
+                        for tag, children in metadata.items():
+                            old = best_metadata.get((match_key, tag))
+                            if old is None or difference < old[0]:
+                                best_metadata[(match_key, tag)] = (difference, children)
+            element.clear()
+
+    enriched = set()
+    for (key, tag), (_, children) in best_metadata.items():
+        for child in children:
+            current[key].append(ET.fromstring(child))
+        enriched.add(key)
+    for key, element in current.items():
+        if key in enriched:
+            programmes[key] = ET.tostring(element, encoding="unicode")
+    return len(enriched), Counter(tag for _, tag in best_metadata)
 
 
 def main():
@@ -240,6 +321,12 @@ def main():
                 source_for.setdefault(AMC_SERIES_CHANNEL, "AMC Series Brasil official")
     except Exception as error:
         print(f"Skipping AMC Series Brasil source: {error}")
+
+    try:
+        enriched, metadata_counts = enrich_programme_metadata(programmes, target_names)
+        print(f"Enriched {enriched} programmes from EPG-BR rich metadata: {dict(metadata_counts)}")
+    except Exception as error:
+        print(f"Skipping EPG-BR rich metadata: {error}")
 
     event_ids = {row["TvvioId"] for row in rows if row["Status"] == "Sem grade fixa"}
     for row in rows:

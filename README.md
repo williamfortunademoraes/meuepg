@@ -9,7 +9,7 @@ XMLTV unificado para os canais Tvvio, gerado periodicamente a partir de fontes X
 
 ## Fontes e critérios
 
-Fontes BrazilTVEPG, rootcoder/epgtv (inclui mapeamento regional RJ), EPG-Scrapper-BR, epg.pw Brasil, grade oficial do AMC Séries e EPG-BR de vinnyoliveira (fallback restrito a MTV e Comedy Central). O EPG-BR só preenche esses dois canais quando as fontes anteriores não têm dados.
+Fontes BrazilTVEPG, rootcoder/epgtv (inclui mapeamento regional RJ), EPG-Scrapper-BR, epg.pw Brasil, grade oficial do AMC Séries e EPG-BR de vinnyoliveira (fallback restrito a MTV e Comedy Central). O arquivo `epg-rich.xml.gz` da mesma fonte só complementa metadados quando canal, título e horário (diferença máxima de 5 minutos) coincidem; ele não muda os horários nem os títulos publicados.
 
 Programas duplicados são removidos por canal, início e título. Quando fontes apresentam horários sobrepostos, prevalece a primeira fonte na ordem de prioridade; outras fontes só preenchem intervalos livres. Blocos genéricos cujo título apenas repete o nome do canal são descartados. Assim, o XML mantém no máximo um programa por canal em cada intervalo.
 
