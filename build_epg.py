@@ -82,7 +82,7 @@ def main():
         except Exception as error:
             print(f"Skipping unavailable source {filename}: {error}")
             continue
-        if filename.endswith(".gz"):
+        if url.endswith(".gz"):
             try:
                 raw = gzip.decompress(raw)
             except OSError as error:
