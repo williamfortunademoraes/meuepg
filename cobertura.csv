@@ -31,7 +31,7 @@ ec:usa,USA,Correspondência,513,globo.xml
 ec:warner,Warner Channel,Correspondência,711,claro.xml
 ec:adultswim,Adult Swim,Correspondência,1301,vivoplay.xml
 ec:animalplanet,Animal Planet,Correspondência,699,vivoplay.xml
-ec:comedycentral,Comedy Central,Sem correspondência,0,
+ec:comedycentral,Comedy Central,Correspondência,107,vinnyoliveira/epg-br fallback
 ec:discoverychannel,Discovery Channel,Correspondência,398,vivoplay.xml
 ec:discoveryhh,Discovery Home & Health,Correspondência,397,vivoplay.xml
 ec:discoveryscience,Discovery Science,Correspondência,627,vivoplay.xml
@@ -44,7 +44,7 @@ ec:hgtv,HGTV,Correspondência,775,vivoplay.xml
 ec:history,History,Correspondência,512,vivoplay.xml
 ec:history2,History 2,Correspondência,543,vivoplay.xml
 ec:discoveryid,Investigation Discovery,Correspondência,609,vivoplay.xml
-ec:mtv,MTV,Sem correspondência,0,
+ec:mtv,MTV,Correspondência,137,vinnyoliveira/epg-br fallback
 ec:multishow,Multishow,Correspondência,1186,globo.xml
 ec:bandnews,BandNews,Correspondência,462,vivoplay.xml
 ec:cnnbrasil,CNN Brasil,Correspondência,155,claro.xml
