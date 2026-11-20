@@ -33,7 +33,7 @@ ALIASES = {
     "ec:recordmg": "RECORD TV MG", "ec:sbtsp": "SBT SAO PAULO",
     "ec:sbtrj": "SBT RJ", "ec:canaloff": "OFF HD", "ec:novotempo": "TV NOVO TEMPO",
     "ec:nickelodeon": "NICK", "ec:nsports": "N SPORTS", "ec:xsports": "XSPORTS",
-    "ec:paramountnetwork": "PARAMOUNT CHANNEL", "ec:discoveryid": "INVESTIGATION DISCOVERY",
+    "ec:paramountnetwork": "PARAMOUNT CHANNEL", "ec:discoveryid": "ID",
     "ec:discoverychannel": "DISCOVERY", "ec:cartoonnetwork": "CARTOON",
     "ec:tvcultura": "CULTURA", "ec:paieterno": "TV PAI ETERNO",
 }
