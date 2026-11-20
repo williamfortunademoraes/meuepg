@@ -116,7 +116,7 @@ def main():
                             source_for.setdefault(channel_id, filename)
                     element.clear()
         except ET.ParseError as error:
-            print(f"Skipping non-XMLTV source {filename}: {error}")
+            print(f"Skipping non-XMLTV source {filename}: {error}; first bytes={raw[:48]!r}")
         del raw
 
     event_ids = {row["TvvioId"] for row in rows if row["Status"] == "Sem grade fixa"}
