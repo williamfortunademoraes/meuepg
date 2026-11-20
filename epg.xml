@@ -105,62 +105,11 @@
   <channel id="ec:redevida"><display-name>Rede Vida</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9yZWRldmlkYS5wbmc&amp;v=3" /></channel>
   <channel id="ec:tvaparecida"><display-name>TV Aparecida</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy90dmFwYXJlY2lkYS5wbmc&amp;v=3" /></channel>
   <channel id="ec:tvevangelizar"><display-name>TV Evangelizar</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy90dmV2YW5nZWxpemFyLnBuZw&amp;v=3" /></channel>
-  <programme start="20261120070159 -0300" stop="20261120111642 -0300" channel="ec:combate">
-    <title lang="pt">VT - Jungle Fight: Fight Milhão -São Paulo-SP</title>
-    <sub-title lang="pt">Finais</sub-title>
-    <desc lang="pt">Fique por dentro do melhor do MMA da América Latina no Jungle Fight.
-</desc>
-    <length units="minutes">254</length>
-    <category lang="en">sports (general)</category>
-    <previously-shown />
-  </programme>
-  
-  <programme start="20261120082500 -0300" stop="20261120105959 -0300" channel="ec:globonews">
-    <title lang="pt">GloboNews Radar - ao vivo</title>
-    <desc lang="pt">GloboNews Radar traz informações em  tempo real sobre o Brasil e o mundo. Análises de política e economia que mostram o que vai ser importante para o seu dia.</desc>
-    <length units="minutes">154</length>
-    <category lang="en">live broadcast</category>
-  </programme>
-  
   <programme start="20261120083000 -0300" stop="20261120124000 -0300" channel="ec:sbtsp">
     <title lang="pt">Primeiro Impacto</title>
     <desc lang="pt">Um formato original da emissora americana Univision, o jornal abordará as principais pautas do Brasil e do mundo.</desc>
     <length units="minutes">15000</length>
     <episode-num system="xmltv_ns">88.324.</episode-num>
-  </programme>
-  
-  <programme start="20261120083900 -0300" stop="20261120111100 -0300" channel="ec:space">
-    <title lang="pt">O Flash</title>
-    <desc lang="pt">Os mundos colidem quando Flash viaja no tempo para mudar os eventos do passado. No entanto, quando sua tentativa de salvar sua família altera o futuro, ele fica preso em uma realidade na qual o General Zod voltou, ameaçando a aniquilação.</desc>
-    <episode-num system="xmltv_ns">2023..</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120084636 -0300" stop="20261120112153 -0300" channel="ec:sportv2">
-    <title lang="pt">VT - NFL: Indianapolis Colts x Houston Texans</title>
-    <desc lang="pt">A NFL está de volta! E chegou a hora de viver cada jogada, vibrar com os touchdowns e acompanhar o talento das grandes estrelas. Viva a NFL!</desc>
-    <length units="minutes">155</length>
-    <category lang="en">team sports</category>
-    <previously-shown />
-  </programme>
-  
-  <programme start="20261120085619 -0300" stop="20261120110635 -0300" channel="ec:tccult">
-    <title lang="pt">Adorável Vagabundo</title>
-    <desc lang="pt">Uma repórter escreve uma carta falsa se passando por um homem que ameaça se suicidar, mas a história ganha proporções inesperadas.Então, ela acaba contratando um mendigo para se passar pelo autor.
-
-</desc>
-    <length units="minutes">130</length>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120090000 -0300" stop="20261120110000 -0300" channel="ec:espn">
-    <title lang="pt">Arsenal x OL Lyonnes - UEFA Women's Champions League : Arsenal x OL Lyonnes</title>
-    <desc lang="pt">Acompanhe as partidas da principal competição de futebol para equipes femininas da Europa.</desc>
-    <episode-num system="xmltv_ns">2026..</episode-num>
   </programme>
   
   <programme start="20261120090000 -0300" stop="20261120115500 -0300" channel="ec:cnnbrasil">
@@ -198,42 +147,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120092900 -0300" stop="20261120110300 -0300" channel="ec:cinemax">
-    <title lang="pt">MIB - Homens de Preto</title>
-    <desc lang="pt">Os agentes K e J são policiais futuristas que trabalham em um projeto supersecreto do governo. Ele envolve a captura e deportação de seres espaciais não autorizados a ficarem na Terra.</desc>
-    <episode-num system="xmltv_ns">1997..</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120093112 -0300" stop="20261120111111 -0300" channel="ec:tcpipoca">
-    <title lang="pt">Minha Mãe é Uma Peça 2</title>
-    <desc lang="pt">A vida de Dona Hermínia vira de cabeça para baixo quando Marcelina decide se mudar para São Paulo. Mas tudo piora quando Juliano decide seguir os passos da irmã.</desc>
-    <length units="minutes">99</length>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120093116 -0300" stop="20261120110027 -0300" channel="ec:tcfun">
-    <title lang="pt">Madagascar 2: A Grande Escapada</title>
-    <desc lang="pt">Alex, Marty, Melman e Gloria tentam voltar para Nova York, mas o avião cai na selva africana. Lá, conhecem outros animais de suas espécies e vivem aventuras.</desc>
-    <length units="minutes">89</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120094500 -0300" stop="20261120112500 -0300" channel="ec:hbomundi">
-    <title lang="pt">Perfeitos Desconhecidos</title>
-    <desc lang="pt">Durante um encontro de amigos, um jogo é proposto: ler em voz alta todas as mensagens que chegam nos celulares de cada um. O que se segue é uma cascata de revelações inesperadas e embaraçosas, expondo segredos obscuros.</desc>
-    <episode-num system="xmltv_ns">2024..</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120095000 -0300" stop="20261120113000 -0300" channel="ec:recordsp">
     <title lang="pt">Hoje em Dia</title>
     <desc lang="pt">Notícias, prestação de serviços e entretenimento na medida certa. O programa tem o compromisso de informar e formar a opinião pública, sem perder de vista a opção de lazer que muitos buscam na telinha.</desc>
@@ -250,13 +163,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120100000 -0300" stop="20261120110000 -0300" channel="ec:bandnews">
-    <title lang="pt">Manhã BandNews</title>
-    <desc lang="pt">A atualização das notícias da manhã e tudo o que é importante para se manter antenado ao longo do dia.</desc>
-    <category lang="en">news/current affairs (general)</category>
-    <episode-num system="xmltv_ns">..</episode-num>
-  </programme>
-  
   <programme start="20261120100000 -0300" stop="20261120120000 -0300" channel="ec:espn2">
     <title lang="pt">ATPs 2026</title>
     <sub-title lang="pt">Final</sub-title>
@@ -268,15 +174,6 @@
     <title lang="pt">Linha de Passe: Mesa-Redonda</title>
     <desc lang="pt">Comentaristas esportivos conceituados entram em campo para uma análise completa da rodada do futebol ao estilo "mesa redonda", com debates acalorados e comentários de qualidade, sempre a partir de um olhar crítico e da imparcialidade.</desc>
     <episode-num system="xmltv_ns">2012..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120110000 -0300" channel="ec:espn5">
-    <title lang="pt">Bola da Vez : Carlos Kirmayr e Daniel Brugin</title>
-    <desc lang="pt">Grandes personalidades do esporte nacional e internacional são colocadas no "paredão" e respondem às perguntas de uma bancada de entrevistadores formada por jornalistas, ex-atletas ou especialistas em geral.</desc>
-    <episode-num system="xmltv_ns">2026..</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -312,24 +209,6 @@
     <title lang="pt">Família dos Devotos</title>
     <desc lang="pt">Programa voltado aos devotos de Nossa Senhora Aparecida que ajudam a construir, manter e cuidar do Santuário Nacional, trazendo formação para o crescimento espiritual e pessoal, reflexões e quadros dedicados à família.</desc>
     <episode-num system="xmltv_ns">2026..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120110000 -0300" channel="ec:tvevangelizar">
-    <title lang="pt">Experiência de Deus</title>
-    <desc lang="pt">Acompanhe as mensagens especiais e pregações do Padre Reginaldo Manzotti.</desc>
-    <episode-num system="xmltv_ns">..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120100000 -0300" stop="20261120110000 -0300" channel="ec:novotempo">
-    <title lang="pt">Caixa de Música</title>
-    <desc lang="pt">O segmento reúne videoclipes e apresentações de artistas do gênero gospel. Cantores e instrumentistas compartilham trajetórias, interpretam louvores e debatem os principais lançamentos e tendências da música cristã contemporânea.</desc>
-    <episode-num system="xmltv_ns">26.232.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -430,31 +309,6 @@
     <category lang="en">live broadcast</category>
   </programme>
   
-  <programme start="20261120101000 -0300" stop="20261120105959 -0300" channel="ec:usa">
-    <title lang="pt">Suits</title>
-    <sub-title lang="pt">Vida de fachada</sub-title>
-    <desc lang="pt">Harvey deve manter Mike fora da mira da Jessica quando sua compaixão por um executivo demitido começa a pôr em risco o relacionamento do escritório com um cliente.</desc>
-    <length units="minutes">49</length>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120101000 -0300" stop="20261120110000 -0300" channel="ec:axn">
-    <title lang="pt">NCIS : All Hands</title>
-    <desc lang="pt">Depois que um navio de pesquisa civil no Atlântico Norte ajuda um pequeno barco de oficiais da Marinha feridos, a equipe NCIS embarca no navio e é forçada a se esconder após descobrir que há terroristas a bordo.</desc>
-    <episode-num system="xmltv_ns">19.11.</episode-num>
-    <rating system="Brazil">
-      <value>[AGE88]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120101000 -0300" stop="20261120110000 -0300" channel="ec:espn4">
-    <title lang="pt">Moto 3 - GP de Portugal - Treinos Livres : GP de Portugal - Treinos Livres</title>
-    <desc lang="pt">Todas as emoções do terceiro escalão da principal competição de motovelocidade do mundo.</desc>
-    <episode-num system="xmltv_ns">2026..</episode-num>
-  </programme>
-  
   <programme start="20261120101100 -0300" stop="20261120115400 -0300" channel="ec:discoveryhh">
     <title lang="pt">90 Dias para Casar : Acho que Você É a Minha Futura Esposa</title>
     <desc lang="pt">As regras dos pais de Brandon surpreendem sua noiva Julia; a russa Yara não gosta da cidade de Jovi; Rebecca e seu namorado Zied, da Tunísia, aguardam notícias sobre o visto; o relacionamento de Mike e Natalie tem uma reviravolta inesperada.</desc>
@@ -488,70 +342,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120102400 -0300" stop="20261120111200 -0300" channel="ec:discoveryscience">
-    <title lang="pt">O Caçador de Múmias : Fogo na Tumba do Rei Tutancâmon</title>
-    <desc lang="pt">A lendária múmia do rei Tutancâmon pode ter se incendiado dentro do sarcófago. Ramy Romany tenta descobrir se a múmia foi carbonizada devido a uma mudança no processo de mumificação ou se foi alvo de uma conspiração.</desc>
-    <episode-num system="xmltv_ns">1.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102400 -0300" stop="20261120111200 -0300" channel="ec:discoverytheater">
-    <title lang="pt">Sobreviventes do Gelo : Campo Minado</title>
-    <desc lang="pt">O lago Great Slave é um campo minado de gelo derretido. Um caminhão afunda no lago; Stephan e Allyce conseguem soltar o barco, mas enfrentam lobos. Kyle tenta voltar para casa em meio ao caos.</desc>
-    <episode-num system="xmltv_ns">2.7.</episode-num>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102500 -0300" stop="20261120111500 -0300" channel="ec:aee">
-    <title lang="pt">Esquadrão de Homicídios - Nova Orleans : Cuidado com o Vizinho</title>
-    <desc lang="pt">O detetive Maurice Stewart investiga o assassinato de uma mulher, supostamente morta por seu vizinho após uma discussão sobre seus animais de estimação. Mais um exemplo de como um conflito cotidiano pode escalar para um desfecho trágico.</desc>
-    <episode-num system="xmltv_ns">2.2.</episode-num>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102600 -0300" stop="20261120111300 -0300" channel="ec:history2">
-    <title lang="pt">Construindo um Império : Napoleão</title>
-    <desc lang="pt">O desejo de glória que invadia Napoleão, um dos maiores estrategistas militares da história, gerou inovações no campo da arquitetura que maravilharam o mundo. O legado de Napoleão vai muito além do aspecto militar.</desc>
-    <episode-num system="xmltv_ns">1.10.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102709 -0300" stop="20261120111516 -0300" channel="ec:globoplaynovelas">
-    <title lang="pt">As Filhas Da Senhora Garcia</title>
-    <sub-title lang="pt">Provas Insuficientes</sub-title>
-    <desc lang="pt">A luta para provar a inocência de Mar continua. Camila se mostra cada vez mais radical e ameaça garantir que Mar permaneça presa se algo acontecer ao pai.</desc>
-    <length units="minutes">48</length>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120102800 -0300" stop="20261120111400 -0300" channel="ec:discoveryturbo">
-    <title lang="pt">Invasão de Garagens : Torino na Cápsula do Tempo</title>
-    <desc lang="pt">Um Cobra Jet Torino 1972 de um único proprietário fica guardado por mais de 40 anos depois que um problema no motor o deixa parado. O time do Garage Squad tenta trazer a mordida de volta a este Cobra Jet.</desc>
-    <episode-num system="xmltv_ns">8.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103000 -0300" stop="20261120110000 -0300" channel="ec:amc">
-    <title lang="pt">Planet Action</title>
-    <desc lang="pt">De tiroteios com caubóis a carros explodindo e monstros rugindo, acompanhe os bastidores dos melhores filmes de ação lançados.</desc>
-    <episode-num system="xmltv_ns">2025..</episode-num>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120103000 -0300" stop="20261120114800 -0300" channel="ec:cancaonova">
     <title lang="pt">O Amor Vencerá</title>
     <desc lang="pt">Acompanhe um momento de intercessão pelo Brasil, pelas famílias e por todos que acompanham a Canção Nova. Um convite à oração e à intimidade com Deus, através de sua palavra.</desc>
@@ -565,15 +355,6 @@
     <title lang="pt">NFL : Compacto - San Francisco 49ers x Dallas Cowboys</title>
     <desc lang="pt">Os melhores momentos da partida válida pela semana 5 da temporada regular de 2023 da NFL.</desc>
     <episode-num system="xmltv_ns">2023.235.</episode-num>
-  </programme>
-  
-  <programme start="20261120103000 -0300" stop="20261120110000 -0300" channel="ec:redevida">
-    <title lang="pt">Novena dos Filhos e Filhas de São José</title>
-    <desc lang="pt">Valorizando e incentivando a devoção ao pai de Jesus Cristo, a Novena dos Filhos e Filhas de São José busca aprofundar a sua fé, fazendo uma experiência de Deus por intermédio de São José.</desc>
-    <episode-num system="xmltv_ns">2021..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120103000 -0300" stop="20261120120000 -0300" channel="ec:redetv">
@@ -591,54 +372,11 @@
     <episode-num system="xmltv_ns">..</episode-num>
   </programme>
   
-  <programme start="20261120103000 -0300" stop="20261120110000 -0300" channel="ec:premiereclubes">
-    <title lang="pt">Mirassol x Internacional</title>
-    <desc lang="pt">Aqui no Brasileirão tem coisa pra caramba! Tem a qualidade em 4K, tem o Aquecimento com muito pré-jogo e tem o Super Brasileirão de Sábado com os melhores jogos!</desc>
-    <length units="minutes">1800</length>
-    <category lang="en">sports (general)</category>
-    <previously-shown />
-  </programme>
-  
   <programme start="20261120103000 -0300" stop="20261120114500 -0300" channel="ec:paieterno">
     <title lang="pt">Família de Amor</title>
     <desc lang="pt">Padre Jadeilson Santos Apresenta o programa Família de Amor.</desc>
     <length units="minutes">4500</length>
     <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103156 -0300" stop="20261120112325 -0300" channel="ec:getv">
-    <title lang="pt">Giro da Rodada: Brasileirão 2026</title>
-    <sub-title lang="pt">34ª Rodada</sub-title>
-    <desc lang="pt">Assista ao Giro da Rodada com os destaques dos Campeonatos de Futebol.</desc>
-    <length units="minutes">51</length>
-    <category lang="en">sports (general)</category>
-  </programme>
-  
-  <programme start="20261120103200 -0300" stop="20261120111900 -0300" channel="ec:animalplanet">
-    <title lang="pt">Patrulheiros da Natureza : A Vingança do Cervo</title>
-    <desc lang="pt">Os guardas-florestais patrulham o Rio Grande em busca de um corpo não identificado; Powell investiga o ataque incomum de um cervo; Boone e Ataya respondem a uma denúncia sobre onças-pardas baleadas no quintal de uma mulher.</desc>
-    <episode-num system="xmltv_ns">3.9.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103200 -0300" stop="20261120112500 -0300" channel="ec:discoverychannel">
-    <title lang="pt">Ed Stafford, o Sobrevivente : Guatemala</title>
-    <desc lang="pt">O especialista em sobrevivência Ed Stafford chega à selva da Guatemala, infestada de crocodilos. Inspirado pelos maias, que já habitaram o local, ele vai a extremos para encontrar comida.</desc>
-    <episode-num system="xmltv_ns">3.2.</episode-num>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120103500 -0300" stop="20261120110000 -0300" channel="ec:dreamworks">
-    <title lang="pt">As Aventuras das Harvey Street : Hora da Convenção</title>
-    <desc lang="pt">Audrey, Poá, Lolla, Riquinho, Lucrécia e Pingo chegam à convenção de Chifrecórnios e decidem se dividir em três grupos para aproveitar ao máximo.</desc>
-    <episode-num system="xmltv_ns">3.4.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -690,25 +428,6 @@
     </rating>
   </programme>
   
-  <programme start="20261120104118 -0300" stop="20261120110707 -0300" channel="ec:multishow">
-    <title lang="pt">Chapolin</title>
-    <sub-title lang="pt">Um Bairro Muito Tranquilo</sub-title>
-    <desc lang="pt">O terrível Tripa Seca está de volta para aterrorizar a todos. Mas o reinado dele pode estar com os dias contados, já que o cantineiro da cidade é muito valente e forte.</desc>
-    <length units="minutes">25</length>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104200 -0300" stop="20261120112500 -0300" channel="ec:hgtv">
-    <title lang="pt">A Batalha dos Decoradores : Suítes dos Sonhos</title>
-    <desc lang="pt">Com a ajuda de carpinteiros da HGTV, os finalistas devem aplicar toda a sua criatividade para criar uma sala de fantasia em um espaço circular. Os jurados também avaliam as habilidades dos finalistas para interagir na frente das câmeras.</desc>
-    <episode-num system="xmltv_ns">7.8.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120104459 -0300" stop="20261120124437 -0300" channel="ec:tcpremium">
     <title lang="pt">Invasão Zumbi 2: Península</title>
     <desc lang="pt">Quatro anos após o surto zumbi que devastou a Coreia, um ex-soldado retorna a pinínsula para uma missão arriscada e descobre sobreviventes inesperados.</desc>
@@ -722,25 +441,6 @@
     <title lang="pt">Esporte Total</title>
     <desc lang="pt">Um resumo das rodadas mais recentes do futebol brasileiro e internacional, e tudo sobre as modalidades esportivas ao redor do mundo.</desc>
     <episode-num system="xmltv_ns">..</episode-num>
-  </programme>
-  
-  <programme start="20261120104500 -0300" stop="20261120110000 -0300" channel="ec:tvcultura">
-    <title lang="pt">Iuri &amp; Udi</title>
-    <desc lang="pt">Iuri é um garoto de 9 anos muito habilidoso na arte da gambiarra, sempre inventando loucuras para se divertir e ajudar o pai na loja de antiguidades da família. Ele é o melhor amigo de Udi, uma tartaruga extraterrestre rabugenta.</desc>
-    <length units="minutes">900</length>
-    <episode-num system="xmltv_ns">10.324.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104600 -0300" stop="20261120111300 -0300" channel="ec:canaloff">
-    <title lang="pt">Brava Mente : Diversão - Com Justine Dupont</title>
-    <desc lang="pt">Justine Dupont encontra diversão no surfe de ondas gigantes com alegria e habilidade física.</desc>
-    <episode-num system="xmltv_ns">2024..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120104606 -0300" stop="20261120123730 -0300" channel="ec:megapix">
@@ -762,110 +462,10 @@
     </rating>
   </programme>
   
-  <programme start="20261120104700 -0300" stop="20261120110100 -0300" channel="ec:tooncast">
-    <title lang="pt">Esquadrão do Tempo</title>
-    <desc lang="pt">Larry e XJ5 temem que o oficial Tuddrussel e a tenente Sternwell estejam se apaixonando novamente.</desc>
-    <episode-num system="xmltv_ns">2003..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104700 -0300" stop="20261120111100 -0300" channel="ec:warner">
-    <title lang="pt">2 Broke Girls</title>
-    <sub-title lang="pt">And The Past And The Furious</sub-title>
-    <desc lang="pt">Caroline fica chocada ao receber uma Lamborghini de aniversário, que seu pai encomendou para ela há quatro anos. Enquanto isso, Oleg tem algo grande planejado para Sophie.</desc>
-    <length units="minutes">1440</length>
-    <episode-num system="xmltv_ns">4.9.</episode-num>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104800 -0300" stop="20261120111200 -0300" channel="ec:discoveryworld">
-    <title lang="pt">O Poder dos Alimentos : Comida para Campeões</title>
-    <desc lang="pt">A ex-campeã de boxe Laila Ali se dedica a educar os jovens atletas sobre a importância de uma dieta saudável; conheça o chef Adam Kelinson, autor do livro sobre nutrição esportiva "The Athlete's Plate".</desc>
-    <episode-num system="xmltv_ns">2010.7.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104800 -0300" stop="20261120110100 -0300" channel="ec:sportynet">
-    <title lang="pt">Filler : Harry Kane</title>
-    <episode-num system="xmltv_ns">2026..</episode-num>
-  </programme>
-  
-  <programme start="20261120104837 -0300" stop="20261120111920 -0300" channel="ec:gnt">
-    <title lang="pt">Morar</title>
-    <sub-title lang="pt">Em Belo Horizonte</sub-title>
-    <desc lang="pt">Neste episódio, o Morar em Belo Horizonte visita casas e apartamentos da cidade fundada há menos de 200 anos. Entre elas, a da cantora Fernanda Takai, vocalista da banda Pato Fu, que nos mostra sua morada na capital. O estúdio de gravação de seu marido, John Ulhoa lhes dá a possibilidade de ficar mais tempo em casa para curtir a vida em família. O programa ainda revela moradias no bairro Floresta, na Serra do Curra, brumadinhol e no centro de BH.</desc>
-    <length units="minutes">30</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104900 -0300" stop="20261120110000 -0300" channel="ec:cartoonnetwork">
-    <title lang="pt">Os Jovens Titãs em Ação : Duas Partes</title>
-    <desc lang="pt">Os Titãs devem salvar os membros da Liga da Justiça das garras do supervilão Darkseid.</desc>
-    <episode-num system="xmltv_ns">3.18.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120104900 -0300" stop="20261120111400 -0300" channel="ec:tnt">
-    <title lang="pt">Um Maluco no Pedaço : Querido da Mamãe, Talvez do Carlton</title>
-    <desc lang="pt">A família Banks fica alvoroçada quando Cindy, ex-namorada de Carlton, apresenta seu filho recém-nascido, Carlton Jr.</desc>
-    <episode-num system="xmltv_ns">3.5.</episode-num>
-    <rating system="Brazil">
-      <value>[12]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120105000 -0300" stop="20261120114000 -0300" channel="ec:history">
     <title lang="pt">Grandes Mistérios da História com Laurence Fishburne : As Riquezas Perdidas de Genghis Khan</title>
     <desc lang="pt">Afirma-se que Gêngis Khan acumulou uma fortuna equivalente a 120 trilhões de dólares em valores atuais. Porém, ele escondeu seu tesouro tão bem que ninguém conseguiu encontrá-lo por 800 anos.</desc>
     <episode-num system="xmltv_ns">6.12.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120105000 -0300" stop="20261120110000 -0300" channel="ec:tvratimbum">
-    <title lang="pt">T.R.EX.C.I : Esperança</title>
-    <desc lang="pt">A série visa despertar a curiosidade sobre a evolução da vida na Terra. Trexci vai mostrar como vivíamos, como vivemos atualmente e como viveremos no futuro.</desc>
-    <episode-num system="xmltv_ns">2.13.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120105305 -0300" stop="20261120111504 -0300" channel="ec:gloob">
-    <title lang="pt">Miraculous – As Aventuras De L</title>
-    <sub-title lang="pt">Animestre</sub-title>
-    <desc lang="pt">Um diretor de cinema é akumatizado, virando o Animestre. Armado com uma máscara de supervilão, ele
-quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug devem agir rápido se não quiserem ver seus ingressos esgotados!</desc>
-    <length units="minutes">21</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120105400 -0300" stop="20261120111600 -0300" channel="ec:adultswim">
-    <title lang="pt">Rick and Morty : A Ricktlântida confusão</title>
-    <desc lang="pt">A aventura de Rick e Morty para a cidade perdida de Atlântida é interrompida por circunstâncias perturbadoras na Cidadela de Ricks, que se tornou uma cidadela bem desenvolvida, com uma sociedade funcional.</desc>
-    <episode-num system="xmltv_ns">3.7.</episode-num>
-    <rating system="Brazil">
-      <value>[AGE88]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120105400 -0300" stop="20261120110100 -0300" channel="ec:cartoonito">
-    <title lang="pt">Pocoyo : Bea É Grande</title>
-    <desc lang="pt">Bea deseja ser grande e seu desejo se realiza. No início é legal, mas depois traz problemas.</desc>
-    <episode-num system="xmltv_ns">5.49.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -880,46 +480,7 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     </rating>
   </programme>
   
-  <programme start="20261120105500 -0300" stop="20261120110000 -0300" channel="ec:discoverykids">
-    <title lang="pt">Peppa : Nuvens</title>
-    <desc lang="pt">Mamãe, Papai, Peppa e George decidem ir à praia em um lindo dia de sol. De repente, uma nuvenzinha cobre o sol por um minuto, mas logo passa e o sol reaparece.</desc>
-    <episode-num system="xmltv_ns">8.3.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120105500 -0300" stop="20261120112000 -0300" channel="ec:sonychannel">
-    <title lang="pt">Eu, A Patroa e as Crianças</title>
-    <sub-title lang="pt">Surto de Macaco</sub-title>
-    <desc lang="pt">Quando Michael consegue um ingresso para ver o astro do basquete LeBron James jogar no Madison Square Garden, sua empolgação rapidamente se transforma em paranoia quando, poucos dias antes do jogo.</desc>
-    <length units="minutes">1500</length>
-    <episode-num system="xmltv_ns">4.19.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120105500 -0300" stop="20261120114500 -0300" channel="ec:amcseries"><title lang="pt">The Son</title></programme>
-  <programme start="20261120105826 -0300" stop="20261120110129 -0300" channel="ec:gloobinho">
-    <title lang="pt">Cocomelon</title>
-    <sub-title lang="pt">Família de dedos</sub-title>
-    <desc lang="pt">Conhecemos os membros da família de Nina enquanto ela ajuda cada um a completar uma tarefa.</desc>
-    <length units="minutes">3</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120105900 -0300" stop="20261120111900 -0300" channel="ec:foodnetwork">
-    <title lang="pt">Receitas de Humor da Daphne : Camping no Quintal</title>
-    <desc lang="pt">Daphne Brogdon e sua família decidem se desconectar do mundo acampando no quintal da própria casa.</desc>
-    <episode-num system="xmltv_ns">2.13.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120110000 -0300" stop="20261120125959 -0300" channel="ec:globonews">
     <title lang="pt">Conexão GloboNews - ao vivo</title>
     <desc lang="pt">Com Narayanna Borges no Rio de Janeiro, Rafael Colombo em São Paulo e você, em qualquer lugar do mundo, conectados em tudo que acontece.</desc>
@@ -960,33 +521,6 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     <desc lang="pt">Ir além da notícia e revelar o que realmente importa: esse é o "O X da Questão". Cynthia Martins e Rodolfo Schneider conduzem conversas inteligentes, com análise, contexto e diferentes pontos de vista sobre acontecimentos do Brasil e do mundo.</desc>
     <category lang="en">news/current affairs (general)</category>
     <episode-num system="xmltv_ns">..</episode-num>
-  </programme>
-  
-  <programme start="20261120110000 -0300" stop="20261120112400 -0300" channel="ec:cartoonnetwork">
-    <title lang="pt">Ilha dos Desafios : A Abadia de Drowntown</title>
-    <desc lang="pt">Os grupos colocam um de seus membros em um tanque que se enche lentamente de água. Para libertá-los, eles devem recuperar os códigos no final de um curso de obstáculos perigoso.</desc>
-    <episode-num system="xmltv_ns">1.3.</episode-num>
-    <rating system="Brazil">
-      <value>[10]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120110000 -0300" stop="20261120110500 -0300" channel="ec:discoverykids">
-    <title lang="pt">Peppa : Superpiquenique</title>
-    <desc lang="pt">Super Batata planeja um piquenique, mas imprevistos como suco derramado e a falta de queijo acabam atrapalhando. Uma ida caótica ao supermercado e a ajuda da Sra. Burra acabam garantindo um final feliz.</desc>
-    <episode-num system="xmltv_ns">11.33.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120110000 -0300" stop="20261120112500 -0300" channel="ec:dreamworks">
-    <title lang="pt">Glitter Model - Uma Aventura Cheia de Estilo : Um Admirável Mundo Novo</title>
-    <desc lang="pt">Clara recebe um convite para integrar uma agência internacional muito badalada; ao deixar a Glitter Models, porém, ela se dá conta de que nem todo lugar é receptivo e caloroso.</desc>
-    <episode-num system="xmltv_ns">3.1.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120110000 -0300" stop="20261120130000 -0300" channel="ec:espn">
@@ -1034,30 +568,12 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     </rating>
   </programme>
   
-  <programme start="20261120110000 -0300" stop="20261120111000 -0300" channel="ec:tvratimbum">
-    <title lang="pt">Isso Disso : Fechadura</title>
-    <desc lang="pt">Desvende os mistérios daqueles objetos que usamos diariamente. Um espaço para aprender sobre ciências e descobrir, por exemplo, como é o funcionamento de um forno de micro-ondas. Tudo isso apresentado por Eugênio Pitanga, um menino muito inteligente.</desc>
-    <episode-num system="xmltv_ns">1.11.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120110000 -0300" stop="20261120113000 -0300" channel="ec:premiereclubes">
     <title lang="pt">Botafogo x Chapecoense</title>
     <desc lang="pt">Aqui no Brasileirão tem coisa pra caramba! Tem a qualidade em 4K, tem o Aquecimento com muito pré-jogo e tem o Super Brasileirão de Sábado com os melhores jogos!</desc>
     <length units="minutes">1800</length>
     <category lang="en">sports (general)</category>
     <previously-shown />
-  </programme>
-  
-  <programme start="20261120110000 -0300" stop="20261120111000 -0300" channel="ec:tvcultura">
-    <title lang="pt">Gildo</title>
-    <desc lang="pt">Desenho baseado em uma das obras mais populares da literatura infantil brasileira, a série acompanha as aventuras diárias do curioso Gildo, um menino elefante.</desc>
-    <length units="minutes">600</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120110032 -0300" stop="20261120123555 -0300" channel="ec:tcfun">
@@ -1070,38 +586,10 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     </rating>
   </programme>
   
-  <programme start="20261120110100 -0300" stop="20261120110800 -0300" channel="ec:cartoonito">
-    <title lang="pt">Lucas, a Aranha : Lucas e Seus Amigos</title>
-    <desc lang="pt">Acompanhe uma sequência de seis curtas apresentando todos os amigos de Lucas e a formiga esquisita, com uma canção no final sobre diversidade e companheirismo.</desc>
-    <episode-num system="xmltv_ns">1.28.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120110100 -0300" stop="20261120124600 -0300" channel="ec:sportynet">
     <title lang="pt">Fiorentina x Juventus - Campeonato Italiano : Fiorentina x Juventus</title>
     <desc lang="pt">Todas as emoções da Serie A, primeira divisão de futebol masculino entre clubes da Itália.</desc>
     <episode-num system="xmltv_ns">26..</episode-num>
-  </programme>
-  
-  <programme start="20261120110100 -0300" stop="20261120111300 -0300" channel="ec:tooncast">
-    <title lang="pt">As Trapalhadas de Flapjack : Nada de Melado pra Panqueca Velha</title>
-    <desc lang="pt">É um dia muito especial para Flapjack, é a primeira vez que ele come panquecas, mas primeiro ele tem que conseguir xarope de bordo.</desc>
-    <episode-num system="xmltv_ns">1..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120110131 -0300" stop="20261120110434 -0300" channel="ec:gloobinho">
-    <title lang="pt">Cocomelon</title>
-    <sub-title lang="pt">Dia de Los Muertos</sub-title>
-    <desc lang="pt">Nina e sua família fazem juntos um evento ao ar livre para celebrar o Dia de los Muertos.</desc>
-    <length units="minutes">3</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120110300 -0300" stop="20261120132600 -0300" channel="ec:cinemax">
@@ -1110,25 +598,6 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     <episode-num system="xmltv_ns">2003..</episode-num>
     <rating system="Brazil">
       <value>[AGE88]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120110435 -0300" stop="20261120111129 -0300" channel="ec:gloobinho">
-    <title lang="pt">Leo, O Guarda Da Floresta</title>
-    <sub-title lang="pt">Um Dente de Quem?</sub-title>
-    <desc lang="pt">Farah acha um dente de um animal desconhecido e pede ajuda aos guardas para conseguir encontrar o verdadeiro dono.</desc>
-    <length units="minutes">6</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120110500 -0300" stop="20261120111000 -0300" channel="ec:discoverykids">
-    <title lang="pt">Peppa : Parquinho de Adultos</title>
-    <desc lang="pt">O Vovô Coelho leva Peppa e seus amigos a um parque para fazer exercícios. Como os aparelhos são para adultos, as crianças adaptam o treino.</desc>
-    <episode-num system="xmltv_ns">9.23.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
     </rating>
   </programme>
   
@@ -1152,39 +621,10 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     </rating>
   </programme>
   
-  <programme start="20261120110800 -0300" stop="20261120111600 -0300" channel="ec:cartoonito">
-    <title lang="pt">Lucas, a Aranha - Quero Meu Bebê Noz de</title>
-    <sub-title lang="pt">Jogo de Volta</sub-title>
-    <desc lang="pt">Arlo dá um presente a Bodhi, mas quando vê o novo vínculo entre os dois, ele repensa o ato.</desc>
-    <episode-num system="xmltv_ns">1.58.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120111000 -0300" stop="20261120113300 -0300" channel="ec:discoverykids">
     <title lang="pt">Peppa : Mamãe Trabalhando; O Papai Perde...</title>
     <desc lang="pt">A mãe de Peppa e George está trabalhando; papai perde os óculos e não consegue fazer nada sem eles; é aniversário da mamãe; a família sai para passear, mas o carro quebra e é preciso levá-lo para a oficina.</desc>
     <episode-num system="xmltv_ns">1..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120111000 -0300" stop="20261120112000 -0300" channel="ec:tvratimbum">
-    <title lang="pt">Recreio do Jacarelvis</title>
-    <desc lang="pt">Jacarelvis e seus amigos alegram cada momento do seu dia com canções muito divertidas. Rock, Blues, Reggae e outros ritmos musicais são as soluções perfeitas para ajudar as crianças a escovarem os dentes, comer bem e se comportarem.</desc>
-    <episode-num system="xmltv_ns">2020..</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120111000 -0300" stop="20261120111500 -0300" channel="ec:tvcultura">
-    <title lang="pt">Morgana &amp; Celeste</title>
-    <desc lang="pt">Quem melhor que uma bruxa com mais de seis mil anos para contar histórias fantásticas do passado?</desc>
-    <length units="minutes">300</length>
-    <episode-num system="xmltv_ns">11.324.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -1216,16 +656,6 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     <length units="minutes">109</length>
     <rating system="Brazil">
       <value>[12]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120111131 -0300" stop="20261120111825 -0300" channel="ec:gloobinho">
-    <title lang="pt">Leo, O Guarda Da Floresta</title>
-    <sub-title lang="pt">A Cura do Golfinho</sub-title>
-    <desc lang="pt">Enquanto toma um banho de mar, Kyle encontra um golfinho sofrendo enrolado a uma rede de pesca. Ele solicita ajuda dos guardas para ajudar o animal a voltar para seu habitat.</desc>
-    <length units="minutes">6</length>
-    <rating system="Brazil">
-      <value>[L]</value>
     </rating>
   </programme>
   
@@ -1269,15 +699,6 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     <title lang="pt">Aventura em Foco : Pelas Lentes de Marcos Amend</title>
     <desc lang="pt">O fotógrafo e ambientalista Marcos Amend trabalha com conservação da natureza e vida selvagem. Durante uma viagem ao Pantanal, ele conta sobre sua trajetória e faz registros raros.</desc>
     <episode-num system="xmltv_ns">1.6.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
-  <programme start="20261120111300 -0300" stop="20261120112600 -0300" channel="ec:tooncast">
-    <title lang="pt">As Trapalhadas de Flapjack : Meu Querido Diário</title>
-    <desc lang="pt">Bolha e o Capitão Falange leem o diário de Flapjack, e ele nunca mais é capaz de confiar neles e passa o resto de sua vida como um eremita.</desc>
-    <episode-num system="xmltv_ns">1..</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
@@ -1348,30 +769,11 @@ quer mostrar ao mundo o que filmes de animação podem fazer. Cat Noir e Ladybug
     </rating>
   </programme>
   
-  <programme start="20261120111600 -0300" stop="20261120112400 -0300" channel="ec:cartoonito">
-    <title lang="pt">Lucas, a Aranha : Esperando a Maizie</title>
-    <desc lang="pt">A primavera finalmente chegou e Maizie retorna ao jardim após sua hibernação de inverno.</desc>
-    <episode-num system="xmltv_ns">1.75.</episode-num>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
-  </programme>
-  
   <programme start="20261120111645 -0300" stop="20261120112938 -0300" channel="ec:combate">
     <title lang="pt">Faixa Digital: Baú Do Combate - Iago Freitas</title>
     <desc lang="pt">Baú Do Combate - Iago Freitas</desc>
     <length units="minutes">12</length>
     <category lang="en">sports (general)</category>
-  </programme>
-  
-  <programme start="20261120111828 -0300" stop="20261120112522 -0300" channel="ec:gloobinho">
-    <title lang="pt">Leo, O Guarda Da Floresta</title>
-    <sub-title lang="pt">O Contos dos Tigres</sub-title>
-    <desc lang="pt">Durante uma festa do pijama ao redor da fogueira, Zari e Farah descobrem um filhote de Tigre Malaio. Eles querem ajudar o filhote a se reunir a sua mãe novamente.</desc>
-    <length units="minutes">6</length>
-    <rating system="Brazil">
-      <value>[L]</value>
-    </rating>
   </programme>
   
   <programme start="20261120111900 -0300" stop="20261120120600 -0300" channel="ec:animalplanet">
@@ -3880,8 +3282,6 @@ Donna está rodeada de suspeitas; Joe faz uma confissão a Gordon; Cameron enfre
       <value>[6]</value>
     </rating>
   <category lang="en">DRAMA</category><category lang="en">EDUCATION</category><category lang="en">FAMILY_KIDS</category><sub-title lang="pt">O Construtor de Pontes</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F59%2F23593686_c11c6b810cc10d782192a84a9d0861f6.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
-  <programme start="20261120133100 +0000" stop="20261120140000 +0000" channel="ec:disneyplus"><title>Alice na Doceria das Maravilhas</title><desc>Alicia embarca em aventuras culinárias mágicas com seus melhores amigos, que se juntam a ela na doceria para preparar os bolos e guloseimas mais extravagantes e impressionantes para seus amigos e vizinhos.</desc></programme>
-
   <programme start="20261120133100 -0300" stop="20261120134300 -0300" channel="ec:adultswim">
     <title lang="pt">Robot Chicken : Badunkadunk</title>
     <desc lang="pt">A vida de celebridade do Incrível Hulk é televisionada em Hollywood Spotlight; Michael Jackson volta do espaço para confrontar o seu par na série "Onde está Michael?".</desc>
@@ -4385,8 +3785,6 @@ Andria &amp; David. David is the only love Andria has ever known. His passionate
     </rating>
   </programme>
   
-  <programme start="20261120140000 +0000" stop="20261120141100 +0000" channel="ec:disneyplus"><title>Lino - Meu Pai É Fera</title><desc>Lino se mantém como animador de festas infantis, mas agora em seu próprio bufê, que é o maior da cidade. Ele vive com Janine e sua filha Juliana. Sua vida vai muito bem, até que Lino volta a se tornar um gato gigante.</desc></programme>
-
   <programme start="20261120140000 -0300" stop="20261120170000 -0300" channel="ec:bandnews">
     <title lang="pt">Tarde BandNews</title>
     <desc lang="pt">As principais notícias do Brasil e do mundo. Coberturas ao vivo e a participação de repórteres espalhados por todo o país e pelo exterior.</desc>
@@ -4592,8 +3990,6 @@ El de todas las promesas | 1999 | ⑦ | ★6.2/10 (Series,Comedia) Los chicos pi
     </rating>
   </programme>
   
-  <programme start="20261120141100 +0000" stop="20261120142200 +0000" channel="ec:disneyplus"><title>Lino - Meu Pai É Fera</title><desc>Lino se mantém como animador de festas infantis, mas agora em seu próprio bufê, que é o maior da cidade. Ele vive com Janine e sua filha Juliana. Sua vida vai muito bem, até que Lino volta a se tornar um gato gigante.</desc></programme>
-
   <programme start="20261120141100 -0300" stop="20261120160500 -0300" channel="ec:hbopop">
     <title lang="pt">As Trambiqueiras</title>
     <desc lang="pt">Uma dona de casa e sua melhor amiga começam um esquema ilegal de cupons de desconto, que rouba milhões de dólares de grandes corporações. Um policial e um inspetor postal tentam detê-las.</desc>
@@ -59735,6 +59131,503 @@ Casal de imigrantes é assassinado enquanto dormia e sua casa é incendiada na c
     <title lang="pt">Grizzy e os Lemmings : Areias Voadoras</title>
     <desc lang="pt">Grizzy sonha em beber um delicioso leite de coco no sofá, mas primeiro precisa se livrar dos Lemmings que estão se divertindo voando pela sala de estar. Em seguida, ele deve encontrar cocos que não tenham sido esvaziados de seu néctar.</desc>
     <episode-num system="xmltv_ns">4.37.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170000 -0300" stop="20261122175959 -0300" channel="ec:getv">
+    <title lang="pt">Que Coffee - ao vivo</title>
+    <desc lang="pt">Que Coffee</desc>
+    <length units="minutes">59</length>
+    <category lang="en">live broadcast</category>
+  </programme>
+  
+  <programme start="20261122170000 -0300" stop="20261122170459 -0300" channel="ec:gloobinho">
+    <title lang="pt">Pipas</title>
+    <sub-title lang="pt">Faro de Detetive</sub-title>
+    <desc lang="pt">Depois de Dracão solucionar um mistério antes de Dado, ele aproveita o sumiço de um bolo da Sra. Novelo para provar que é o melhor detetive.</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><episode-num system="xmltv_ns">0.24.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F60%2F28608549_0551871ed0284f2756507a9e3cf73d6e.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122175959 -0300" channel="ec:sportv">
+    <title lang="pt">Paulistão F: Corinthians x Bragantino - Play-In</title>
+    <desc lang="pt">Acompanhe uma das principais competições do futebol feminino, o Campeonato Paulista, aqui no sportv!</desc>
+    <length units="minutes">59</length>
+    <category lang="en">sports (general)</category>
+  </programme>
+  
+  <programme start="20261122170000 -0300" stop="20261122185959 -0300" channel="ec:sportv3">
+    <title lang="pt">Fórmula 1: Gp De Las Vegas</title>
+    <desc lang="pt">Os melhores pilotos do mundo aceleram rumo à vitória em mais uma etapa da temporada. Tá na Fórmula 1, ta no sportv!
+</desc>
+    <length units="minutes">119</length>
+    <category lang="en">sports (general)</category>
+  <episode-num system="onscreen">2026..</episode-num><sub-title lang="pt">GP de Las Vegas</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F22%2F12%2F22123595_cd3bbe969660ee6479460b2090362108.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122180000 -0300" channel="ec:cancaonova">
+    <title lang="pt">Canção Nova Sertaneja</title>
+    <desc lang="pt">O encontro une a rica cultura sertaneja ao carisma da Comunidade Canção Nova, com louvor, testemunhos, pregações, shows e celebração da Santa Missa.</desc>
+    <episode-num system="xmltv_ns">2015..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><category lang="en">MUSIC</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F12%2F89%2F12893025_773B67152CFADA6B.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122183200 -0300" channel="ec:cinemax">
+    <title lang="pt">Salt</title>
+    <desc lang="pt">Evelyn Salt jurou servir e honrar seu país, os Estados Unidos. Trabalhando como agente da CIA, ela é colocada à prova ao ser acusada por um desertor russo de ser uma espiã infiltrada do país europeu.</desc>
+    <episode-num system="xmltv_ns">2010..</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">MOVIES</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F11%2F90%2F11906653_35D96DDFC2D10188.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122181500 -0300" channel="ec:espn">
+    <title lang="pt">SportsCenter Abre o Jogo</title>
+    <desc lang="pt">Os preparativos para os principais eventos esportivos do Brasil e do mundo.</desc>
+    <episode-num system="xmltv_ns">2020..</episode-num>
+  <category lang="en">NEWS</category><category lang="en">SPORTS</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F11%2F84%2F11845688_6D14BCEDC7304F4A.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122173000 -0300" channel="ec:espn2">
+    <title lang="pt">ATP Tour: This Week</title>
+    <desc lang="pt">Perfis aprofundados de diferentes tenistas do planeta, melhores momentos de torneios, entrevistas e instruções para a prática do esporte.</desc>
+    <episode-num system="xmltv_ns">2024..</episode-num>
+  <category lang="en">SPORTS</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F23%2F23239021_f81fe4be8bf905bc8ea77b3789b53d90.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122173000 -0300" channel="ec:redevida">
+    <title lang="pt">Encontro com Cristo</title>
+    <desc lang="pt">Acompanhe a palavra do Padre Alberto Gambarini, um dos grandes pregadores da atualidade.</desc>
+    <episode-num system="xmltv_ns">2007..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F11%2F77%2F11775633_40867098873AFDB9.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122173000 -0300" channel="ec:tvevangelizar">
+    <title lang="pt">Rota do Rosário</title>
+    <desc lang="pt">Série documental que percorre santuários e comunidades do Norte Pioneiro e Campos Gerais do Paraná, focada em fé, turismo religioso e histórias de devoção.</desc>
+    <episode-num system="xmltv_ns">2025..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F79%2F23793524_702ea668e2639636ca3e89dde8acd3b2.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122173000 -0300" channel="ec:novotempo">
+    <title lang="pt">Origens</title>
+    <desc lang="pt">Um modelo geológico criacionista que busca explicar os eventos do dilúvio bíblico, analisando como forças catastróficas, em escala global, poderiam ter moldado rapidamente a superfície da Terra.</desc>
+    <episode-num system="xmltv_ns">25.15.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F92%2F20927174_0379CF0F16F39163.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122170500 -0300" channel="ec:tvratimbum">
+    <title lang="pt">Paramigos Imparáveis : A Nova Melhor Amiga</title>
+    <desc lang="pt">A turma tenta impedir os Xuruminhos de espalhar palitos de picolé pela praia na Argentina. Nina faz uma nova amiga, mas Guará desconfia da nova integrante.</desc>
+    <episode-num system="xmltv_ns">1.16.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170000 -0300" stop="20261122171500 -0300" channel="ec:tvcultura">
+    <title lang="pt">Planeta Terra</title>
+    <desc lang="pt">Planeta Terra fala sobre as curiosidades e mistérios do meio ambiente e das civilizações em documentários produzidos por renomadas emissoras estrangeiras como a BBC e NHK e produtoras da Holanda, Suécia, Dinamarca e Inglat...</desc>
+    <length units="minutes">900</length>
+    <episode-num system="xmltv_ns">17.326.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">EDUCATION</category><category lang="en">ENTERTAINMENT</category><sub-title lang="pt">Leões da Costa dos Esqueletos</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F13%2F15%2F13152635_F8AF9BEF6A770340.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170000 -0300" stop="20261122171500 -0300" channel="ec:globosp">
+    <title lang="pt">Bora pro Jogo</title>
+    <desc lang="pt">No Bora pro Jogo, Tiago Medeiros abre a transmissão na beira do campo e convida o torcedor para curtir as novidades do Futebol na Globo com muita interatividade.</desc>
+    <length units="minutes">900</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170000 -0300" stop="20261122173000 -0300" channel="ec:disneyplus"><title>Acampados</title><category>Infantil</category><desc>Os irmãos Emma, Ravi e Zuri Ross passam o verão no acampamento Kikiwaka, no estado do Maine, o mesmo em que seus pais se conheceram quando adolescentes. As crianças não são acostumadas a estar ao ar livre e acabam precisando de ajuda para se adaptar.</desc></programme>
+  <programme start="20261122170100 -0300" stop="20261122172500 -0300" channel="ec:adultswim">
+    <title lang="pt">Blue Lock : Dream</title>
+    <desc lang="pt">Yoichi Isagi, um jogador de futebol no time da escola, recebe um convite misterioso da União Japonesa de Futebol para algo que ele não esperava.</desc>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170300 -0300" stop="20261122171600 -0300" channel="ec:cartoonnetwork">
+    <title lang="pt">O Mundo Maravilhosamente Estranho de Gumball : O Aplicativo</title>
+    <desc lang="pt">Gumball e Darwin precisam de um aplicativo de mídia social conhecido por atrair todas as crianças em Elmore e transformar as tendências da Internet.</desc>
+    <episode-num system="xmltv_ns">1.11.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170300 -0300" stop="20261122173300 -0300" channel="ec:canaloff">
+    <title lang="pt">O Labirinto do Ártico : Uma Semana Navegando pela Latitude 74 Graus Norte</title>
+    <desc lang="pt">A primeira expedição brasileira pela Northwest Passage celebra 500 anos de exploração do Ártico e revela sua beleza e fragilidade diante das mudanças.</desc>
+    <episode-num system="xmltv_ns">1.5.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170500 -0300" stop="20261122170959 -0300" channel="ec:gloobinho">
+    <title lang="pt">Pipas</title>
+    <sub-title lang="pt">Sinfonia dos Ventos</sub-title>
+    <desc lang="pt">Ao tentarem formar uma banda, as pipas conhecem a Nuvem Musical, onde cada instrumento mágico controla algo no clima, como o vento, chuva e sol.</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><episode-num system="xmltv_ns">0.25.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F42%2F28422684_0310ed245860733902ab0b1597ea4c6a.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170500 -0300" stop="20261122171000 -0300" channel="ec:tvratimbum">
+    <title lang="pt">O Mago das Formas : O Quarto de Brinquedos</title>
+    <desc lang="pt">No quarto de brinquedos, o Mago desenha um palhaço, um ursinho e uma boneca com formas geométricas.</desc>
+    <episode-num system="xmltv_ns">1.10.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170500 -0300" stop="20261122175500 -0300" channel="ec:universaltv">
+    <title lang="pt">Law &amp; Order: Special Victims Unit : Enfeitiçada</title>
+    <desc lang="pt">Um carismático curandeiro espiritual é investigado quando uma cliente alega que ele a incapacitou e a atacou usando hipnose.</desc>
+    <episode-num system="xmltv_ns">18.18.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170600 -0300" stop="20261122174959 -0300" channel="ec:multishow">
+    <title lang="pt">Sessão Nostalgia - Tapas E Bei</title>
+    <sub-title lang="pt">Fátima E Sueli Decidem Casar</sub-title>
+    <desc lang="pt">A série Tapas &amp; Beijos mostra as aventuras da conturbada vida amorosa de Fátima e Sueli. Elas trabalham na Djalma Noivas, em Copacabana, e sonham com seus príncipes.</desc>
+    <length units="minutes">43</length>
+    <rating system="Brazil">
+      <value>[12]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170600 -0300" stop="20261122171300 -0300" channel="ec:cartoonito">
+    <title lang="pt">Grizzy e os Lemmings : Um Amor Impossível</title>
+    <desc lang="pt">Grizzy encontra um ar-condicionado novo e a batalha entre ele e os Lemmings é resolvida: cada lado tem sua forma de se refrescar.</desc>
+    <episode-num system="xmltv_ns">4.46.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170600 -0300" stop="20261122172700 -0300" channel="ec:hgtv">
+    <title lang="pt">John e Anthony - Reformando Cozinhas : Casa de Fazenda em Nova Jersey</title>
+    <desc lang="pt">John e Anthony viajam a Lafaiete, Nova Jersey, para modernizar uma casa de fazenda centenária. Eles criam uma decoração magnífica, que combina elementos rústicos e modernos, sem destoar do estilo da residência.</desc>
+    <episode-num system="xmltv_ns">2.4.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170600 -0300" stop="20261122173000 -0300" channel="ec:tooncast">
+    <title lang="pt">ThunderCats</title>
+    <desc lang="pt">Wizz-Ra entra na Toca dos Gatos através de um espelho localizado no quarto de Cheetara. Mumm-Ra, seu inimigo ancestral, consegue roubar seu capacete mágico.</desc>
+    <episode-num system="xmltv_ns">1.33.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F41%2F28418081_0b91ad18bd136df3d13aa46c99568ee7.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122170800 -0300" stop="20261122185000 -0300" channel="ec:history2">
+    <title lang="pt">Bebidas Apostas e Sexo : Cidades do Pecado</title>
+    <desc lang="pt">Nasce o conceito de cassino e hotel de luxo. A revista mais sexy da história é lançada. Além disso, uma marca icônica de cigarros aparece.</desc>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122170900 -0300" stop="20261122173100 -0300" channel="ec:discoverykids">
+    <title lang="pt">Mermicorno - A Queda das Estrelas : Missão - Mermicorno</title>
+    <desc lang="pt">Astra busca sua irmã desaparecida em uma jornada mágica.</desc>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171000 -0300" stop="20261122171459 -0300" channel="ec:gloobinho">
+    <title lang="pt">Pipas</title>
+    <sub-title lang="pt">Lá vem o pato</sub-title>
+    <desc lang="pt">As Pipas brincam de esconde-esconde na Nuvem Parquinho quando um Patinho que ainda está aprendendo a voar, cai do céu. Capu, encantada, adota e acolhe o indefeso novo amigo.</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><episode-num system="xmltv_ns">0.0.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28620550_a4876f2697adbe4cf9d71a3e40483f70.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171000 -0300" stop="20261122172500 -0300" channel="ec:tvratimbum">
+    <title lang="pt">Meu AmigãoZão : Este Lugar É Meu</title>
+    <desc lang="pt">Lili tem dificuldades em abandonar seu lugar de sempre no tapete e decide arrumar um novo lugar especial num aquário. Mas começa rapidamente a perceber que ter apenas um lugar pode não ser tão legal quanto ela imaginava.</desc>
+    <episode-num system="xmltv_ns">1..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171200 -0300" stop="20261122173600 -0300" channel="ec:discoveryworld">
+    <title lang="pt">Minha Casa nas Montanhas : Da Fazenda Para a Montanha</title>
+    <desc lang="pt">Recém-casados, Nick e Leah se mudaram para o Wyoming para ficar mais perto das montanhas. Agora eles pretendem morar na cidade de Dubois, em uma casa grande o bastante para acomodar sua futura família.</desc>
+    <episode-num system="xmltv_ns">1.9.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171300 -0300" stop="20261122172000 -0300" channel="ec:cartoonito">
+    <title lang="pt">Grizzy e os Lemmings : Cenoura Glacial</title>
+    <desc lang="pt">A nevasca derruba os painéis solares da cabana e Grizzy não consegue mais assistir TV.</desc>
+    <episode-num system="xmltv_ns">4.21.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171400 -0300" stop="20261122185900 -0300" channel="ec:hbo2">
+    <title lang="pt">Sobrenatural - A Origem</title>
+    <desc lang="pt">Vítima de uma entidade sobrenatural perigosa, a adolescente Quinn Brenner busca a ajuda da médium Elise Rainier. Por meio de suas habilidades paranormais, ela descobre a existência de um demônio com sede de almas humanas.</desc>
+    <episode-num system="xmltv_ns">2015..</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">MOVIES</category><sub-title lang="pt">A Origem</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F19%2F07%2F19072526_0503491D66BCE222.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171500 -0300" stop="20261122192959 -0300" channel="ec:combate">
+    <title lang="pt">VT - Grand Prix de Judô: Zagreb, Croácia</title>
+    <sub-title lang="pt">Finais</sub-title>
+    <desc lang="pt">As grandes estrelas do Judô estão aqui no sportv! Acompanhe o Grand Prix de Judô</desc>
+    <length units="minutes">134</length>
+    <category lang="en">sports (general)</category>
+    <previously-shown />
+  </programme>
+  
+  <programme start="20261122171500 -0300" stop="20261122171959 -0300" channel="ec:gloobinho">
+    <title lang="pt">Pipas</title>
+    <sub-title lang="pt">Mentira tem rabiola curta</sub-title>
+    <desc lang="pt">Papagaio inventa uma história absurda para as outras pipas. Ninguém acredita nele, até que tudo muda com a chegada de uma Pipa-Polvo de verdad</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><episode-num system="xmltv_ns">0.1.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F62%2F20629672_D9D1D081F477D07A.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171500 -0300" stop="20261122180000 -0300" channel="ec:discoveryturbo">
+    <title lang="pt">Oficina de Sonhos : Reconstrução de Ford 1934</title>
+    <desc lang="pt">Os funcionários de Martín Vaca encontram um carro antigo e enferrujado na entrada. Eles logo descobrem seu novo projeto: reconstruir um hot rod Ford 1934.</desc>
+    <episode-num system="xmltv_ns">6.10.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171500 -0300" stop="20261122185500 -0300" channel="ec:dreamworks">
+    <title lang="pt">Uma Aventura LEGO 2</title>
+    <desc lang="pt">Cinco anos depois, os heróis de Bricópolis voltaram em uma aventura épica para salvar sua amada cidade. Emmet, Lucy e Batman precisam impedir que os invasores do espaço sideral destruam seu lar, mais rápido do que é possível reconstruir.</desc>
+    <episode-num system="xmltv_ns">2019..</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">COMEDY</category><category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F59%2F26598740_5a1122548a8cc75f1926fee4d50e610e.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171500 -0300" stop="20261122183000 -0300" channel="ec:espn5">
+    <title lang="pt">Moto 3 - GP de Portugal : GP de Portugal</title>
+    <desc lang="pt">Todas as emoções do terceiro escalão da principal competição de motovelocidade do mundo.</desc>
+    <episode-num system="xmltv_ns">2026..</episode-num>
+  </programme>
+  
+  <programme start="20261122171500 -0300" stop="20261122181600 -0300" channel="ec:hbosignature">
+    <title lang="pt">Cidade de Deus: A Luta Não Para</title>
+    <desc lang="pt">Wilson fotografa a guerra do tráfico e conhece Lígia, uma repórter que investiga a corrupção policial. Sua filha Leka tenta a carreira musical e Berenice luta para manter seu namorado longe do crime.</desc>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <rating system="Brazil">
+      <value>[AGE88]</value>
+    </rating>
+  <category lang="en">DRAMA</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F43%2F28430837_cb545aec4ea479a6a49ea3ed4e6b268c.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171500 -0300" stop="20261122180100 -0300" channel="ec:tntnovelas">
+    <title lang="pt">Será Isso Amor?</title>
+    <desc lang="pt">As meninas saem para comemorar o aniversário de Piril enquanto os meninos têm uma noite de jogos; Alptekin e Aydan ficam arrasados por Serkan e Aydan decide ir a um terapeuta.</desc>
+    <episode-num system="xmltv_ns">1.50.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  <category lang="en">COMEDY</category><category lang="en">DRAMA</category><category lang="en">ENTERTAINMENT</category><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F21%2F15%2F21153326_A31162A4FA8CA8CA.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171500 -0300" stop="20261122180000 -0300" channel="ec:tvcultura">
+    <title lang="pt">Osmar, a Primeira Fatia do Pão de Forma</title>
+    <desc lang="pt">Na cidade de Trigueirópolis, a vida é um café da manhã. Entre seus habitantes, compostos por pães, queijos e doces, está Osmar. Junto ao seu amigo Stevie, ele se envolve em muitas confusões.</desc>
+    <length units="minutes">2700</length>
+    <episode-num system="xmltv_ns">17.326.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">ENTERTAINMENT</category><category lang="en">FAMILY_KIDS</category><sub-title lang="pt">Leões da Costa dos Esqueletos</sub-title><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F13%2F15%2F13152635_F8AF9BEF6A770340.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122171500 -0300" stop="20261122193000 -0300" channel="ec:globosp">
+    <title lang="pt">Programação Globo</title>
+    <desc lang="pt">Programação Rede Globo.</desc>
+    <length units="minutes">8100</length>
+  </programme>
+  
+  <programme start="20261122171500 -0300" stop="20261122173000 -0300" channel="ec:paieterno">
+    <title lang="pt">Programa Pai Eterno</title>
+    <desc lang="pt">Padre Wellinton Silva traz as principais notícias sobre a devoção ao Pai Eterno.</desc>
+    <length units="minutes">900</length>
+    <episode-num system="xmltv_ns">17.326.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">ENTERTAINMENT</category><category lang="en">LIFE_STYLE</category></programme>
+  <programme start="20261122171600 -0300" stop="20261122172700 -0300" channel="ec:cartoonnetwork">
+    <title lang="pt">O Mundo Maravilhosamente Estranho de Gumball : O Amadain</title>
+    <desc lang="pt">Gumball promete usar uma concha e participar das estranhas tradições da família Fitzgerald para ajudar Penny a enfrentar com tranquilidade uma tensa festa de aniversário.</desc>
+    <episode-num system="xmltv_ns">1.20.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171600 -0300" stop="20261122180500 -0300" channel="ec:tntseries">
+    <title lang="pt">The Mentalist : 18-5-4</title>
+    <desc lang="pt">Um gênio da matemática é morto a tiros por uma pessoa vestida como palhaço. Os agentes descobrem que a vítima trabalhava em um dispositivo anti-hacker para computadores e isso pode ter sido a causa do seu assassinato.</desc>
+    <episode-num system="xmltv_ns">2.21.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171800 -0300" stop="20261122181200 -0300" channel="ec:discoverychannel">
+    <title lang="pt">Largados e Pelados - Latinos : O Pesadelo dos Carrapatos</title>
+    <desc lang="pt">Alguns sobreviventes priorizam a construção do abrigo, outros a busca de uma fonte de água segura. Os primeiros conflitos pessoais começam a aparecer e uma dificuldade inesperada é revelada: a região está infestada de carrapatos.</desc>
+    <episode-num system="xmltv_ns">2.2.</episode-num>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171800 -0300" stop="20261122180000 -0300" channel="ec:foodnetwork">
+    <title lang="pt">Bobby Flay: Ameaça Tripla : Titans vs. Kevin Lee</title>
+    <desc lang="pt">O chef Kevin Lee traz sua culinária sulista e coreana para desafiar os Titans de Bobby Flay e Brooke Williamson.</desc>
+    <episode-num system="xmltv_ns">3.3.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122171900 -0300" stop="20261122181200 -0300" channel="ec:discoveryid">
+    <title lang="pt">House of Hammer - Segredos de Família : Siga o Dinheiro</title>
+    <desc lang="pt">Das conexões do avô de Armie, Armand Hammer com a realeza britânica até as bombásticas revelações dos segredos do ator. Descubra se a família Hammer enfrentará as consequências do seu poder, privilégio e fama.</desc>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <rating system="Brazil">
+      <value>[AGE88]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172000 -0300" stop="20261122172459 -0300" channel="ec:gloobinho">
+    <title lang="pt">Pipas</title>
+    <sub-title lang="pt">Chocalho</sub-title>
+    <desc lang="pt">Peixinho se prepara para o Festival Musical dos Nunus, mas sua falta de habilidade musical preocupa os amigos. Até que ela encontra um chocalho mágico que a faz cantar perfeitamente.</desc>
+    <length units="minutes">4</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  <category lang="en">DRAMA</category><category lang="en">FAMILY_KIDS</category><episode-num system="xmltv_ns">0.2.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F63%2F28633276_415164310781c8e538731dc2cf43c099.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122172000 -0300" stop="20261122180959 -0300" channel="ec:usa">
+    <title lang="pt">Blue Bloods</title>
+    <sub-title lang="pt">Esperas</sub-title>
+    <desc lang="pt">Um caso de homício tem o juri suspenso e Erin é forçada a assumir o caso para encontrar uma testemunha desaparecida. Enquanto isso, Jamie e Eddie trabalham disfarçados.</desc>
+    <length units="minutes">49</length>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  <category lang="en">DRAMA</category><episode-num system="xmltv_ns">5.8.0</episode-num><icon src="https://spotlight-br.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F63%2F28636956_9faad8f593188ba7a8ea26ddc4e9bdc5.jpg&amp;height=480&amp;resize=RATIO&amp;format=WEBP" /></programme>
+  <programme start="20261122172000 -0300" stop="20261122172700 -0300" channel="ec:cartoonito">
+    <title lang="pt">Grizzy and the Lemmings : Fantasias Monstruosas</title>
+    <desc lang="pt">Para celebrar o Halloween, os Lemmings se disfarçam e decoram a cabana.</desc>
+    <episode-num system="xmltv_ns">4.76.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172000 -0300" stop="20261122190500 -0300" channel="ec:sonychannel">
+    <title lang="pt">O Atirador: O Fim de Um Assassino</title>
+    <desc lang="pt">Vincent Freeman sempre sonhou em viajar para o espaço, mas não pode por ser considerado geneticamente inferior. Ele decide desafiar seu destino comprando os genes de Jerome Morrow, e assumindo a sua identidade.</desc>
+    <length units="minutes">6300</length>
+    <rating system="Brazil">
+      <value>[16]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172000 -0300" stop="20261122174000 -0300" channel="ec:mtv"><title lang="pt">Just Tattoo Of Us Usa</title><desc lang="pt">🎭 Música
+Kailah Exposes the Truth. MTV Challenge vet Kailah exposes her boyfriend's big insecurity with a tattoo on a very unexpected body part. And, a best friend's surprising secret leaves everyone in the studio in tears</desc><category lang="en">MUSIC</category><icon src="http://epg.bnet.hr/images/https://cdn.a1xploretv.hr/cdn_publish/epg/498x280_event_thumb/0574d4b7672245608917a27993d11ff6_thumb.jpg" /><credits><director>Michael Pearlman</director><actor>Cheyenne Floyd</actor></credits></programme>
+  <programme start="20261122172500 -0300" stop="20261122182000 -0300" channel="ec:axn">
+    <title lang="pt">Criminal Minds : Innocence</title>
+    <desc lang="pt">Logo depois que a equipe BAU oferece ajuda a forças policiais para isolar um suspeito de um assassinato ritualístico em Tallahassee, Flórida, uma segunda pessoa relacionada à primeira vítima é assassinada em circunstâncias similares.</desc>
+    <episode-num system="xmltv_ns">14.4.</episode-num>
+    <rating system="Brazil">
+      <value>[AGE88]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172500 -0300" stop="20261122175200 -0300" channel="ec:adultswim">
+    <title lang="pt">One Piece : Grandiosas Asas! Meu Nome é Pell,...</title>
+    <desc lang="pt">Luffy continua a lutar contra Crocodile; Nami tem a ideia de levar Vivi até o topo da torre do relógio para impedir o funcionamento do canhão.</desc>
+    <episode-num system="xmltv_ns">4.33.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172500 -0300" stop="20261122190000 -0300" channel="ec:history">
+    <title lang="pt">Trato Feito - Pé na Estrada : O Encanto do Sul</title>
+    <desc lang="pt">Rick, Corey e Chum seguem para o sul dos Estados Unidos para visitar a cidade de Savannah, na Geórgia. O enérgico trio é enfeitiçado por um perigoso truque de mágica, um hotel assustador e uma lápide infame.</desc>
+    <episode-num system="xmltv_ns">1.6.</episode-num>
+    <rating system="Brazil">
+      <value>[10]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172500 -0300" stop="20261122173500 -0300" channel="ec:tvratimbum">
+    <title lang="pt">Isso Disso : Arco Íris</title>
+    <desc lang="pt">O programa que desvenda curiosidades fala, no episódio de hoje, sobre um dos fenômenos mais belos da natureza: o arco-íris, resultado da dispersão de luz solar em gotículas de água suspensas na atmosfera.</desc>
+    <episode-num system="xmltv_ns">2.1.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172630 -0300" stop="20261122185159 -0300" channel="ec:gloob">
+    <title lang="pt">Cine Gloob</title>
+    <sub-title lang="pt">Big Pai, Big Filho 2</sub-title>
+    <desc lang="pt">Adam parte em uma missão para encontrar seu pai, o Pé-Grande, desaparecido após enfrentar uma petroleira no Alasca e tentar proteger uma reserva natural.</desc>
+    <length units="minutes">85</length>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172700 -0300" stop="20261122174000 -0300" channel="ec:cartoonnetwork">
+    <title lang="pt">O Mundo Maravilhosamente Estranho de Gumball : A Coisa</title>
+    <desc lang="pt">Richard precisa refazer as memórias de seu dia para descobrir o que é a coisa, e assim o jantar de Nicole com a vovó Jo Jo não se torne outro fracasso épico.</desc>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172700 -0300" stop="20261122173500 -0300" channel="ec:cartoonito">
+    <title lang="pt">Grizzy e os Lemmings : Cupons para Quem Merece</title>
+    <desc lang="pt">Na praia, os Lemmings montaram uma mini-feira destinada aos turistas. Cada atração permite ganhar bilhetes usados para resgatar prêmios em uma máquina de venda automática.</desc>
+    <episode-num system="xmltv_ns">4.29.</episode-num>
+    <rating system="Brazil">
+      <value>[L]</value>
+    </rating>
+  </programme>
+  
+  <programme start="20261122172700 -0300" stop="20261122174900 -0300" channel="ec:hgtv">
+    <title lang="pt">Vida no Paraíso - Bahamas : Trocando Skis de Neve por Skis Aquáticos</title>
+    <desc lang="pt">Um casal agitado quer escapar dos rigorosos invernos canadenses com uma casa de veraneio na ensolarada Exuma, Bahamas. Eles desejam um local para praticar os esportes aquáticos que amam e onde possam receber a família.</desc>
+    <episode-num system="xmltv_ns">5.6.</episode-num>
     <rating system="Brazil">
       <value>[L]</value>
     </rating>
