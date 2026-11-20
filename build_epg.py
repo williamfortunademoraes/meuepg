@@ -2,6 +2,7 @@
 """Merge available BrazilTVEPG XMLTV sources into Meu EPG."""
 
 import csv
+from bisect import bisect_left
 import datetime as dt
 import gzip
 import html
@@ -112,6 +113,13 @@ def fetch_amc_series_programmes(now=None):
     return programmes
 
 
+def parse_xmltv_datetime(value):
+    try:
+        return dt.datetime.strptime(value[:20], "%Y%m%d%H%M%S %z").astimezone(dt.timezone.utc)
+    except (TypeError, ValueError):
+        return None
+
+
 def main():
     mapping_path = ROOT / "pareamentos.csv"
     with mapping_path.open(encoding="utf-8-sig", newline="") as handle:
@@ -123,14 +131,21 @@ def main():
     rows_by_id = {row["TvvioId"]: row for row in rows}
     # Build a normalized channel-name lookup; ambiguous matches are deliberately skipped.
     target_names = defaultdict(list)
+    target_name_by_id = {}
     for row in rows:
         key = normalize(ALIASES.get(row["TvvioId"], names.get(row["TvvioId"], row["Tvvio"])))
         target_names[key].append(row["TvvioId"])
+        target_name_by_id[row["TvvioId"]] = key
 
     chosen = {}
     programmes = {}
     counts = defaultdict(int)
     source_for = {}
+    starts_by_channel = defaultdict(list)
+    intervals_by_channel = defaultdict(list)
+    now = dt.datetime.now(dt.timezone.utc)
+    window_start = now - dt.timedelta(hours=6)
+    window_end = now + dt.timedelta(hours=48)
     all_sources = [(filename, BASE + filename) for filename in SOURCES] + EXTRA_SOURCES
     for filename, url in all_sources:
         allowed_targets = SOURCE_CHANNEL_ALLOWLIST.get(filename)
@@ -171,10 +186,30 @@ def main():
                 if element.tag == "programme":
                     channel_id = source_map.get(element.get("channel", ""))
                     if channel_id and channel_id not in blocked_targets:
-                        element.set("channel", channel_id)
                         title = element.findtext("title", "")
+                        start = parse_xmltv_datetime(element.get("start"))
+                        stop = parse_xmltv_datetime(element.get("stop"))
+                        if not start or not stop or stop <= start or stop <= window_start or start >= window_end:
+                            element.clear()
+                            continue
+                        title_key = normalize(title)
+                        target_key = target_name_by_id[channel_id]
+                        if title_key in {target_key, "PROGRAMACAO" + target_key}:
+                            element.clear()
+                            continue
                         key = (channel_id, element.get("start", ""), title)
                         if key not in programmes:
+                            starts = starts_by_channel[channel_id]
+                            intervals = intervals_by_channel[channel_id]
+                            position = bisect_left(starts, start)
+                            overlaps_previous = position > 0 and intervals[position - 1][1] > start
+                            overlaps_next = position < len(starts) and starts[position] < stop
+                            if overlaps_previous or overlaps_next:
+                                element.clear()
+                                continue
+                            starts.insert(position, start)
+                            intervals.insert(position, (start, stop))
+                            element.set("channel", channel_id)
                             programmes[key] = ET.tostring(element, encoding="unicode")
                             counts[channel_id] += 1
                             source_for.setdefault(channel_id, filename)
@@ -187,6 +222,19 @@ def main():
         for start, title, program_xml in fetch_amc_series_programmes():
             key = (AMC_SERIES_CHANNEL, start, title)
             if key not in programmes:
+                start_dt = parse_xmltv_datetime(start)
+                stop_dt = parse_xmltv_datetime(ET.fromstring(program_xml).get("stop"))
+                if not start_dt or not stop_dt or stop_dt <= start_dt:
+                    continue
+                starts = starts_by_channel[AMC_SERIES_CHANNEL]
+                intervals = intervals_by_channel[AMC_SERIES_CHANNEL]
+                position = bisect_left(starts, start_dt)
+                if position > 0 and intervals[position - 1][1] > start_dt:
+                    continue
+                if position < len(starts) and starts[position] < stop_dt:
+                    continue
+                starts.insert(position, start_dt)
+                intervals.insert(position, (start_dt, stop_dt))
                 programmes[key] = program_xml
                 counts[AMC_SERIES_CHANNEL] += 1
                 source_for.setdefault(AMC_SERIES_CHANNEL, "AMC Series Brasil official")
