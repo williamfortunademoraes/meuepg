@@ -32,7 +32,7 @@ ec:warner,Warner Channel,Correspondência,201,claro.xml
 ec:adultswim,Adult Swim,Correspondência,611,vivoplay.xml
 ec:animalplanet,Animal Planet,Correspondência,321,vivoplay.xml
 ec:comedycentral,Comedy Central,Sem correspondência,0,
-ec:discoverychannel,Discovery Channel,Sem correspondência,0,
+ec:discoverychannel,Discovery Channel,Correspondência,300,vivoplay.xml
 ec:discoveryhh,Discovery Home & Health,Correspondência,251,vivoplay.xml
 ec:discoveryscience,Discovery Science,Correspondência,300,vivoplay.xml
 ec:discoverytheater,Discovery Theater,Correspondência,303,vivoplay.xml
@@ -132,12 +132,12 @@ ec:recorddf,Record DF,Sem correspondência,0,
 ec:recordes,Record Espírito Santo,Sem correspondência,0,
 ec:recordmg,Record Minas,Sem correspondência,0,
 ec:recordrj,Record Rio,Sem correspondência,0,
-ec:recordsp,Record São Paulo,Sem correspondência,0,
+ec:recordsp,Record São Paulo,Correspondência,118,claro.xml
 ec:redetv,RedeTV!,Correspondência,102,vivoplay.xml
 ec:sbtrj,SBT Rio,Sem correspondência,0,
-ec:sbtsp,SBT São Paulo,Sem correspondência,0,
-ec:tvcultura,TV Cultura,Sem correspondência,0,
-ec:cartoonnetwork,Cartoon Network,Sem correspondência,0,
+ec:sbtsp,SBT São Paulo,Correspondência,74,claro.xml
+ec:tvcultura,TV Cultura,Correspondência,288,claro.xml
+ec:cartoonnetwork,Cartoon Network,Correspondência,1197,vivoplay.xml
 ec:cartoonito,Cartoonito,Correspondência,1697,vivoplay.xml
 ec:discoverykids,Discovery Kids,Correspondência,1163,vivoplay.xml
 ec:dreamworks,DreamWorks,Correspondência,275,vivoplay.xml
@@ -149,7 +149,7 @@ ec:tooncast,Tooncast,Correspondência,584,vivoplay.xml
 ec:tvratimbum,TV Ra Tim Bum,Correspondência,924,vivoplay.xml
 ec:cancaonova,Canção Nova,Correspondência,314,vivoplay.xml
 ec:novotempo,Novo Tempo,Correspondência,298,vivoplay.xml
-ec:paieterno,Pai Eterno,Sem correspondência,0,
+ec:paieterno,Pai Eterno,Correspondência,198,claro.xml
 ec:redegospel,Rede Gospel,Correspondência,145,epg.xml
 ec:redevida,Rede Vida,Correspondência,347,vivoplay.xml
 ec:tvaparecida,TV Aparecida,Correspondência,258,vivoplay.xml

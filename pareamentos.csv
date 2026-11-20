@@ -32,7 +32,7 @@ ec:warner,Warner Channel,claro.xml,claro.xml,Correspondência
 ec:adultswim,Adult Swim,vivoplay.xml,vivoplay.xml,Correspondência
 ec:animalplanet,Animal Planet,vivoplay.xml,vivoplay.xml,Correspondência
 ec:comedycentral,Comedy Central,,,Sem correspondência
-ec:discoverychannel,Discovery Channel,,,Sem correspondência
+ec:discoverychannel,Discovery Channel,vivoplay.xml,vivoplay.xml,Correspondência
 ec:discoveryhh,Discovery Home & Health,vivoplay.xml,vivoplay.xml,Correspondência
 ec:discoveryscience,Discovery Science,vivoplay.xml,vivoplay.xml,Correspondência
 ec:discoverytheater,Discovery Theater,vivoplay.xml,vivoplay.xml,Correspondência
@@ -132,12 +132,12 @@ ec:recorddf,Record DF,,,Sem correspondência
 ec:recordes,Record Espírito Santo,,,Sem correspondência
 ec:recordmg,Record Minas,,,Sem correspondência
 ec:recordrj,Record Rio,,,Sem correspondência
-ec:recordsp,Record São Paulo,,,Sem correspondência
+ec:recordsp,Record São Paulo,claro.xml,claro.xml,Correspondência
 ec:redetv,RedeTV!,vivoplay.xml,vivoplay.xml,Correspondência
 ec:sbtrj,SBT Rio,,,Sem correspondência
-ec:sbtsp,SBT São Paulo,,,Sem correspondência
-ec:tvcultura,TV Cultura,,,Sem correspondência
-ec:cartoonnetwork,Cartoon Network,,,Sem correspondência
+ec:sbtsp,SBT São Paulo,claro.xml,claro.xml,Correspondência
+ec:tvcultura,TV Cultura,claro.xml,claro.xml,Correspondência
+ec:cartoonnetwork,Cartoon Network,vivoplay.xml,vivoplay.xml,Correspondência
 ec:cartoonito,Cartoonito,vivoplay.xml,vivoplay.xml,Correspondência
 ec:discoverykids,Discovery Kids,vivoplay.xml,vivoplay.xml,Correspondência
 ec:dreamworks,DreamWorks,vivoplay.xml,vivoplay.xml,Correspondência
@@ -149,7 +149,7 @@ ec:tooncast,Tooncast,vivoplay.xml,vivoplay.xml,Correspondência
 ec:tvratimbum,TV Ra Tim Bum,vivoplay.xml,vivoplay.xml,Correspondência
 ec:cancaonova,Canção Nova,vivoplay.xml,vivoplay.xml,Correspondência
 ec:novotempo,Novo Tempo,vivoplay.xml,vivoplay.xml,Correspondência
-ec:paieterno,Pai Eterno,,,Sem correspondência
+ec:paieterno,Pai Eterno,claro.xml,claro.xml,Correspondência
 ec:redegospel,Rede Gospel,epg.xml,epg.xml,Correspondência
 ec:redevida,Rede Vida,vivoplay.xml,vivoplay.xml,Correspondência
 ec:tvaparecida,TV Aparecida,vivoplay.xml,vivoplay.xml,Correspondência
