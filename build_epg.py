@@ -15,6 +15,10 @@ ROOT = Path(__file__).resolve().parent
 BASE = "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/"
 # Specific channel feeds come first; claro.xml fills the remaining matches.
 SOURCES = ["globo.xml", "maissbt.xml", "vivoplay.xml", "xsports.xml", "epg.xml", "claro.xml"]
+EXTRA_SOURCES = [
+    ("EPG-Scrapper-BR", "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml"),
+    ("epg.pw", "https://epg.pw/xmltv/epg_BR.xml"),
+]
 CATALOG_URL = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
 ALIASES = {
     "ec:globorj": "GLOBO RJ", "ec:globosp": "GLOBO SP",
@@ -69,8 +73,13 @@ def main():
     programmes = {}
     counts = defaultdict(int)
     source_for = {}
-    for filename in SOURCES:
-        raw = get_bytes(filename)
+    all_sources = [(filename, BASE + filename) for filename in SOURCES] + EXTRA_SOURCES
+    for filename, url in all_sources:
+        try:
+            raw = get_bytes(filename) if url.startswith(BASE) else fetch(url)
+        except Exception as error:
+            print(f"Skipping unavailable source {filename}: {error}")
+            continue
         source_map = {}
         for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
             if element.tag == "channel":
