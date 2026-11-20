@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/claro.xml"
+CATALOG = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
 
 
 def normalize(value):
@@ -35,6 +36,17 @@ def main():
         rows = list(csv.DictReader(handle))
 
     raw = fetch_source()
+    catalog_path = os.environ.get("MEU_EPG_CATALOG_FILE")
+    if catalog_path:
+        catalog = Path(catalog_path).read_bytes()
+    else:
+        request = urllib.request.Request(CATALOG, headers={"User-Agent": "MeuEPG-Builder/1.0"})
+        with urllib.request.urlopen(request, timeout=45) as response:
+            catalog = response.read()
+    catalog_logos = {
+        item["id"]: item.get("logo") or item.get("poster")
+        for item in __import__("json").loads(catalog).get("metas", [])
+    }
     source_channels = {}
     for _, element in ET.iterparse(io.BytesIO(raw), events=("end",)):
         if element.tag == "channel":
@@ -79,7 +91,12 @@ def main():
                 if tvvio_id:
                     channels.add(source_id)
                     safe_id = tvvio_id.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-                    output.write(f'  <channel id="{safe_id}"><display-name>{safe_id}</display-name></channel>\n'.encode())
+                    channel_name = next((row["Tvvio"] for row in rows if row["TvvioId"] == tvvio_id), tvvio_id)
+                    safe_name = (channel_name.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+                    logo = catalog_logos.get(tvvio_id, "")
+                    safe_logo = logo.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+                    icon = f'<icon src="{safe_logo}" />' if safe_logo else ""
+                    output.write(f'  <channel id="{safe_id}"><display-name>{safe_name}</display-name>{icon}</channel>\n'.encode())
                 element.clear()
             elif element.tag == "programme":
                 tvvio_id = source_to_tvvio.get(element.get("channel", ""))

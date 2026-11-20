@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Meu EPG">
-  <channel id="ec:aee"><display-name>ec:aee</display-name></channel>
-  <channel id="ec:amc"><display-name>ec:amc</display-name></channel>
-  <channel id="ec:animalplanet"><display-name>ec:animalplanet</display-name></channel>
-  <channel id="ec:axn"><display-name>ec:axn</display-name></channel>
-  <channel id="ec:adultswim"><display-name>ec:adultswim</display-name></channel>
-  <channel id="ec:bandnews"><display-name>ec:bandnews</display-name></channel>
-  <channel id="ec:bandsports"><display-name>ec:bandsports</display-name></channel>
-  <channel id="ec:cancaonova"><display-name>ec:cancaonova</display-name></channel>
-  <channel id="ec:cartoonito"><display-name>ec:cartoonito</display-name></channel>
-  <channel id="ec:cinemax"><display-name>ec:cinemax</display-name></channel>
-  <channel id="ec:cnnbrasil"><display-name>ec:cnnbrasil</display-name></channel>
-  <channel id="ec:discoveryhh"><display-name>ec:discoveryhh</display-name></channel>
-  <channel id="ec:discoverykids"><display-name>ec:discoverykids</display-name></channel>
-  <channel id="ec:discoveryscience"><display-name>ec:discoveryscience</display-name></channel>
-  <channel id="ec:discoverytheater"><display-name>ec:discoverytheater</display-name></channel>
-  <channel id="ec:discoveryturbo"><display-name>ec:discoveryturbo</display-name></channel>
-  <channel id="ec:discoveryworld"><display-name>ec:discoveryworld</display-name></channel>
-  <channel id="ec:espn"><display-name>ec:espn</display-name></channel>
-  <channel id="ec:espn2"><display-name>ec:espn2</display-name></channel>
-  <channel id="ec:espn3"><display-name>ec:espn3</display-name></channel>
-  <channel id="ec:espn4"><display-name>ec:espn4</display-name></channel>
-  <channel id="ec:espn5"><display-name>ec:espn5</display-name></channel>
-  <channel id="ec:espn6"><display-name>ec:espn6</display-name></channel>
-  <channel id="ec:foodnetwork"><display-name>ec:foodnetwork</display-name></channel>
-  <channel id="ec:getv"><display-name>ec:getv</display-name></channel>
-  <channel id="ec:globonews"><display-name>ec:globonews</display-name></channel>
-  <channel id="ec:gloob"><display-name>ec:gloob</display-name></channel>
-  <channel id="ec:gloobinho"><display-name>ec:gloobinho</display-name></channel>
-  <channel id="ec:gnt"><display-name>ec:gnt</display-name></channel>
-  <channel id="ec:globoplaynovelas"><display-name>ec:globoplaynovelas</display-name></channel>
-  <channel id="ec:hbofamily"><display-name>ec:hbofamily</display-name></channel>
-  <channel id="ec:hbomundi"><display-name>ec:hbomundi</display-name></channel>
-  <channel id="ec:hbopop"><display-name>ec:hbopop</display-name></channel>
-  <channel id="ec:hbosignature"><display-name>ec:hbosignature</display-name></channel>
-  <channel id="ec:hboxtreme"><display-name>ec:hboxtreme</display-name></channel>
-  <channel id="ec:hbo2"><display-name>ec:hbo2</display-name></channel>
-  <channel id="ec:hgtv"><display-name>ec:hgtv</display-name></channel>
-  <channel id="ec:history"><display-name>ec:history</display-name></channel>
-  <channel id="ec:history2"><display-name>ec:history2</display-name></channel>
-  <channel id="ec:jovempannews"><display-name>ec:jovempannews</display-name></channel>
-  <channel id="ec:megapix"><display-name>ec:megapix</display-name></channel>
-  <channel id="ec:multishow"><display-name>ec:multishow</display-name></channel>
-  <channel id="ec:nsports"><display-name>ec:nsports</display-name></channel>
-  <channel id="ec:canaloff"><display-name>ec:canaloff</display-name></channel>
-  <channel id="ec:premiere2"><display-name>ec:premiere2</display-name></channel>
-  <channel id="ec:premiere3"><display-name>ec:premiere3</display-name></channel>
-  <channel id="ec:premiere4"><display-name>ec:premiere4</display-name></channel>
-  <channel id="ec:premiere5"><display-name>ec:premiere5</display-name></channel>
-  <channel id="ec:premiere6"><display-name>ec:premiere6</display-name></channel>
-  <channel id="ec:premiere7"><display-name>ec:premiere7</display-name></channel>
-  <channel id="ec:premiereclubes"><display-name>ec:premiereclubes</display-name></channel>
-  <channel id="ec:recordsp"><display-name>ec:recordsp</display-name></channel>
-  <channel id="ec:recordnews"><display-name>ec:recordnews</display-name></channel>
-  <channel id="ec:redegospel"><display-name>ec:redegospel</display-name></channel>
-  <channel id="ec:redevida"><display-name>ec:redevida</display-name></channel>
-  <channel id="ec:sbtsp"><display-name>ec:sbtsp</display-name></channel>
-  <channel id="ec:sonychannel"><display-name>ec:sonychannel</display-name></channel>
-  <channel id="ec:space"><display-name>ec:space</display-name></channel>
-  <channel id="ec:sportv"><display-name>ec:sportv</display-name></channel>
-  <channel id="ec:sportv2"><display-name>ec:sportv2</display-name></channel>
-  <channel id="ec:sportv3"><display-name>ec:sportv3</display-name></channel>
-  <channel id="ec:studiouniversal"><display-name>ec:studiouniversal</display-name></channel>
-  <channel id="ec:sportynet1"><display-name>ec:sportynet1</display-name></channel>
-  <channel id="ec:sportynet2"><display-name>ec:sportynet2</display-name></channel>
-  <channel id="ec:sportynet3"><display-name>ec:sportynet3</display-name></channel>
-  <channel id="ec:sportynet"><display-name>ec:sportynet</display-name></channel>
-  <channel id="ec:tcaction"><display-name>ec:tcaction</display-name></channel>
-  <channel id="ec:tccult"><display-name>ec:tccult</display-name></channel>
-  <channel id="ec:tcfun"><display-name>ec:tcfun</display-name></channel>
-  <channel id="ec:tcpipoca"><display-name>ec:tcpipoca</display-name></channel>
-  <channel id="ec:tcpremium"><display-name>ec:tcpremium</display-name></channel>
-  <channel id="ec:tctouch"><display-name>ec:tctouch</display-name></channel>
-  <channel id="ec:tnt"><display-name>ec:tnt</display-name></channel>
-  <channel id="ec:tntnovelas"><display-name>ec:tntnovelas</display-name></channel>
-  <channel id="ec:tntseries"><display-name>ec:tntseries</display-name></channel>
-  <channel id="ec:tvaparecida"><display-name>ec:tvaparecida</display-name></channel>
-  <channel id="ec:tvratimbum"><display-name>ec:tvratimbum</display-name></channel>
-  <channel id="ec:universaltv"><display-name>ec:universaltv</display-name></channel>
-  <channel id="ec:usa"><display-name>ec:usa</display-name></channel>
-  <channel id="ec:warner"><display-name>ec:warner</display-name></channel>
-  <channel id="ec:xsports"><display-name>ec:xsports</display-name></channel>
+  <channel id="ec:aee"><display-name>A&amp;E</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2FlZS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:amc"><display-name>AMC</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2FtYy5wbmc&amp;v=3" /></channel>
+  <channel id="ec:animalplanet"><display-name>Animal Planet</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2FuaW1hbHBsYW5ldC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:axn"><display-name>AXN</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2F4bi5wbmc&amp;v=3" /></channel>
+  <channel id="ec:adultswim"><display-name>Adult Swim</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2FkdWx0c3dpbS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:bandnews"><display-name>BandNews</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2JhbmRuZXdzLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:bandsports"><display-name>Band Sports</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2JhbmRzcG9ydHMucG5n&amp;v=3" /></channel>
+  <channel id="ec:cancaonova"><display-name>Canção Nova</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9jYW5jYW9ub3ZhLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:cartoonito"><display-name>Cartoonito</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2NhcnRvb25pdG8ucG5n&amp;v=3" /></channel>
+  <channel id="ec:cinemax"><display-name>Cinemax</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2NpbmVtYXgucG5n&amp;v=3" /></channel>
+  <channel id="ec:cnnbrasil"><display-name>CNN Brasil</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2NubmJyYXNpbC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:discoveryhh"><display-name>Discovery Home &amp; Health</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Rpc2NvdmVyeWhoLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:discoverykids"><display-name>Discovery Kids</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Rpc2NvdmVyeWtpZHMucG5n&amp;v=3" /></channel>
+  <channel id="ec:discoveryscience"><display-name>Discovery Science</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Rpc2NvdmVyeXNjaWVuY2UucG5n&amp;v=3" /></channel>
+  <channel id="ec:discoverytheater"><display-name>Discovery Theater</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Rpc2NvdmVyeXRoZWF0ZXIucG5n&amp;v=3" /></channel>
+  <channel id="ec:discoveryturbo"><display-name>Discovery Turbo</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Rpc2NvdmVyeXR1cmJvLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:discoveryworld"><display-name>Discovery World</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Rpc2NvdmVyeXdvcmxkLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:espn"><display-name>ESPN</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2VzcG4ucG5n&amp;v=3" /></channel>
+  <channel id="ec:espn2"><display-name>ESPN 2</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2VzcG4ucG5n&amp;v=3" /></channel>
+  <channel id="ec:espn3"><display-name>ESPN 3</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2VzcG4ucG5n&amp;v=3" /></channel>
+  <channel id="ec:espn4"><display-name>ESPN 4</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2VzcG4ucG5n&amp;v=3" /></channel>
+  <channel id="ec:espn5"><display-name>ESPN 5</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2VzcG4ucG5n&amp;v=3" /></channel>
+  <channel id="ec:espn6"><display-name>ESPN 6</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2VzcG4ucG5n&amp;v=3" /></channel>
+  <channel id="ec:foodnetwork"><display-name>Food Network</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2Zvb2RuZXR3b3JrLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:getv"><display-name>GE TV</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2dldHYucG5n&amp;v=3" /></channel>
+  <channel id="ec:globonews"><display-name>GloboNews</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2dsb2JvbmV3cy5wbmc&amp;v=3" /></channel>
+  <channel id="ec:gloob"><display-name>Gloob</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2dsb29iLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:gloobinho"><display-name>Gloobinho</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2dsb29iaW5oby5wbmc&amp;v=3" /></channel>
+  <channel id="ec:gnt"><display-name>GNT</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2dudC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:globoplaynovelas"><display-name>Globoplay Novelas</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2dsb2JvcGxheW5vdmVsYXMucG5n&amp;v=3" /></channel>
+  <channel id="ec:hbofamily"><display-name>HBO Family</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hib2ZhbWlseS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:hbomundi"><display-name>HBO Mundi</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hib211bmRpLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:hbopop"><display-name>HBO Pop</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hib3BvcC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:hbosignature"><display-name>HBO Signature</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hib3NpZ25hdHVyZS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:hboxtreme"><display-name>HBO Xtreme</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hib3h0cmVtZS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:hbo2"><display-name>HBO 2</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hibzIucG5n&amp;v=3" /></channel>
+  <channel id="ec:hgtv"><display-name>HGTV</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hndHYucG5n&amp;v=3" /></channel>
+  <channel id="ec:history"><display-name>History</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hpc3RvcnkucG5n&amp;v=3" /></channel>
+  <channel id="ec:history2"><display-name>History 2</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2hpc3RvcnkyLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:jovempannews"><display-name>Jovem Pan News</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2pvdmVtcGFubmV3cy5wbmc&amp;v=3" /></channel>
+  <channel id="ec:megapix"><display-name>Megapix</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL21lZ2FwaXgucG5n&amp;v=3" /></channel>
+  <channel id="ec:multishow"><display-name>Multishow</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL211bHRpc2hvdy5wbmc&amp;v=3" /></channel>
+  <channel id="ec:nsports"><display-name>N Sports</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL25zcG9ydHMucG5n&amp;v=3" /></channel>
+  <channel id="ec:canaloff"><display-name>Canal Off</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL2NhbmFsb2ZmLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiere2"><display-name>Premiere 2</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiere3"><display-name>Premiere 3</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiere4"><display-name>Premiere 4</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiere5"><display-name>Premiere 5</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiere6"><display-name>Premiere 6</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiere7"><display-name>Premiere 7</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:premiereclubes"><display-name>Premiere Clubes</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3ByZW1pZXJlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:recordsp"><display-name>Record São Paulo</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3JlY29yZC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:recordnews"><display-name>Record News</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3JlY29yZG5ld3MucG5n&amp;v=3" /></channel>
+  <channel id="ec:redegospel"><display-name>Rede Gospel</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9yZWRlZ29zcGVsLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:redevida"><display-name>Rede Vida</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9yZWRldmlkYS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:sbtsp"><display-name>SBT São Paulo</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3NidHNwLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:sonychannel"><display-name>Sony Channel</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3NvbnljaGFubmVsLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:space"><display-name>Space</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3NwYWNlLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:sportv"><display-name>SporTV</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3Nwb3J0di5wbmc&amp;v=3" /></channel>
+  <channel id="ec:sportv2"><display-name>SporTV 2</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3Nwb3J0djIucG5n&amp;v=3" /></channel>
+  <channel id="ec:sportv3"><display-name>SporTV 3</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3Nwb3J0djMucG5n&amp;v=3" /></channel>
+  <channel id="ec:studiouniversal"><display-name>Studio Universal</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3N0dWRpb3VuaXZlcnNhbC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:sportynet1"><display-name>SportyNet +1</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9zcG9ydHluZXQucG5n&amp;v=3" /></channel>
+  <channel id="ec:sportynet2"><display-name>SportyNet +2</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9zcG9ydHluZXQucG5n&amp;v=3" /></channel>
+  <channel id="ec:sportynet3"><display-name>SportyNet +3</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9zcG9ydHluZXQucG5n&amp;v=3" /></channel>
+  <channel id="ec:sportynet"><display-name>SportyNet</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy9zcG9ydHluZXQucG5n&amp;v=3" /></channel>
+  <channel id="ec:tcaction"><display-name>Telecine Action</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RjYWN0aW9uLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:tccult"><display-name>Telecine Cult</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RjY3VsdC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:tcfun"><display-name>Telecine Fun</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RjZnVuLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:tcpipoca"><display-name>Telecine Pipoca</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RjcGlwb2NhLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:tcpremium"><display-name>Telecine Premium</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RjcHJlbWl1bS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:tctouch"><display-name>Telecine Touch</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RjdG91Y2gucG5n&amp;v=3" /></channel>
+  <channel id="ec:tnt"><display-name>TNT</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RudC5wbmc&amp;v=3" /></channel>
+  <channel id="ec:tntnovelas"><display-name>TNT Novelas</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RudG5vdmVsYXMucG5n&amp;v=3" /></channel>
+  <channel id="ec:tntseries"><display-name>TNT Series</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3RudHNlcmllcy5wbmc&amp;v=3" /></channel>
+  <channel id="ec:tvaparecida"><display-name>TV Aparecida</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy90dmFwYXJlY2lkYS5wbmc&amp;v=3" /></channel>
+  <channel id="ec:tvratimbum"><display-name>TV Ra Tim Bum</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy90dnJhdGltYnVtLnBuZw&amp;v=3" /></channel>
+  <channel id="ec:universaltv"><display-name>Universal TV</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3VuaXZlcnNhbHR2LnBuZw&amp;v=3" /></channel>
+  <channel id="ec:usa"><display-name>USA</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly92aXBjYW5haXMubmV0L2ltYWdlcy91c2EucG5n&amp;v=3" /></channel>
+  <channel id="ec:warner"><display-name>Warner Channel</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3dhcm5lcnR2LnBuZw&amp;v=3" /></channel>
+  <channel id="ec:xsports"><display-name>Xsports</display-name><icon src="https://c69e439124f3-tvvio.baby-beamup.club/logo?u=aHR0cHM6Ly8xLmVtYmVkY2FuYWlzZGV0di5jb20vaW1hZ2VzL3hzcG9ydHMucG5n&amp;v=3" /></channel>
   <programme start="20261119231800 -0300" stop="20261120001300 -0300" channel="ec:aee">
     <title lang="pt">Operação Policial</title>
     <sub-title lang="pt">Boiçucanga</sub-title>
