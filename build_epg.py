@@ -20,11 +20,13 @@ ALIASES = {
     "ec:globorj": "GLOBO RJ", "ec:globosp": "GLOBO SP",
     "ec:globoes": "GLOBO ES", "ec:globomg": "GLOBO MG",
     "ec:globors": "GLOBO RS", "ec:recordrj": "RECORD TV RJ",
-    "ec:recordsp": "RECORD TV SP", "ec:recordes": "RECORD TV ES",
-    "ec:recordmg": "RECORD TV MG", "ec:sbtsp": "SBT SP",
+    "ec:recordsp": "RECORD SAO PAULO", "ec:recordes": "RECORD TV ES",
+    "ec:recordmg": "RECORD TV MG", "ec:sbtsp": "SBT SAO PAULO",
     "ec:sbtrj": "SBT RJ", "ec:canaloff": "OFF HD", "ec:novotempo": "TV NOVO TEMPO",
     "ec:nickelodeon": "NICK", "ec:nsports": "N SPORTS", "ec:xsports": "XSPORTS",
     "ec:paramountnetwork": "PARAMOUNT CHANNEL", "ec:discoveryid": "INVESTIGATION DISCOVERY",
+    "ec:discoverychannel": "DISCOVERY", "ec:cartoonnetwork": "CARTOON",
+    "ec:tvcultura": "CULTURA", "ec:paieterno": "TV PAI ETERNO",
 }
 
 
