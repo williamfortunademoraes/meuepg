@@ -6,6 +6,7 @@ XMLTV unificado para os canais Tvvio, gerado periodicamente a partir de fontes X
 - **Atualização:** automática a cada 6 horas pelo GitHub Actions; também aceita execução manual.
 - **Janela da programação:** programas que intersectam o período móvel de 6 horas anteriores até 48 horas à frente. Um programa que já está no ar pode ter começado antes da janela; um programa em andamento no fim pode terminar depois dela.
 - **Cobertura da última geração:** 105 canais com programação; 28 feeds de evento sem grade fixa; 22 canais sem correspondência de EPG. Consulte [`cobertura.csv`](cobertura.csv) para os dados atualizados por canal.
+- **Validação automática:** o workflow rejeita XML inválido, intervalos impossíveis, canais sem programas e sobreposições. Ele alerta quando um canal perde todos os programas, quando a quantidade de programas cai mais de 50% (base anterior de pelo menos 20) ou quando um campo de metadados cai mais de 50% (base de pelo menos 10).
 
 ## Fontes e critérios
 

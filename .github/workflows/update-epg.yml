@@ -16,8 +16,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+      - name: Save previous coverage snapshot
+        run: |
+          if [ -f cobertura.csv ]; then
+            cp cobertura.csv "$RUNNER_TEMP/cobertura-before.csv"
+          fi
       - name: Generate XMLTV
         run: python build_epg.py
+      - name: Validate XMLTV and coverage trends
+        run: python validate_epg.py --baseline "$RUNNER_TEMP/cobertura-before.csv"
       - name: Commit updated EPG
         run: |
           if git diff --quiet -- epg.xml pareamentos.csv cobertura.csv; then
