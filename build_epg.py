@@ -127,6 +127,10 @@ def normalize_programme_title(value):
     return "".join(char for char in value if char.isalnum())
 
 
+def has_xml_content(element):
+    return bool(element.get("src")) or any((part.text or "").strip() for part in element.iter())
+
+
 def enrich_programme_metadata(programmes, target_names):
     """Copy missing metadata from matching channel/title entries without changing schedules."""
     current = {}
@@ -173,15 +177,12 @@ def enrich_programme_metadata(programmes, target_names):
                     if difference <= tolerance:
                         existing_tags = {
                             tag for tag in RICH_METADATA_TAGS
-                            if any(any((part.text or "").strip() for part in child.iter()) or child.get("src") for child in current[match_key].findall(tag))
+                            if any(has_xml_content(child) for child in current[match_key].findall(tag))
                         }
                         metadata = {}
                         for tag in RICH_METADATA_TAGS:
                             if tag not in existing_tags:
-                                children = [
-                                    child for child in element.findall(tag)
-                                    if any((part.text or "").strip() for part in child.iter()) or child.get("src")
-                                ]
+                                children = [child for child in element.findall(tag) if has_xml_content(child)]
                                 if children:
                                     metadata[tag] = [ET.tostring(child, encoding="unicode") for child in children]
                         for tag, children in metadata.items():
@@ -358,10 +359,30 @@ def main():
         writer.writerows(rows)
     with (ROOT / "cobertura.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle)
-        writer.writerow(["TvvioId", "Canal", "Status", "Programas", "Fonte prioritária"])
+        writer.writerow([
+            "TvvioId", "Canal", "Status", "Programas", "Programas com capa",
+            "Programas com descrição", "Programas com categoria", "Programas com classificação",
+            "Fonte prioritária",
+        ])
+        metadata_counts = defaultdict(Counter)
+        metadata_tags = {
+            "Programas com capa": "icon",
+            "Programas com descrição": "desc",
+            "Programas com categoria": "category",
+            "Programas com classificação": "rating",
+        }
+        for (channel_id, _, _), raw_programme in programmes.items():
+            element = ET.fromstring(raw_programme)
+            for column, tag in metadata_tags.items():
+                if any(has_xml_content(child) for child in element.findall(tag)):
+                    metadata_counts[channel_id][column] += 1
         for row in rows:
             channel_id = row["TvvioId"]
-            writer.writerow([channel_id, row["Tvvio"], row["Status"], counts[channel_id], source_for.get(channel_id, "")])
+            writer.writerow([
+                channel_id, row["Tvvio"], row["Status"], counts[channel_id],
+                *(metadata_counts[channel_id][column] for column in metadata_tags),
+                source_for.get(channel_id, ""),
+            ])
     print(f"Generated Meu EPG: {sum(bool(counts[r['TvvioId']]) for r in rows)} channels, {len(programmes)} programmes")
 
 

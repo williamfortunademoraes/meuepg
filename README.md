@@ -13,7 +13,7 @@ Fontes BrazilTVEPG, rootcoder/epgtv (inclui mapeamento regional RJ), EPG-Scrappe
 
 Programas duplicados são removidos por canal, início e título. Quando fontes apresentam horários sobrepostos, prevalece a primeira fonte na ordem de prioridade; outras fontes só preenchem intervalos livres. Blocos genéricos cujo título apenas repete o nome do canal são descartados. Assim, o XML mantém no máximo um programa por canal em cada intervalo.
 
-`pareamentos.csv` lista os IDs de origem e o estado do mapeamento. `cobertura.csv` informa quantos programas foram gerados por canal e qual fonte contribuiu.
+`pareamentos.csv` lista os IDs de origem e o estado do mapeamento. `cobertura.csv` informa, por canal, o total de programas, quantos têm capa, descrição, categoria ou classificação e qual fonte contribuiu.
 
 ## Canais com programação
 
