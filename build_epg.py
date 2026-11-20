@@ -2,10 +2,13 @@
 """Merge available BrazilTVEPG XMLTV sources into Meu EPG."""
 
 import csv
+import datetime as dt
 import gzip
+import html
 import io
 import json
 import os
+import re
 import urllib.request
 import unicodedata
 import xml.etree.ElementTree as ET
@@ -25,6 +28,9 @@ EXTRA_SOURCES = [
     ("epg.pw", "https://epg.pw/xmltv/epg_BR.xml"),
 ]
 CATALOG_URL = "https://tvvio.megaembed-frost.workers.dev/catalog/tv/tvvio.json"
+AMC_SERIES_URL = "https://www.amcseries.com.br/horarios/{}"
+AMC_SERIES_CHANNEL = "ec:amcseries"
+SP_TZ = dt.timezone(dt.timedelta(hours=-3))
 ALIASES = {
     "ec:globorj": "GLOBO RJ", "ec:globosp": "GLOBO SP",
     "ec:globoes": "GLOBO ES", "ec:globomg": "GLOBO MG",
@@ -57,6 +63,49 @@ def get_bytes(filename):
     if local and filename == "claro.xml":
         return Path(local).read_bytes()
     return fetch(BASE + filename)
+
+
+def fetch_amc_series_programmes(now=None):
+    """Read the official AMC Series Brasil daily schedule and infer end times."""
+    now = now or dt.datetime.now(SP_TZ)
+    first_day = now.date() - dt.timedelta(days=1)
+    last_day = now.date() + dt.timedelta(days=3)
+    starts = []
+    for offset in range((last_day - first_day).days + 1):
+        day = first_day + dt.timedelta(days=offset)
+        try:
+            page = fetch(AMC_SERIES_URL.format(day.isoformat())).decode("utf-8", "replace")
+        except Exception as error:
+            print(f"Skipping unavailable source AMC Series Brasil ({day}): {error}")
+            continue
+        entries = re.findall(
+            r'<a class="itm[^\"]*"[^>]*>\s*<span>(\d{2}:\d{2})</span>\s*(.*?)</a>',
+            page,
+            re.S,
+        )
+        for clock, raw_title in entries:
+            title = html.unescape(re.sub(r"<[^>]+>", "", raw_title)).strip()
+            if not title:
+                continue
+            hour, minute = map(int, clock.split(":"))
+            starts.append((dt.datetime.combine(day, dt.time(hour, minute), SP_TZ), title))
+
+    starts.sort(key=lambda entry: entry[0])
+    lower_bound = now - dt.timedelta(hours=6)
+    upper_bound = now + dt.timedelta(hours=48)
+    programmes = []
+    for index, (start, title) in enumerate(starts[:-1]):
+        end = starts[index + 1][0]
+        if end <= start or start >= upper_bound or end <= lower_bound:
+            continue
+        programme = ET.Element("programme", {
+            "start": start.strftime("%Y%m%d%H%M%S %z"),
+            "stop": end.strftime("%Y%m%d%H%M%S %z"),
+            "channel": AMC_SERIES_CHANNEL,
+        })
+        ET.SubElement(programme, "title", {"lang": "pt"}).text = title
+        programmes.append((programme.get("start", ""), title, ET.tostring(programme, encoding="unicode")))
+    return programmes
 
 
 def main():
@@ -125,6 +174,16 @@ def main():
         except ET.ParseError as error:
             print(f"Skipping non-XMLTV source {filename}: {error}; first bytes={raw[:48]!r}")
         del raw
+
+    try:
+        for start, title, program_xml in fetch_amc_series_programmes():
+            key = (AMC_SERIES_CHANNEL, start, title)
+            if key not in programmes:
+                programmes[key] = program_xml
+                counts[AMC_SERIES_CHANNEL] += 1
+                source_for.setdefault(AMC_SERIES_CHANNEL, "AMC Series Brasil official")
+    except Exception as error:
+        print(f"Skipping AMC Series Brasil source: {error}")
 
     event_ids = {row["TvvioId"] for row in rows if row["Status"] == "Sem grade fixa"}
     for row in rows:
