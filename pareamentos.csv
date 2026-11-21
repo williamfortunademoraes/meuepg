@@ -47,7 +47,7 @@ ec:discoveryid,Investigation Discovery,vivoplay.xml,vivoplay.xml,Correspondênci
 ec:mtv,MTV,vinnyoliveira/epg-br fallback,vinnyoliveira/epg-br fallback,Correspondência
 ec:multishow,Multishow,globo.xml,globo.xml,Correspondência
 ec:bandnews,BandNews,vivoplay.xml,vivoplay.xml,Correspondência
-ec:cnnbrasil,CNN Brasil,claro.xml,claro.xml,Correspondência
+ec:cnnbrasil,CNN Brasil,rootcoder/epgtv Rio map,rootcoder/epgtv Rio map,Correspondência
 ec:globonews,GloboNews,globo.xml,globo.xml,Correspondência
 ec:jovempannews,Jovem Pan News,vivoplay.xml,vivoplay.xml,Correspondência
 ec:recordnews,Record News,vivoplay.xml,vivoplay.xml,Correspondência
