@@ -104,9 +104,9 @@ ec:paramountplus04,Paramount+ 04,,,Sem correspondência
 ec:paramountplus05,Paramount+ 05,,,Sem correspondência
 ec:paramountplus06,Paramount+ 06,,,Sem correspondência
 ec:paramountplus07,Paramount+ 07,,,Sem correspondência
-ec:premiere2,Premiere 2,epg.xml,epg.xml,Correspondência
-ec:premiere3,Premiere 3,epg.xml,epg.xml,Correspondência
-ec:premiere4,Premiere 4,epg.xml,epg.xml,Correspondência
+ec:premiere2,Premiere 2,vivoplay.xml,vivoplay.xml,Correspondência
+ec:premiere3,Premiere 3,vivoplay.xml,vivoplay.xml,Correspondência
+ec:premiere4,Premiere 4,vivoplay.xml,vivoplay.xml,Correspondência
 ec:premiere5,Premiere 5,epg.xml,epg.xml,Correspondência
 ec:premiere6,Premiere 6,vivoplay.xml,vivoplay.xml,Correspondência
 ec:premiere7,Premiere 7,epg.xml,epg.xml,Correspondência
